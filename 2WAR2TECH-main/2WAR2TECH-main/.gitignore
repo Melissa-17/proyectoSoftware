@@ -1,0 +1,3 @@
+PROYECTO/server/node_modules
+PROYECTO/client/node_modules
+**/node_modules

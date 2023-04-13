@@ -1,0 +1,88 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.contenedorCuadroPrimeraParte {
+  background: #f0f5f8;box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  width: 941px;
+  height: 267px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.contenedorCuadroPrimeraParte p{
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  text-align: left;
+  margin-bottom: 0px;
+}
+
+.primeraLineaCuadroPrimeraParte{
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+  align-items: center;
+}
+.primeraLineaCuadroPrimeraParte .facultad{
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #152536;
+  margin-right: 20px;
+  margin-top: 15px;
+}
+.primeraLineaCuadroPrimeraParte select{
+  width: 270px;
+  height: 50px;
+}
+.primeraLineaCuadroPrimeraParte .especialidad{
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #152536;
+  margin-right: 20px;
+  margin-top: 15px;
+  margin-left: 20px;
+}
+
+.segundaLineaPrimeraParte{
+  display: flex;
+  flex-direction: row;
+  margin-top: 40px;
+  align-items: center;
+}
+.segundaLineaPrimeraParte .rol{
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  margin-right: 75px;
+}
+.segundaLineaPrimeraParte select{
+  width: 270px;
+  height: 50px;
+}
+.segundaLineaPrimeraParte button{
+  margin-left: 310px;
+  background: #0A819B;
+  border-radius: 4px;
+  width: 125px;
+  height: 40px;
+  border: #0A819B;
+  color: white;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+}

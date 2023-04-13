@@ -1,0 +1,60 @@
+.adviserStuProposeDetailContainer{
+  margin-left: 300px;  
+}
+
+.STPPestado{
+  font-weight: 700;
+font-size: 24px;
+line-height: 29px;
+display: flex;
+align-items: center;
+}
+
+.STPestadoDiv{
+  background: #ffffff;
+  height: fit-content;
+  width: 239px;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+}
+
+.STPestado{
+  margin: 15px;
+  text-align: justify;
+}
+
+.stpAcciones{
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+
+.ARDdFiles{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 15px;
+}
+
+
+.ARDFilesDiv{
+  background: #ffffff;
+  height: 250px;
+  width: 700px;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  overflow-x: scroll;
+  display: flex;
+  
+  align-items: center;
+  align-self: center;
+}
+
+.contenedorUnArchivoThesisSTU{
+  margin-top: 0px;
+  margin-left: 0px;
+  margin: 30px;
+  
+  align-self: center;
+  align-items: center;
+}

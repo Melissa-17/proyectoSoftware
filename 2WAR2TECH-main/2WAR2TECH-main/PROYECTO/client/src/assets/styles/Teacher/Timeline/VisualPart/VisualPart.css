@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.contenedorInfoGeneralVisualPart{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.tituloInfoGeneralVisualPart{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1160px;
+    margin-left: 750px;
+}
+
+.tituloBtn {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.tituloBtn button {
+    margin-right: 90px;
+    /* margin-left: 20px; */
+}
+
+.tituloInfoGeneralVisualPart p{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    /* margin-right: 750px; */
+}
+.tituloInfoGeneralVisualPart .btnEditar{
+    width: 162px;
+    height: 44px;
+    background: #042354;
+    border-radius: 4px;
+    color: white;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    margin-right: 0px;
+}
+
+.unidadVisualPart{
+    display: flex;
+    flex-direction: column;
+    text-align: left;  
+}
+.unidadVisualPart .nombre{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+}
+.unidadVisualPart .unidad{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.responsableVisualPart{
+    text-align: left;
+    margin-top: 10px;
+    width: 1160px;
+    background: #F4F4F4;
+    padding: 20px;
+}
+.responsableVisualPart .responsable{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+}
+.responsableVisualPart li{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.contenedorFechaVisualPart{
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 1160px;
+    background: #F4F4F4;
+    padding: 5px;
+}
+.fechaSubida .titulo, .fechaLimiteEnvio .titulo, .fechaLimiteCalificacion .titulo{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+}
+.fechaSubida .titulo, .fechaLimiteEnvio .titulo, .fechaLimiteCalificacion .titulo{
+    width: 175px;
+    margin-bottom: 10px;
+}
+.fechaSubida, .fechaLimiteEnvio{
+    margin-right: 260px;
+}
+
+.contenedorEntregableVisualPart{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 1160px;
+    background: #F4F4F4;
+    padding: 20px;
+}
+
+.contenedorEntregableVisualPart .entregable{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+}
+.contenedorEntregableVisualPart .fallo{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-size: 20px;
+    line-height: 24px;
+    margin-top: 20px;
+}
+
+.contenedorEntregableVisualPart li{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.botoneriaVisualPart{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 800px;
+}
+.botoneriaVisualPart .botonDescarga{
+    background: #79B4B7;
+    border-radius: 4px;
+    border: #79B4B7;
+    width: 123px;
+    height: 56px;
+    color: white;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    margin-right: 80px;
+}
+.botonVerRubrica{
+    width: 162px;
+    height: 44px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    background: #0A819B;
+    border-radius: 4px;
+    border: #0A819B;
+    color: white;
+    font-family: 'Montserrat';
+    font-style: normal;
+}

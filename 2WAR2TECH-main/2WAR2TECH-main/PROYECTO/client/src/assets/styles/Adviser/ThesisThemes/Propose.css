@@ -1,0 +1,81 @@
+.AdviserRequestTitles {
+  display: flex;
+  flex-direction: row;
+  margin-left: 0px;
+  gap: 150px;
+  width: 1100px;
+  justify-content: flex-end;
+}
+.AdviserRequestTitles .alumno {
+  margin-right: 0px;
+}
+.AdviserRequestTitles .MpEstado {
+  margin-right: 290px;
+  margin-left: -30px;
+}
+
+.APcardAviso {
+  display: flex;
+  flex-direction: row;
+  margin-left: 80px;
+  gap: 20px;
+}
+
+.AdviserProposalsContainerAA {
+  display: flex;
+  flex-direction: column;
+  font-weight: 991px;
+  gap: 5px;
+}
+
+.espaciadoPropose {
+  margin-top: 15px;
+}
+
+.RsearchPropose {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 25px;
+  height: 150px;
+  margin-left: 0px;
+  width: 1100px;
+  justify-content: flex-end;
+}
+
+.RsearchPropose .RsearchTitlepp {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 16px;
+  margin-top: 13px;
+}
+
+.APcomponenteAviso {
+  width: 1100px;
+  height: 100px;
+  left: 419px;
+  top: 297px;
+  background: #f0f5f8;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.APcardAviso {
+  width: 700px;
+  display: flex;
+  flex-direction: row;
+  margin-left: 25px;
+  gap: 20px;
+}
+
+.APcardAviso p {
+  margin-top: 10px;
+}
+
+.contenedorFinal {
+  height: 100px;
+  margin-top: 50px;
+}

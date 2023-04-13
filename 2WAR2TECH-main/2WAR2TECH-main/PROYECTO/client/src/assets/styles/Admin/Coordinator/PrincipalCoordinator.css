@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.contenedorPrincipalCoordinator{
+    margin-left: 290px;
+    margin-top: 10px;
+}
+
+.contenedorGlobalCardCoordinador{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

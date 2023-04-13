@@ -1,0 +1,103 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.CriteriaRowContainer {
+  margin-left: 0px;
+  display: flex;
+  flex-direction: column;
+  height: 150px;
+  width: 1145px;
+  background: #f4f4f4;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+
+.CriteriaRowContainer .content {
+  margin-left: 50px;
+  display: flex;
+  flex-direction: row;
+  gap: 150px;
+  justify-content: center;
+}
+
+.CriteriaRowContainer .CRTitles {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 25px;
+  width: 438px;
+}
+
+.CriteriaRowContainer .CRTitles .checkBox input {
+  height: 18px;
+  width: 18px;
+}
+
+.CriteriaRowContainer .CRTitles .titles {
+  text-align: left;
+}
+
+.CriteriaRowContainer .CRTitles .titles .mainTitle {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 28px;
+  margin-bottom: 5px;
+}
+
+.lineaVerticalCriteriaRow {
+  width: 1px;
+  height: 100px;
+  margin-left: 55px;
+  margin-right: 0px;
+  border-width: 0;
+  color: #000;
+  background-color: #000;
+}
+
+.lineaHorizontalCriteriaRow {
+  width: 1050px;
+  height: 0.1vh;
+  margin-top: 0px;
+  margin-left: 25px;
+  margin-right: 30px;
+  border-width: 0;
+  color: #000;
+  background-color: #000;
+}
+
+.CRBtns {
+  display: flex;
+  flex-direction: row;
+  gap: 60px;
+  justify-content: center;
+  align-items: center;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.CRBtns .criteriaEdit {
+  width: 114px;
+  height: 40px;
+  left: 1062px;
+  top: 295px;
+  background: #79b4b7;
+  border-radius: 4px;
+  border: none;
+  color: aliceblue;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.CRBtns .criteriaDetail {
+  width: 121px;
+  height: 40px;
+  left: 1230px;
+  top: 295px;
+  background: #0a819b;
+  border-radius: 4px;
+  border: none;
+  color: aliceblue;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}

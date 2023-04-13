@@ -1,0 +1,140 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.main-info-registro-modal{
+    width: 500px;
+    height: 500px;
+    border-radius: 10px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.header-modal{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-left: 400px;
+}
+
+.close-modal-registro{
+    background-color: white;
+    border: none;
+}
+
+.close-modal-registro i{
+    color: black;
+}
+
+.content-modal{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-left: 30px;
+    width: 100%;
+}
+
+.time-date-information{
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.time-date-information .time-date-pres{
+    font-size: 25px;
+}
+
+.type-presentation{
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}  
+
+
+.type-presentation .type-text{
+    font-size: 25px;
+}
+
+.separador-aditional-information{
+    color: grey;
+    width: 100%;
+    margin-left: -30px;
+}
+
+.aditional-information{
+    /* border: 1px solid black; */
+    height: 100px;
+    width: 100%;
+    margin-left: -30px;
+}
+
+.location-presentation{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-left: 30px;
+    /* border: 1px solid black; */
+}
+
+.location-presentation .location-text{
+    font-size: 25px;
+    margin-right: 10px;
+}
+
+.input-location-pres{
+    width: 350px;
+    height: 35px;
+}
+
+.link-zoom-presentation{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-left: 30px;
+}
+
+.link-zoom-presentation .link-text{
+    font-size: 25px;
+    margin-right: 10px;
+}
+
+.input-link-text{
+    width: 387px;
+    height: 35px;
+}
+
+.no-type{
+    margin-top: 30px;
+    margin-left: 20px;
+    color: grey;
+}
+
+.footer-modal{
+    width: 100%;
+    display: flex;
+    /* flex-direction: row; */
+    align-items: center;
+    justify-content: center;
+}
+
+.save-infor{
+    border: none;
+    background-color: #042354;
+    color: white;
+    width: 100px;
+    height: 50px;
+    border-radius: 5px;
+}

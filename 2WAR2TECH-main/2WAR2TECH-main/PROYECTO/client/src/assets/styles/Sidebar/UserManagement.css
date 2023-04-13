@@ -1,0 +1,37 @@
+.botonAnhadirUser {
+    margin-left: 920px;
+    padding: 10px 20px 10px 20px;
+    border: 2px solid #0a819b;
+    border-radius: 10px;
+    background-color: #0a819b;
+    color: white;
+    cursor: pointer;
+    user-select: none;
+    font-size: 18px;
+    width: 200px;
+    height: 50px;
+    
+  }
+  
+  .file-upload-inputUser{
+      opacity: 0;
+      margin-top: -50px;
+      margin-left: -22px;
+      width: 200px;
+      height: 40px;
+    }
+    
+    .text-informationUser {
+      margin-top: -35px;
+      margin-left: 40px;
+      font-size: 18px;
+      color: white;
+    }
+    .fineline{
+      margin-top: 0px;
+    }
+
+    .inputEmailCambioPrincipalRegister{
+      padding-left: 8px;
+    }
+    

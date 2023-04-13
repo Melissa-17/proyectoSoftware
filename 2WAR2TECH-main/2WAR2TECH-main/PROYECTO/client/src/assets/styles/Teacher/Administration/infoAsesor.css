@@ -1,0 +1,10 @@
+ 
+.infoAsesor{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    
+    align-self: flex-start;
+    align-items: center;
+    margin-left: none;
+}

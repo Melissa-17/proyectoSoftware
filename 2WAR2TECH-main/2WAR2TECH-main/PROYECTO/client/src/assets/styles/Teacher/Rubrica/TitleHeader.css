@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.contenedorTitleHeader{
+    display: flex;
+    flex-direction: row;
+    margin-left: 10px;
+    align-items: center;
+}
+
+.titleHeader{
+    display: flex;
+    flex-direction: column;
+    width: 680px;
+}
+
+.File_1{
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+.Fila_2{
+    display: flex;
+    font-size: 15px;
+}
+
+.inforHeader{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px 10px 10px 10px;
+    background: #FFFFFF;
+    border: 1px solid #B8D3FF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+    width: 370px;
+}
+
+.contenedorImagenHeader{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+}
+
+.imagenHeader{
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    height: 70px;
+    width: 90px;
+    margin-right: 20px;
+}
+
+.FilaTexto{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.tesisI{
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+.Nombre{
+    margin-bottom: 5px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.Area{
+    margin-bottom: 5px;
+    font-size: 18px;
+}

@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.contenedorDeliverableJury{
+    margin-left: 290px;
+}
+.FirstPart{
+    display: flex;
+    flex-direction: row;
+}
+.contenedorComboEspecialidad{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 350px;
+    margin-right: 200px;
+}
+.contenedorComboEspecialidad h4{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    margin-right: 20px;
+    margin-top: 5px;
+}
+.contenedorNombreDeliverableJury{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 350px;
+}
+.contenedorNombreDeliverableJury p{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+.botonBuscarDeliverableJury{
+    background: #042354;
+    border-radius: 4px;
+    color: white;
+    width: 90px;
+    height: 40px;
+}
+
+.contenidoTesis{
+    display: flex;
+    flex-direction: row;
+}

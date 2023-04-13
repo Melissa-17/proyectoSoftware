@@ -1,0 +1,83 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.cuadroCardUser{
+    background: #F4F4F4;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    align-items: center;
+    width: 970px;
+    margin-top: 20px;
+}
+
+.checkBoxCardUser{
+    height: 20px;
+    width: 20px;
+    margin-right: 40px;
+}
+
+.cuadroSecundarioCardUser{
+    background: #FFFFFF;
+    border-radius: 4px;
+    border: 1px solid #B8D3FF;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.imagenCuadroSecundarioCardUser{
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    /* margin-bottom: 10px; */
+}
+.cuadroSecundarioCardUser p{
+    font-weight: 600;
+    font-size: 16px;
+    width: 200px;
+}
+
+.profileImg,.fotoUsuarioCardUser{
+    height:65px;
+    width: 65px;
+    border-radius: 50%;
+    margin-bottom: 5px;
+}
+
+.contenedorEmailRolCardUser{
+    margin-left: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 350px;
+    min-width: 350px;
+}
+.contenedorEmailRolCardUser .rolCardUser{
+    margin-top: 20px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+}
+.linkEmailCardUser{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    margin-top: 15px;
+}
+
+.contenedorEditCardUser{
+    margin-left: 100px;
+    font-size: 40px;
+    border: #F4F4F4;
+    background-color: #F4F4F4;
+}

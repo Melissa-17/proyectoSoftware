@@ -1,0 +1,58 @@
+.mainListContainer {
+  padding: 0;
+  margin-left: 300px;
+}
+
+.MLheader {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 15px;
+  /* margin-left: 280px; */
+}
+
+.MLheader .MLtitle {
+  color: #152536;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+}
+
+
+
+.MLThemeList {
+    margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  /* margin-left: 280px; */
+}
+
+.MLTLtitle {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.02em;
+}
+
+.MLsearch {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+    gap: 25px;
+}
+
+.MLsearch p{
+    font-weight: 700;
+font-size: 20px;
+line-height: 16px;
+margin-top: 10px;
+}
+
+.MLrows{
+    margin-left: 25px;
+    padding: 15px ;
+}

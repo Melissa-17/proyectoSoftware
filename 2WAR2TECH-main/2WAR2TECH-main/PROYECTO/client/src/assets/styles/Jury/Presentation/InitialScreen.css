@@ -1,0 +1,22 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.main-box-initial{
+    display: flex;
+    flex: row;
+}
+
+.initial-page-jury{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: flex-start;
+    margin-left: 300px;
+}
+
+.espacio{
+    width: 1050px;
+    color: black;
+}

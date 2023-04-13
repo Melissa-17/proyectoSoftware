@@ -1,0 +1,79 @@
+
+.bpmodalBackground{
+
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background-color: rgba(217, 217, 217, 0.8);
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.BuscadorProfesor{
+    width: fit-content;
+    height:fit-content;
+    border-radius: 12px;
+    background-color: white;
+    box-shadow: rgba(0,0,0,0.35) 0px 5px 15px;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+}
+.fila{
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+}
+.contenedorTitulo h1{
+    color: #152536;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+}
+.BuscadorProfesor .body{
+    overflow-y: scroll;
+}
+
+.titleCloseBtn{
+    display: flex;
+    justify-content: flex-end;
+    background-color: transparent;
+    border: none;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.tituloDescripcion{
+    font-size: 22px;
+    font-weight: bolder;;
+}
+
+.espaciobuscador{
+    width: 570px;
+    margin: 0,0,0,0;
+}
+
+.lineaContenido{
+   
+    width: 100%;
+    margin-top: 0;
+}
+.busquedaNombre{
+    width: 30px;
+}
+
+.resultado{
+    text-align: left;
+}
+.resultado p{
+    font-weight: 900;
+}
+.inputBuscador{
+    margin: 20px;
+    margin-bottom: 30px;
+}

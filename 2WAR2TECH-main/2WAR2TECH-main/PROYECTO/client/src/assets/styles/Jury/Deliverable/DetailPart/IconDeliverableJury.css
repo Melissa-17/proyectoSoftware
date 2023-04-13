@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.contenedorIconDeliverableJuryGlobal{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+
+.contenedorEntregableDeliverableJury{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-right: 10px;
+    max-width: 290px;
+    min-width: 290px;
+}
+.tituloEntregableDeliverableJury, .nombreEntregableDeliverableJury, .descripcionEntregableDeliverableJury{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-size: 18px;
+    line-height: 28px
+}
+.tituloEntregableDeliverableJury{
+    font-weight: 600;
+}
+
+.contenedorCorrecionesDeliverableJury{
+    display: flex;
+    flex-direction: column;
+    margin-right: 100px;
+    margin-top: 30px;
+}
+.contenedorCorrecionesTituloEntregable, .contenedorCorrecionesCorregidoEntregable{
+    display: flex;
+    flex-direction: row;
+}
+.contenedorCorrecionesTituloEntregable .entregados, .contenedorCorrecionesCorregidoEntregable .corregido{
+    width: 150px;
+    text-align: left;
+}
+
+.contenedorBotoneriaDeliverableJury{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 130px;
+}
+.botonVerRubricaDeliverableJury{
+    margin-right: 30px;
+    width: 155px;
+    height: 40px;
+    background: #79B4B7;
+    border-radius: 4px;
+    color: white;
+}
+.botonVerEntregasDeliverableJury{
+    width: 138px;
+    height: 40px;
+    color: white;
+    background: #0A819B;
+    border-radius: 4px;
+}
+
+.lineaVerticalDeliverableJury{
+    width: 1px;
+    height: 100px;
+    margin-right: 20px;
+    border: 1.8px solid;
+    color: rgb(0, 0, 0);
+}
+
+.contenedorCorrecionesDeliverableJury{
+    display: flex;
+    flex-direction: column;
+}

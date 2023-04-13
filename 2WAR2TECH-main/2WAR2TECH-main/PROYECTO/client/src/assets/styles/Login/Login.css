@@ -1,0 +1,181 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.contenedorInicioSesion{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url("https://s3.amazonaws.com/files.pucp.edu.pe/puntoedu/wp-content/uploads/2021/02/23003958/2018_03_fotos-interiores-cia-038-5000x3333-e1591824294880.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.contenedorPrincipal{
+    width: 692px;
+    height: 900px;
+    padding: 14px;
+    border: 2px solid #E0E0E0;
+    border-radius: 10px;
+    background-color: #E0E0E0;
+    border-radius: 10PX;
+    opacity: 0.9;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.catolicaImagen{
+    height: 82.4px;
+    width: auto;
+}
+.contenedorCatolica{
+    text-align: left;
+}
+
+.contenedorTituloLogin{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedorTituloLogin p{
+    color: #042354;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.contenedorSubtitulo{
+    color: #042354;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-top: 6.5%;
+}
+
+.contenedorOpcion{
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 8%;
+}
+.opcion{
+    width: 70%;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    display: flex;
+    justify-content: center;
+}
+
+.contenedorTituloOpcion{
+    line-height: 50px;
+    font-size: 16px;
+    color: black;
+}
+
+.contenedorCompletado{
+    margin-bottom: 15px;
+    font-size: 14px;
+    color: #454D55;
+    border: 1px solid #667892;
+    background: rgba(239, 239, 239, 0.8);
+    border-radius: 13px;
+    width: 276px;
+    height: 60px;
+    display: flex;
+    text-align: center;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 15px;
+    cursor: pointer;
+    user-select: none;
+    margin: 40px 0 20px 0;
+}
+
+.contenedorGoogle{
+    width: 20%;
+    height: auto;
+    padding-left: 24px;
+    padding-top: 2px;
+    margin-left: -8%;
+}
+
+.contenedorLinea{
+    padding: 40px 0 40px 0;
+}
+
+.contenedorInicioGmail{
+    margin-left: 4%;
+    margin-top: 5.5%;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #667892;
+}
+
+.botonEnviar{
+    margin: 15px 0 40px 0;
+    min-height: 40px;
+    background-color: #042354;
+    border-color: #042354;
+    color: white;
+    border-radius: 10px;
+    width: 276px;
+    height: 60px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.botonEnviar:hover{
+    background-color: #454D55;
+    font-weight: bold;
+}
+
+.contenedorPregunta{
+    margin: 20px 0 40px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: #042354;
+}
+
+.pregunta{
+    margin-right: 5px;
+    color: #042354; 
+}
+
+.google-oauth2-link {
+    text-decoration: none;
+}
+
+.contenedorCompletado p{
+    margin-top: 15px;
+    margin-left: 3px;
+    color: #042354;
+}

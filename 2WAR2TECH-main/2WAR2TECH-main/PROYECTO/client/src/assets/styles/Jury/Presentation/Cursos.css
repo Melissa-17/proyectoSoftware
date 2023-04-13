@@ -1,0 +1,23 @@
+.main-box-cursos{
+    width: 350px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: #042354;
+    font-family: Roboto;
+}
+
+.nombre-curso{
+    margin-left: 10px;
+    color: white;
+    font-size: 20px;
+    text-align: left;
+}
+
+.especialidad-curso{
+    margin-left: 10px;
+    color: white;
+    font-size: 18px;
+}

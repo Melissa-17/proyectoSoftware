@@ -1,0 +1,22 @@
+export const capitalize = (str) => {
+    return str[0].toUpperCase() + str.substr(1).toLowerCase();
+}
+
+export const createCompleteName = (nameI, surnameI, lastnameI) => {
+    const name = nameI ? nameI : " ";
+    const surname = surnameI ? surnameI : " ";
+    const lastname = lastnameI ? lastnameI : " ";
+    return name + ' ' + surname + ' ' + lastname;
+}
+
+export const capitalizeTitle = (str) => {
+    var splitStr = str.toLowerCase().split(' ');
+    for (var i = 0; i < splitStr.length; i++) {
+        // You do not need to check if i is larger than splitStr length, as your for does that for you
+        // Assign it back to the array
+        splitStr[i] = splitStr[i].charAt(0).toUpperCase() + splitStr[i].substring(1);     
+    }
+    // Directly return the joined string
+    return splitStr.join(' '); 
+ }
+ 

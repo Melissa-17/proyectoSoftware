@@ -1,0 +1,13 @@
+.MRAcciones{
+  display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 80px;
+  
+}
+.iconoDenied {
+  color: #C0392B;
+  font-size: 40px;
+}

@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.contenedorFilasAdviserRow{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px 10px 0px 10px;
+    width: 1160px;
+    margin-top: 20px;
+}
+
+.lineaVerticalAdviserRow{
+    width: 1px;
+    height: 100px;
+    margin-right: 60px;
+    margin-left: 60px;
+}
+
+.numeroAdviserRow{
+    margin-right: 20px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    margin-right: 40px;
+}
+.infoTemaAdviserRow{
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+    align-items: flex-start;
+}
+.infoTemaAdviserRow p{
+    margin-bottom: 10px;
+}
+.AutorAdviserRow{
+    display: flex;
+    flex-direction: row;
+}
+.autorEnunciadoAdviserRow{
+    margin-right: 20px;
+}
+
+.contenedorEstadoAdviserRow{
+    display: flex;
+    flex-direction: row;
+}
+.contenedorEstadoAdviserRow p{
+    margin-right: 20px;
+}
+
+.contenedorDetalleAdviserRow{
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+.VerDetalleAdviserRow{
+    background: #79B4B7;
+    border-radius: 4px;
+    border: 0px;
+    padding: 10px 10px 10px 10px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    width: 120px;
+    justify-content: center;
+    color: #FFFFFF;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    cursor: pointer;
+    user-select: none;
+}
+.VerDetalleAdviserRow:hover{
+    background: #49797c;
+}
+
+.botonesAdviserRow{
+    display: flex;
+    flex-direction: row;
+}
+.primerBoton{
+    margin-right: 40px;
+}
+.primerBoton button, .segundoBoton button{
+    border: 0px;
+    background-color: white;
+    user-select: none;
+}
+
+.iconoCheck{
+    font-size: 40px;
+    color: #67B836;
+}
+
+.iconoEye{
+    font-size: 40px;
+    color: #0A819B;
+}
+
+.iconoClock{
+    font-size: 40px;
+    color: #CCA748;
+}
+
+.iconoSustentado {
+    font-size: 40px;
+    color: #162051;
+}

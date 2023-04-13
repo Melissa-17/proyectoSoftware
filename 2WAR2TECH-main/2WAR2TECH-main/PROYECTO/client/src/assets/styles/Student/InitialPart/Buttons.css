@@ -1,0 +1,110 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.contenedorBotoneria{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 15px;
+    border-top: 2px solid black;
+    width: 1180px;
+ }
+ 
+ .Primera{
+     border: 0;
+     background-color: white;
+     cursor: pointer;
+     user-select: none;
+     color: black;
+     display: flex;
+     flex-direction: row;
+     align-content: center;
+     justify-content: center;
+     font-family: 'Montserrat',sans-serif;
+     margin-top: 13px;
+     font-size: 20px;
+ }
+ 
+ .Primera2{
+     border: 0;
+     background-color: white;
+     cursor: pointer;
+     margin-left: 250px;
+     display: flex;
+     flex-direction: row;
+     align-content: center;
+ }
+ 
+ .Primera p{
+     margin-left: 3px;
+ }
+ 
+ .imagenRetroceso{
+     height: 25px;
+ }
+ 
+ .estado1, .estado2{
+     border: 0;
+     background-color: white;
+     cursor: pointer;
+     user-select: none;
+     color: black;
+     font-family: 'Montserrat',sans-serif;
+     font-size: 20px;
+     height: 30px;
+     display: flex;
+     flex-direction: row;
+     align-content: center;
+     justify-content: center;
+     text-align: center;
+     margin-left: 50px;
+ }
+
+ .botonUltima{
+    border: 0;
+     background-color: white;
+     cursor: pointer;
+     user-select: none;
+     color: black;
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     font-family: 'Montserrat',sans-serif;
+     font-size: 60px;
+ }
+
+ .Ultima{
+    border: 0;
+    background-color: white;
+    cursor: pointer;
+    user-select: none;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    font-family: 'Montserrat',sans-serif;
+    font-size: 20px;
+    margin-left: 480px;
+    margin-top: 13px;
+ }
+
+ .Ultima2{
+    border: 0;
+    background-color: white;
+    cursor: pointer;
+    margin-left: 60px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+ }
+
+.Ultima p{
+    margin-right: 5px;
+}
+
+ .imagenSiguiente{
+    height: 25px;
+ }

@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.contenedorColumna{
+    display: flex;
+    flex-direction: row;
+    margin-left: 10px;
+}
+
+.izquierda, .derecha{
+    border: 0;
+    background-color: #FAF9F8;
+    font-size: 70px;
+    cursor: pointer;
+    user-select: none;
+}
+.izquierda{
+    margin-right: 150px;
+}
+.derecha{
+    margin-left: 150px;
+}
+
+.texto{
+    background-color: #D1E3E3;
+    padding: 20px 20px 20px 20px;
+    max-height: 610px;
+    min-height: 610px;
+    max-width: 610px;
+    min-width: 610px;
+    margin-left: 250px;
+}
+
+.tituloTexto{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    color: #0A819B;
+}
+.rolTexto{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    padding: 20px 20px 20px 20px;
+}
+.descripcionTexto, .observacionTexto .observa{
+    display: flex;
+    align-items: flex-start;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    margin-left: 20px;
+}
+.contenidoTexto{
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: justify;
+    margin-top: 25px;
+    margin-bottom: 50px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+}
+.observacionTexto .descripObserva{
+    margin-top: 40px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    margin-left: 20px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.contenedorSeeMore{
+    margin-left: 300px;
+}

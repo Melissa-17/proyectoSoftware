@@ -1,0 +1,192 @@
+
+*{
+    margin: 0;
+    padding: 0;   
+}
+ 
+.ContenedorPantalla{
+   display: flex;
+   width: 100vw;
+   height: 100vh;
+}
+/* es el contenedor entero de la pantalla*/
+.Estructura{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    margin-top: 10px;
+
+    padding: 0; 
+    height: fit-content;
+    background-color: white; 
+    width: 100vw;
+}
+.ContenedorContenido{
+    margin: auto;  
+    margin-left: 300px;
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: auto; 
+    background-color: white; 
+    padding: 0; 
+}
+.TituloAdministracion{
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    align-items: flex-start;
+    height: fit-content;
+    margin: 0;
+}
+.TituloAdministracion h1{
+    font-weight: bold;
+    margin-right: 600px;
+}
+.TituloAdministracion hr{
+    color:brown;
+    width: 100%;
+}
+.filacontenido{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    padding: 0px;
+    text-align: left;
+}
+.filacontenido .linea{
+    border: 1px solid black;
+    width: 1160px;
+}
+.Segundafilacontenido{
+    display: flex;
+    justify-content: flex-end;
+    max-width: 1160px;
+    min-width: 1160px;
+}
+.Tercerafilacontenido{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.Cuartafilacontenido{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-bottom: -20px;
+    width: 1160px;
+    align-items: center;
+}
+.Cuartafilacontenido .alumno, .Cuartafilacontenido .asesorCuartaFilacontenido{
+    color: #042354;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: -0.019em;
+}
+.Cuartafilacontenido .alumno{
+    margin-left: 190px;
+    margin-right: 250px;
+}
+.columnacontenidoA{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+.columnacontenidoB{
+    display: flex;
+    flex-direction: row;
+    margin-left: 200px;
+    align-items: flex-end;
+}
+.Busqueda{
+    border-style: solid;
+    border-radius: 7px 0px 0px 7px;
+    background-color: white; 
+    padding: 7px;
+    border-color: rgb(222, 222, 222);
+}
+ 
+.boton{
+    width: fit-content;
+    height:fit-content;
+    
+    border-radius: 0px 7px 7px 0px;
+    background-color: white;
+    border-style: solid;
+    border-color: rgb(222, 222, 222);
+    /* box-shadow: rgba(0,0,0,0.35) 8px 5px 15px;  */
+    padding: 7px;
+}
+ 
+.espacioA{
+    
+    margin-left: 300px;
+    height: auto;
+}
+.espacioB{
+    
+    margin-left: 250px;
+    height: auto;
+}
+.subtitulo{
+    font-size: 25px;
+    font-weight: bold;
+}
+.botonBorrar{
+    background: #C0392B;
+    border-radius: 4px;
+    width: fit-content;
+    height: fit-content;
+    border: none; 
+    padding: 15px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+    margin-right: 20px;
+}
+.botonSeleccionar{
+    margin-right: 20px;
+    width: 167px;
+    height: 40px;
+    background: #042354;
+    border-radius: 4px;
+    width: fit-content;
+    height: fit-content;
+    border: none; 
+    padding: 15px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.botonAsignar{
+    margin-right: 20px;
+    width: 167px;
+    height: 40px;
+    background: green;
+    border-radius: 4px;
+    width: fit-content;
+    height: fit-content;
+    border: none; 
+    padding: 15px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.infoAsesor {
+    margin-right: 700px;
+}
+

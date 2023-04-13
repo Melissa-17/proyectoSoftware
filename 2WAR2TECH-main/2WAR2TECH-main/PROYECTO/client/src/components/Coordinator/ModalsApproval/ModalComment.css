@@ -1,0 +1,61 @@
+.MCbody {
+  background-color: white;
+  height: 500px;
+  width: 700px;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.MCommentHeader {
+  display: flex;
+  flex-direction: row;
+  gap: 200px;
+  margin-bottom: 0px;
+}
+
+.MCommentHeader p {
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 34px;
+}
+
+.MCommentHeader button {
+  background: none;
+  border: none;
+  width: 16px;
+  height: 16px;
+  font-size: 25px;
+}
+
+.Feedback {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 659px;
+}
+
+.commentModalLine {
+  margin-top: 0px;
+}
+
+.MCommentFooter {
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+  justify-content: center;
+  align-items: center;
+  padding-left: 395px;
+}
+
+.MCommentFooter button {
+    width: 120px;
+    height: 40px;
+    border: none;
+    background: #0a819b;
+    border-radius: 4px;
+    color: aliceblue;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+}

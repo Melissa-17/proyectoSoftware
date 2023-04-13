@@ -1,0 +1,108 @@
+.coordHMainContainer {
+  display: flex;
+  flex-direction: column;
+  padding-left: 290px;
+  padding-top: 15px;
+}
+
+.coordHMainContainer .chHeader {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.chHeader .chhTitle {
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 39px;
+  margin-top: 0px;
+}
+
+.chHeader hr {
+  margin-top: 0px;
+}
+
+.chContent {
+  display: flex;
+  flex-direction: column;
+}
+
+.chBtns {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding-right: 41%;
+  gap: 25px;
+}
+
+.chBtns button {
+  color: aliceblue;
+  border: none;
+}
+
+.chBtns .deactivate {
+  width: 156px;
+  height: 40px;
+
+  background: #c0392b;
+  border-radius: 4px;
+}
+
+.chBtns .addBtn {
+  width: 199px;
+  height: 40px;
+  background: #042354;
+  border-radius: 4px;
+}
+
+.chMainHorario {
+  padding-left: 15px;
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+}
+
+.contenedorSemestreSelected {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.contenedorSemestreSelected p {
+  margin-top: 12px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.contenedorCursoSelected {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.contenedorCursoSelected p {
+  margin-top: 12px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.CoordMainMap {
+  padding-left: 900px;
+}
+
+.searchAsesor {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.searchAsesor label {
+  margin-top: 12px;
+  font-weight:600;
+  font-size: 18px;
+  line-height: 16px;
+}

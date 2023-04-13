@@ -1,0 +1,79 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.cajaGeneralPresentacion{
+    display: flex;
+    border-color: #F4F4F4;
+    flex-direction: column;
+    align-items: center;
+    background: #F4F4F4;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+    height: 430px;
+    min-width: 270px;
+    max-width: 270px;
+    cursor: pointer;
+    user-select: none;
+    margin-right: 20px;
+}
+
+.exposicionPresentacion{
+    font-size: 24px;
+    font-weight: bold;
+    color: #042354;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    margin-top: 10px;
+}
+
+.imagenPresentacionVerde, .imagenPresentacionRojo, .imagenPresentacionAmarillo{
+    height: 60px;
+    margin-bottom: 15px;
+}
+.imagenPresentacionVerde{
+    height: 55px;
+    filter: contrast(0%) sepia(1) hue-rotate(50deg) saturate(900%);
+}
+.imagenPresentacionAmarillo{
+    filter: contrast(0%) sepia(1) hue-rotate(20deg) saturate(1000%);
+}
+.imagenPresentacionRojo{
+    filter: contrast(10%) sepia(1) hue-rotate(-40deg) saturate(10000%);
+}
+
+.numeroPresentacion, .adicionalPresentacion, .fechaPresentacion{
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    margin-bottom: 10px;
+}
+.numeroPresentacion{
+    font-size: 40px;
+    margin-bottom: 10px;
+    color: #0A819B;
+}
+.fechaPresentacion{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nombreCalificado, .nombreSinCalificar,
+.nombreSinEntregar{
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+}
+
+.nombreCalificado{
+    color: green;
+}
+.nombreSinEntregar{
+    color: rgb(233, 14, 14);
+}
+.nombreSinCalificar{
+    color: rgb(159, 159, 52);
+}

@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.contenedorRubrica{
+    margin-left: 200px;
+    margin-top: 10px;
+}
+
+.separadorRubric{
+    margin-bottom: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    max-width: 1160px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+.contenedorOptionButton{
+    margin-left: 80px;
+}

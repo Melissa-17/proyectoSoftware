@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.botonAnhadir{
+    margin: 0;
+    padding: 0;
+    margin-right: 20px; 
+    border: 2px solid #0A819B;
+    border-radius: 10px;
+    background-color: #0A819B;
+    color: white;
+    cursor: pointer;
+    user-select: none;
+    font-size: 18px;
+    width: 200px;
+    height: 50px;
+}
+
+.botonAnhadirHidden{
+  margin-right: 20px;
+  padding: 10px 20px 10px 20px;
+  border: 2px solid #0A819B;
+  border-radius: 10px;
+  background-color: #0A819B;
+  color: white;
+  cursor: pointer;
+  user-select: none;
+  font-size: 18px;
+  width: 200px;
+  height: 50px;
+  visibility: hidden;
+}
+
+
+.botonNoAnhadir{
+  margin-right: 20px;
+  padding: 10px 20px 10px 20px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  background-color:#cccccc;
+  color: #666666;
+  
+  user-select: none;
+  font-size: 18px;
+  width: 200px;
+  height: 50px;
+}
+
+.botonEntregar{
+    margin-top: -50px;
+    margin-left: 860px;
+    border: 2px solid #0A819B;
+    border-radius: 10px;
+    background-color: #0A819B;
+    color: white;
+    cursor: pointer;
+    user-select: none;
+    font-size: 18px;
+    width: 200px;
+    height: 50px;
+}
+
+.botonNoEntregar {
+  margin-top: -50px;
+    margin-left: 860px;
+    /* border: 2px solid #0A819B; */
+    border-radius: 10px;
+    /* background-color: #0A819B; */
+    color: white; 
+    user-select: none;
+    font-size: 18px;
+    width: 200px;
+    height: 50px;
+}
+
+.entregar{
+  margin-top: 0px;
+  margin-left: 0px;
+  border: 2px solid #0A819B;
+  border-radius: 10px;
+  background-color: #0A819B;
+  color: BLACK;
+  user-select: none;
+  font-size: 18px;
+  width: 200px;
+  height: 50px;
+}
+
+.noEntregar{
+  margin-top: -50px;
+  margin-left: 0px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  background-color: #ccc;
+  color: white;
+  user-select: none;
+  font-size: 18px;
+  width: 200px;
+  height: 50px;
+  
+}
+
+.botonAnhadir:hover, .entregar:hover{
+    background-color: #185765;
+}
+
+.botonNoEntregar:hover,
+.noEntregar:hover {
+  cursor: disabled;
+}
+
+.file-upload-input {
+    opacity: 0;
+    margin-top: -50px;
+    margin-left: -22px;
+    width: 200px;
+    height: 40px;
+  }
+
+.text-information{
+    margin-top: -35px;
+    font-size: 18px;
+    color: white;
+  }
+
+  .text-information-no-entregar{
+    margin-top: -35px;
+    font-size: 18px;
+    color: white;
+    margin-top: 10px;
+  }
+
+  .contenedorArchivos{
+    margin-top: -200px;
+    margin-left: 210px;
+    width: -moz-fit-content;
+    /* width: fit-content; */
+    height: 200px;
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    /* flex-direction: row; */
+    /* flex: 150px 1; */
+    /* width: max-content; */
+    overflow-x: scroll;
+    border: none;
+    align-items: center;
+    display: grid;
+    grid-auto-flow: column;
+    width: 640px;
+    /* border: 1px solid black; */
+  }
+
+  /* .contenedorArchivos P{
+    width: min-content;
+  } */
+
+  .contenedorUnArchivo{
+    height: 160px;
+    width: 160px;
+    display: grid;
+    grid-template-rows: 60px 70px 30px;
+    justify-items: center;
+    /* border: 1px solid black; */
+  }
+
+  /* .contenedorUnArchivo p{
+    
+    width: min-content;
+    align-self: center;
+    align-items: center;
+    text-align: center;
+  } */
+
+  .contenedorUnArchivo img{
+    /* align-items: center; */
+    cursor: pointer;
+  }
+  .contenedorDelete{
+    /* align-self: top; */
+    align-items: center;
+    justify-content: center;
+    
+  }
+  /* .contenedorArchivos:hover {
+    cursor: pointer;
+  } */
+
+  /* .contenedorDelete i{
+    margin-left: -20px;
+  } */

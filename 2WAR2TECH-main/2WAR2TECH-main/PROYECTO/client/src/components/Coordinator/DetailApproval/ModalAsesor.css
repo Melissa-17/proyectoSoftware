@@ -1,0 +1,108 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.contenedorModalAsesor{
+    background-color: white;
+    height: 500px;
+    width: 700px;
+    padding: 10px;
+}
+
+.contenedorHeaderModalAsesor{
+    display: flex;
+    flex-direction: row;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    align-items: center;
+    margin-bottom: 0px;
+}
+.contenedorHeaderModalAsesor .asesor{
+    margin-right: 340px;
+    margin-top: 5px;
+    max-width: 290px;
+    min-width: 290px;
+    margin-left: 0px;
+    text-align: left;
+    display: flex;
+    align-items: flex-start;
+}
+.contenedorHeaderModalAsesor .alumno{
+    margin-right: 310px;
+    margin-top: 5px;
+    width: 320px;
+    text-align: left;
+}
+.contenedorHeaderModalAsesor i{
+    font-size: 25px;
+}
+
+.lineaHorizontalModalAsesor{
+    margin-top: 0px;
+}
+
+.botonCerrarModalAsesor{
+    background-color: white;
+    border: 0px;
+}
+
+
+.busquedaModalAsesor{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+.botonBusquedaModalAsesor{
+    background-color: white;
+    border: 2px solid black;
+}
+.botonBusquedaModalAsesor input{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+}
+.botonBusquedaModalAsesor i{
+    font-size: 20px;
+}
+
+.contenedorListaModalAsesor{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: scroll;
+    height: 300px;
+}
+
+.botoneriaModalAsesor{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 13px;
+}
+.botoneriaModalAsesor button{
+    background: #0A819B;
+    border-radius: 4px;
+    width: 126px;
+    height: 40px;
+    border: #0A819B;
+    color: white;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.modalAsesor--title {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-start;
+    /* border: 2px solid red; */
+}

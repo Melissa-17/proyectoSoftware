@@ -1,0 +1,150 @@
+.modalMessageBackgroundMMC{
+    width: 100vw;
+    height: 100%;
+    background-color: rgba(0,0,0, 0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: top;
+}
+
+.modalMessageContainerModalsLevel{
+    width: 550px;
+    height: 800px;
+    border-radius: 12px;
+    background-color: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px;
+    margin-top: 450px;
+}
+
+.modalMessageContainerCC{
+    width: 550px;
+    height: 300px;
+    border-radius: 12px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px;
+    margin-top: 300px;
+}
+
+.modalMessageContainerCC .MMmessage, .modalMessageContainerModalsLevel .MMmessage{
+    background-color: #042354;
+    color: white;
+    height: 160px;
+    width: 500px;
+    box-shadow: rgba(0,0,0,0.35) 0px 5px 15px;
+    border-radius: 12px 12px 0px 0px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.MMmessage p{
+    margin-top: 12px;
+}
+
+.modalMessageContainerCC i, .modalMessageContainerModalsLevel .MMmessage i{
+    color: greenyellow;
+}
+
+.MMfooter, .modalMessageContainerModalsLevel .MMfooter{
+    background-color: white;
+    font-family: 'Montserrat';
+    color: white;
+    height: 90px;
+    box-shadow: rgba(0,0,0,0.35) 0px 5px 15px;
+    border-radius: 0px 0px 12px 12px;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.MMacceptance{
+    background: rgb(120, 180, 184);
+    border-radius: 4px;
+    border: 0px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    width: 100px;
+    height: 50px;
+    justify-content: center;
+    color: #FFFFFF;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.MMacceptance:hover{
+    background: #49797c;  
+}
+
+/***********************/
+.modalSelectedBackgroundMMC{
+    width: 100vw;
+    height: 100%;
+    background-color: rgba(0,0,0, 0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.modalSelectedBackground{
+    background-color: white;
+    width: 5s00px;
+    height: 300px;
+    padding: 10px 10px 10px 10px;
+}
+.headerModalSelected{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 34px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.headerModalSelected p{
+    margin-right: 100px;
+}
+.botonHeaderModalSelected{
+    background-color: white;
+    color: black;
+    border: 0px;
+}
+.lineaHorizontalHeader{
+    width: 580px;
+    margin-top: 0px;
+    border: 1px solid black;
+}
+
+.seleccionarModalsAssign{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.seleccionarModalsAssign p{
+    margin-top: 10px;
+    margin-right: 20px;
+}

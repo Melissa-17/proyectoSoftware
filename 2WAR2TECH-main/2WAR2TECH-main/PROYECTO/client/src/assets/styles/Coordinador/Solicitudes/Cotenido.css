@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.todoAvancePrincipal{
+    display: flex;
+    flex-direction: row;
+    margin-left: 0;
+
+}
+.contenedorDeliverable{
+    margin-left: 0;
+}

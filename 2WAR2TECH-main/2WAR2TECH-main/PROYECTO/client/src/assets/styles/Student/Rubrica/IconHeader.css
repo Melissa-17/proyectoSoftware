@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.Opcion{
+    display: flex;
+    border-color: #D1E3E3;
+    flex-direction: column;
+    align-items: center;
+    background: #D1E3E3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+    height: 330px;
+    min-width: 200px;
+    max-width: 200px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+.numero{
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    margin-bottom: 20px;
+    color: #0A819B;
+}
+
+.entregable{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+}
+
+.contenedorEntregable{
+    margin-top: 20px;
+    height: 130px;
+    margin-left: 0;
+    margin-bottom: 20px;
+}
+
+.botonOpcion{
+    border: 0;
+    background: #0A819B;
+    border-radius: 20px;
+    width: 140px;
+    height: 40px;
+    color: white;
+    cursor: pointer;
+    user-select: none;
+}
+
+.botonOpcion:hover{
+    background: #285661;
+}

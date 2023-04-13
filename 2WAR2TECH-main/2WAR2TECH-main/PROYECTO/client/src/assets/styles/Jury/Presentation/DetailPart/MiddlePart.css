@@ -1,0 +1,296 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.parte-intermedia-presentacion{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    max-width: 1160px;
+    min-width: 1160px;
+}
+
+.trabajo-intermedio-presentacion{
+    border: 2px solid #ECEAEA;
+    background-color: #ECEAEA;
+    border-radius: 20px;
+    min-width: 700px;
+    max-width: 700px;
+    height: 450px;
+    margin-bottom: 10px;
+    padding: 5px 15px 0px 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-right: 70px;
+}
+
+.titulo-intermedio-presentacion{
+    margin-top: 10px;
+    margin-right: 10px;
+    
+    font-family: 'Montserrat',sans-serif;
+    font-size: 24px;
+}
+
+.estado-intermedio-presentacion{
+    margin-top: 10px;
+    margin-left: 430px;
+    font-size: 24px;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: bold;
+}
+
+.titulo-encabezado-presentacion{
+    display: flex;
+    flex-direction: row;
+    min-width: 100%;
+    max-width: 100%;
+}
+
+.puntaje-intermedio-presentacion{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #ECEAEA;
+    background-color: #ECEAEA;
+    border-radius: 20px;
+    max-width: 340px;
+    min-width: 340px;
+    max-height: 450px;
+    min-height: 450px;
+}
+
+.titulo-nota-presentacion{
+    margin: 30px 30px -10px 30px;
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+}
+
+.nota-intermedio-presentacion{
+    margin: 30px 30px 30px 30px;
+    border-radius: 20px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 48px;
+    color: #0A819B;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    background-color: white;
+}
+
+.boton-rubrica-presentacion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rubrica-intermedio-presentacion{
+    color: white;
+    background-color: #F0AE19;
+    border: 2px solid #F0AE19;
+    border-radius: 20px;
+    width: 188px;
+    height: 56px;
+    font-size: 24px;
+    user-select: none;
+    cursor: pointer;
+}
+
+.rubrica-intermedio-presentacion:hover{
+    background-color: #9f7618;
+    border: 2px solid #9f7618;
+}
+
+.contenedor-link-zoom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    height: 200px;
+}
+
+.link-zoom{
+    font-size: 30px;
+
+}
+
+/* .contenedorArchivosJurado{
+    width: 670px;
+    height: 200px;
+    border: none;
+    align-items: center;
+    display: grid;
+    grid-auto-flow: column;
+    justify-items: center;
+} */
+
+.entregarJurado{
+    /* margin-top: 20px; */
+    margin-left: 270px;
+    border: 2px solid #0A819B;
+    border-radius: 10px;
+    background-color: #0A819B;
+    color: white;
+    cursor: pointer;
+    user-select: none;
+    font-size: 18px;
+    width: 200px;
+    height: 50px;
+}
+
+.botonEntregarJurado{
+    /* margin-top: 20px; */
+    /* margin-left: 450px;
+    border: 2px solid #0A819B;
+    border-radius: 10px;
+    background-color: #0A819B;
+    color: white;
+    cursor: pointer;
+    user-select: none;
+    font-size: 18px;
+    width: 200px;
+    height: 50px; */
+}
+
+.botonNoEntregarJurado {
+    /* margin-top: 20px;
+    margin-left: 450px; */
+    /* border: 2px solid #0A819B; */
+    /* border-radius: 10px; */
+    /* background-color: #0A819B; */
+    /* color: white; 
+    user-select: none;
+    font-size: 18px;
+    width: 200px;
+    height: 50px; */
+    /* margin-left: 450px;
+    border: 2px solid #0A819B;
+    border-radius: 10px;
+    background-color: #0A819B;
+    color: white;
+    cursor: pointer;
+    user-select: none;
+    font-size: 18px;
+    width: 200px;
+    height: 50px; */
+    margin-left: -180px;
+    border: 2px solid #0A819B;
+    border-radius: 10px;
+    background-color: #0A819B;
+    color: white;
+    cursor: pointer;
+    user-select: none;
+    font-size: 18px;
+    width: 200px;
+    height: 50px;
+}
+
+/* .botonAnhadirJurado{
+
+    margin-right: 20px; 
+    border: 2px solid #0A819B;
+    border-radius: 10px;
+    background-color: #0A819B;
+    color: white;
+    cursor: pointer;
+    user-select: none;
+    font-size: 18px;
+    width: 200px;
+    height: 50px;
+    justify-items: center;
+}
+
+.text-informationJurado{
+    margin-top: -25px;
+    font-size: 18px;
+    color: white;
+    justify-items: center;
+  } */
+
+  .botonAnhadirJ {
+    /* margin-top: 200px; */
+    padding: 10px 20px 10px 20px;
+    border: 2px solid #0a819b;
+    border-radius: 10px;
+    background-color: #0a819b;
+    color: white;
+    cursor: pointer;
+    user-select: none;
+    font-size: 18px;
+    width: 200px;
+    height: 50px;
+  }
+
+  .botonAnhadirJ-noDisponible{
+    /* margin-top: 200px; */
+    padding: 10px 20px 10px 20px;
+    border: 2px solid lightgrey;
+    border-radius: 10px;
+    background-color: lightgrey;
+    color: white;
+    cursor: pointer;
+    user-select: none;
+    font-size: 18px;
+    width: 200px;
+    height: 50px;
+  }
+
+  
+  .file-upload-inputJ{
+      opacity: 0;
+      margin-top: 0px;
+      margin-left: -22px;
+      width: 200px;
+      height: 40px;
+    }
+    
+    .text-informationJ {
+      margin-top: -35px;
+      font-size: 18px;
+      color: white;
+    }
+  
+    .contenedorArchivosJ {
+        margin-top: 0px;
+        margin-left: 230px;
+        width: -moz-fit-content;
+        width: 200px;
+        height: 200px;
+        /* overflow-x: scroll; */
+        border: none;
+        align-items: center;
+        display: grid;
+        grid-auto-flow: column;
+        justify-content: center;
+    }
+  
+    .contenedorUnArchivoJ {
+      height: 140px;
+      width: 160px;
+      display: grid;
+      grid-template-rows: 60px 60px 20px;
+      justify-items: center;
+    }
+    
+    .contenedorUnArchivoJ img {
+      cursor: pointer;
+    }
+    
+    .contenedorDeleteJ {
+      align-self: center;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+    }
+    
+    .botonesJurado{
+        display: flex;
+        flex-direction: row;
+        margin-top: 50px;
+    }

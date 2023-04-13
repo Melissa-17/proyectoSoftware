@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.contenedorPantalla{
+    display: flex;
+}
+
+.contenedorContenido{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    margin: 10px 0 0 10px;
+    background-color: white;
+    margin-left: 200px;
+}
+
+.contenedorTitulo{
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+    text-align: left;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+
+.contenedorTitulo .titulo{
+    color: #152536;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    margin-right: 860px;
+}
+
+.contenedorOpcionesAvance{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+
+.botonesOpcionSeleccionado{
+    border: 0px;
+    background-color: white;
+    user-select: none;
+    cursor: pointer;
+    margin-right: 15px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    border-bottom: 2px solid black;
+    font-weight: bold;
+}
+
+.botonesOpcionSeleccionado:hover{
+    color: red;
+    border-bottom: 2px solid red;
+}
+.botonesOpcion:hover{
+    color: red;
+}
+
+.botonesOpcion{
+    border: 0px;
+    background-color: white;
+    user-select: none;
+    cursor: pointer;
+    margin-right: 15px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.subtitulo1{
+    margin-right: 400px;
+}
+
+.subtitulo2{
+    margin-right: 120px;
+}
+
+.contenedorCambios{
+    margin-top: 5px;
+}
+
+.todoContent{
+    display: flex;
+    flex-direction: row;
+}
+
+.contenedorTodo{
+    display: flex;
+    flex-direction: column;
+    margin-left: 280px;
+    margin-top: -10px;
+}
+
+.contenedorPantallaTodo{
+    display: flex;
+    flex-direction: row;
+}
+
+.header .space{
+    width:  800px;
+}

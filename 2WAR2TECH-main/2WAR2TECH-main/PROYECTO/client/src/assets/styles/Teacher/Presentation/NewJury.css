@@ -1,0 +1,98 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.main-new-jurado{
+    display: flex;
+    flex-direction: row;
+    gap: 300px;
+}
+
+.header-jurado{
+    display: flex;
+    flex-direction: row;
+    gap: 700px;
+}
+
+.header-jurado .titulo-jurado{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.back-but-jury{
+    border: 0;
+    background-color: #0A819B;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    padding: 5px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.back-but-jury:hover{
+    background-color: #658cbc;
+}
+
+.espacio-jurado{
+    color: #CED4DA;
+}
+
+.opciones-filtro{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.opciones-filtro .btn-seleccionar{
+    margin-left: 40px;
+    margin-right: 300px;
+    width: 150px;
+    height: 40px;
+    font-size: 20px;
+    background-color: #042354;
+    color: white;
+    border-radius:5px ;
+}
+
+.opciones-filtro .btn-seleccionar:hover{
+   background-color: #415679;
+}
+
+.opciones-filtro .input-especialidad{
+    margin-right: 80px;
+    height: 30px;
+    margin-top: 10px;
+}
+
+.opciones-filtro .buscador-jurado .input-buscador-jurado{
+    height: 30px;
+    margin-top: 10px;
+    margin-right: 5px;
+}
+
+.seccion-lista{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.seccion-lista .subtitulo-jurado{
+    text-align: left;
+    color: #042354;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.seccion-lista .lista-jurados{
+    max-width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    /* border: 1px solid black; */
+    height: 570px;
+    margin-bottom: 20px;
+}

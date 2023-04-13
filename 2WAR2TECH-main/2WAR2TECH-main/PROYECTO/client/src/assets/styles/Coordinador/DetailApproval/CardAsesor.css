@@ -1,0 +1,65 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.contenedorCardAsesorSeleccionado{
+    background-color: #6690ba;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    border: #6690ba;
+}
+
+.contenedorCardAsesor{
+    background-color: #f4f4f4;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    border: #f4f4f4;
+}
+.contenedorCardAsesor .nombre,
+.contenedorCardAsesorSeleccionado .nombre{
+    margin-left: 10px;
+    margin-top: 9px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    max-width: 300px;
+    min-width: 300px;
+    margin-right: 20px;
+    text-align: left;
+}
+.contenedorCardAsesor .especialidad,
+.contenedorCardAsesorSeleccionado .especialidad{
+    margin-top: 15px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    width: 300px;
+}
+
+.contenedorCardAsesor .codigoPUCP,
+.contenedorCardAsesorSeleccionado .codigoPUCP{
+    margin-top: 15px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    width: 200px;
+}
+
+.contenedorOpcionesCardAsesor{
+    border: 2px solid black;
+}

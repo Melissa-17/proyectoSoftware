@@ -1,0 +1,38 @@
+*{
+    margin: 0%;
+    padding: 0;
+}
+
+.primeraLineaHeaderExposition-as{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
+}
+
+.titulo-as{
+    margin-right: 400px;
+}
+
+.main-box-as{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: flex-start;
+    align-items: flex-start;
+    margin-top: 20px;
+}
+
+.titulo-as, .sub-titulo-as{
+    font-weight: bold;
+}
+
+.linea-as{
+    width: 1000px;
+    color: #CED4DA;
+}
+/*
+.sub-titulo{
+    margin-left: 100px;
+} */

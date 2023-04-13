@@ -1,0 +1,94 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.main-row{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-left: 20px;
+}
+
+.info-asesor{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    border: 2px solid white;
+    margin-bottom: 30px;
+    background-color: white;
+    border-radius: 20px;
+    height: 90px;
+    min-width: 350px;
+    max-width: 350px;
+}
+
+.photo{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.img-asesor{
+    margin-top: 5px;
+    margin-left: 20px;
+    width: 80px;
+    height: 80px;
+    border-radius: 70%;
+}
+
+.asesor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    max-width: 200px;
+    min-width: 200px;
+    margin-top: -20px;
+}
+
+.cargo{
+    margin-bottom: 0;
+}
+
+.name{
+    justify-items: start;
+}
+
+.feedback{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    border: 2px solid white;
+    margin-bottom: 30px;
+    margin-left: 50px;
+    background-color: white;
+    border-radius: 20px;
+    min-width: 350px;
+    align-items: center;
+    justify-content: center;
+    color: grey;
+}
+
+.grade{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    border: 2px solid white;
+    margin-bottom: 30px;
+    margin-left: 50px;
+    background-color: white;
+    border-radius: 20px;
+    min-width: 250px;
+    align-items: center;
+    justify-content: center;
+    color: #0A819B;
+    font-size: 40px;
+}
+
+.separadorFeedBack{
+    margin-right: 80px;
+}

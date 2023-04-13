@@ -1,0 +1,278 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.contenedorFirstPart {
+  display: flex;
+  flex-direction: row;
+}
+.primeraColumna {
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+}
+.ContenedorTemaTesis,
+.Objetivo {
+  display: flex;
+  flex-direction: column;
+  width: 770px;
+  text-align: justify;
+}
+.contenedorObjetivoTesisFirstPart {
+  max-height: 200px;
+  min-height: 200px;
+  padding: 10px 10px 10px 10px;
+  border: 1px solid #ced4da;
+  background: #faf9f8;
+  border-radius: 4px;
+  margin-top: 10px;
+}
+.ContenedorTemaTesis h5,
+.Objetivo h5,
+.contenedorAsesorFirstPart h5,
+.contenedorAlumnoFirstPart h5,
+.contenedorEstadoFirstPart h5 {
+  text-align: left;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 22px;
+}
+.contenedorTemaTesisFirstPart,
+.contenedorTituloAsesorFirstPart {
+  margin-top: 10px;
+  padding: 10px 10px 10px 10px;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  text-align: justify;
+  margin-bottom: 20px;
+  max-height: 100px;
+  min-height: 100px;
+}
+
+.contenedorNombreAsesorFirstPart{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-height: 110px;
+  min-height: 110px;
+  min-width: 240px;
+  margin-top: -20px;
+  flex-direction: row;
+}
+
+.eliminarAsesor{
+  border: 2px solid black;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  width:30px;
+  font-size: 30px;
+  background-color: white;
+  border: 0px;
+  margin-top: -10px;
+}
+
+.contenedorTemaTesisFirstPart {
+  max-height: 112px;
+  min-height: 112px;
+}
+
+.contenedorAreaTesisFirstPart {
+  margin-top: 10px;
+  padding: 10px 10px 10px 10px;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  text-align: justify;
+  margin-bottom: 20px;
+  height: 50px;
+}
+
+.segundaColumna {
+  display: flex;
+  flex-direction: column;
+}
+
+.contenedorAsesorFirstPart {
+  display: flex;
+  flex-direction: column;
+}
+.contenedorInfoAsesorFirstPart {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  margin-top: 10px;
+}
+.imagenPersona {
+  height: 70px;
+  margin-right: 20px;
+  width: 90px;
+  border-radius: 50%;
+  margin-top: 12px;
+  margin-left: 25px;
+  -webkit-border-radius: 60%;
+  border: 2px solid black;
+}
+.contenedorTituloAsesorFirstPart {
+  display: flex;
+  flex-direction: column;
+  margin-right: 10px;
+  border: 0px;
+  margin-bottom: 0;
+}
+.contenedorAsesorFirstPart h2 {
+  margin-left: 10px;
+}
+.nombreTituloAsesorFirstPart {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  margin-bottom: 10px;
+  width: 220px;
+}
+.areaTituloAsesorFirstPart {
+  margin-bottom: 0px;
+}
+
+.contenedorAlumnoFirstPart {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.contenedorInfoAlumnoFirstPart {
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+  border: 1px solid #ced4da;
+  margin-top: 14px;
+  border-radius: 4px;
+}
+.contenedorInfoAlumnoFirstPart div i {
+  font-size: 40px;
+}
+
+.contenedorEstadoFirstPart {
+  margin-top: 20px;
+}
+.contenedorInfoEstadoFirstPart {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  align-items: center;
+  padding-left: 10px;
+}
+.contenedorObservacionEstadoFirstPart {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-right: 190px;
+}
+.contenedorAprobadoEstadoFirstPart,
+.contenedorPendienteEstadoFirstPart {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-right: 230px;
+}
+.contenedorInfoEstadoFirstPart i {
+  font-size: 25px;
+}
+
+.checkIcon {
+  filter: sepia(1) hue-rotate(20deg) saturate(1000%);
+}
+
+.iconoCheckFirstPart,
+.iconoEyeFirstPart,
+.iconoClockFirstPart {
+  font-size: 25px;
+}
+
+.iconoCheckFirstPart {
+  color: #67b836;
+}
+
+.iconoEyeFirstPart {
+  color: #0a819b;
+}
+
+.iconoClockFirstPart {
+  color: #cca748;
+}
+
+.alumnoFirstPart {
+  display: flex;
+  flex-direction: row;
+}
+.alumnoFotoFirstPart {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  max-height: 90px;
+  min-height: 90px;
+}
+.alumnoFotoFirstPart img {
+  margin-top: -10px;
+}
+.alumnoFirstPart p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contenedorEliminarAlumnoTemaTesis{
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+  background-color: white;
+  border: 0px;
+}
+
+.btnContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  padding-top: 15px;
+}
+
+.btnContainer .btns {
+  width: 125px;
+  height: 50px;
+  border: none;
+  background: #0a819b;
+  border-radius: 4px;
+  color: aliceblue;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.botonAddAlumno{
+  background-color: white;
+  border: white;
+}
+
+.botonAddAsesor{
+  background-color: white;
+  border: white;
+  font-size: 60px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.detail-team:hover {
+  cursor: pointer;
+}

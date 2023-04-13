@@ -1,0 +1,44 @@
+.MTbody {
+  width: 700px;
+  height: 500px;
+  background: #ffffff;
+  border-radius: 4px;
+}
+
+.MTHeader {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding-left: 15px;
+  padding-top: 15px;
+  gap: 210px;
+}
+
+.lineaMT{
+    margin-top: 0px;
+    color: rgba(0, 0, 0, 0.3);
+}
+
+.MTHeader p {
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 34px;
+  color: #000000;
+}
+
+.MTHeader button {
+  border: none;
+  background: none;
+  font-size: 28px;
+  line-height: 34px;
+  margin-bottom: 0px;
+  margin-top: -15px;
+}
+
+.MTContent{
+    height: 75%;
+}
+
+/* .MTContent .notYet{
+
+} */

@@ -1,0 +1,182 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.parteIntermediaAvance{
+    margin-top: 20px;
+    padding: 20px 10px 0px 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.trabajoIntermedioAvance, .encabezado{
+    border: 2px solid #ECEAEA;
+    background-color: #ECEAEA;
+    border-radius: 20px;
+    min-width: 700px;
+    max-width: 700px;
+    height: 250px;
+    margin-bottom: 10px;
+    padding: 5px 0px 0px 15px;
+}
+
+.trabajoIntermedioAvance{
+    min-width: 1100px;
+    max-width: 1100px;
+    display: flex;
+    flex-direction: column;
+    justify-items: flex-start;
+}
+
+.contenidoTituloAvance{
+    display: flex;
+    flex-direction: row;
+}
+
+.contenidoTituloAvance .tituloIntermedio{
+    margin-top: 10px;
+    margin-right: 0px;
+    min-width: 80%;
+    max-width: 80%;
+    font-family: 'Montserrat',sans-serif;
+    font-size: 24px;
+    text-align: left;
+    height: auto;
+}
+
+.contenidoTituloAvance .estadoIntermedio{
+    margin-left: 80px;
+    margin-top: 10px;
+    font-size: 24px;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: bold;
+}
+
+.areaLaborAvance{
+    display: flex;
+    flex-direction: row;
+    width: 1100px;
+    margin-top: 10px;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.areaLaborAvance .encabezado{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    max-height: 3400px;
+    min-height: 340px;
+}
+
+.areaLaborAvance .tituloEncabezado{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    max-height: 75%;
+    min-height: 75%;
+    font-size: 24px;
+    height: 150px;
+}
+.areaLaborAvance .tituloEncabezado p{
+    margin-left: 10px;
+}
+
+.botoneriaAvance .anhadir, .botoneriaAvance .entregar{
+    margin-right: 20px;
+    padding: 10px 20px 10px 20px;
+    border: 2px solid #0A819B;
+    border-radius: 10px;
+    background-color: #0A819B;
+    color: white;
+    cursor: pointer;
+    user-select: none;
+    font-size: 18px;
+    width: 200px;
+}
+
+.botoneriaAvance{
+    display: flex;
+    flex-direction: row;
+    margin-top: 115px;
+}
+
+.botoneriaAvance .anhadir:hover, .botoneriaAvance .entregar:hover{
+    background-color: #185765;
+}
+
+/* .puntajeIntermedio{
+    margin-left: 70px;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #ECEAEA;
+    background-color: #ECEAEA;
+    border-radius: 20px;
+    max-width: 340px;
+    min-width: 340px;
+    max-height: 450px;
+    min-height: 450px;
+} */
+
+.puntajeIntermedioAvance{
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #ECEAEA;
+    background-color: #ECEAEA;
+    border-radius: 20px;
+    max-width: 340px;
+    min-width: 340px;
+    max-height: 300px;
+    min-height: 300px;
+}
+
+.puntajeIntermedioAvance .tituloNota{
+    margin: 30px 30px 0px 30px;
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    margin-top: 10px;
+}
+
+.puntajeIntermedioAvance .notaIntermedio{
+    margin: 30px 30px 30px 30px;
+    border-radius: 20px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 48px;
+    color: #0A819B;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    background-color: white;
+    margin-top: 30px;
+}
+
+.puntajeIntermedioAvance .botonRubrica{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+}
+
+.puntajeIntermedioAvance .botonRubrica .rubricaIntermedio{
+    color: white;
+    background-color: #F0AE19;
+    border: 2px solid #F0AE19;
+    border-radius: 20px;
+    width: 188px;
+    height: 56px;
+    font-size: 24px;
+    user-select: none;
+    cursor: pointer;
+}
+
+.puntajeIntermedioAvance .botonRubrica .rubricaIntermedio:hover{
+    background-color: #9f7618;
+    border: 2px solid #9f7618;
+}

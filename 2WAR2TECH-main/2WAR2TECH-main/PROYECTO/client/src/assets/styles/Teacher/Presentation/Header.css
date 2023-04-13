@@ -1,0 +1,34 @@
+*{
+    margin: 0%;
+    padding: 0;
+}
+
+.primeraLineaHeaderExposition{
+    display: flex;
+    flex-direction: row;
+}
+.titulo{
+    margin-right: 60px;
+}
+
+.main-box-h{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: flex-start;
+    align-items: flex-start;
+    margin-top: 20px;
+}
+
+.titulo, .sub-titulo{
+    font-weight: bold;
+}
+
+.linea{
+    width: 1000px;
+    color: #CED4DA;
+}
+/* 
+.sub-titulo{
+    margin-left: 100px;
+} */

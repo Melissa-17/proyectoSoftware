@@ -1,0 +1,220 @@
+.modalMessageBackgroundMMM{
+    width: 100vw;
+    height: 100%;
+    background-color: rgba(0,0,0,0.15);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modalMessageContainerModalsLevel{
+    width: 550px;
+    height: 800px;
+    border-radius: 12px;
+    background-color: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px;
+    margin-top: 450px;
+}
+
+.modalMessageContainer{
+    width: 550px;
+    height: 800px;
+    border-radius: 12px;
+    background-color: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px;
+    margin-top: 300px;
+}
+
+.modalMessageContainer .MMmessage, .modalMessageContainerModalsLevel .MMmessage,.modalMessageContainerModalsLevel .MMError{
+    background-color: #042354;
+    color: white;
+    height: 170px;
+    width: 500px;
+    box-shadow: rgba(0,0,0,0.35) 0px 5px 15px;
+    border-radius: 12px 12px 0px 0px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: -2%;
+}
+
+.MMmessage p{
+    margin-top: 12px;
+}
+.MMError p{
+    margin-top: 12px;
+}
+.modalMessageContainer i, .modalMessageContainerModalsLevel .MMmessage i{
+    margin-left: 22px;
+    color: greenyellow;
+}
+.modalMessageContainer i, .modalMessageContainerModalsLevel .MMError i{
+    margin-left: 22px;
+    color: rgb(255, 82, 82);
+}
+ 
+
+.MMfooter, .modalMessageContainerModalsLevel .MMfooter{
+    background-color: white;
+    font-family: 'Montserrat';
+    color: white;
+    height: 90px;
+    box-shadow: rgba(0,0,0,0.35) 0px 5px 15px;
+    border-radius: 0px 0px 12px 12px;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+}
+
+.MMacceptance{
+    background: #298288;
+    border-radius: 4px;
+    border: 0px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    width: 100px;
+    height: 50px;
+    justify-content: center;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.MMacceptance:hover{
+    background: #298288;  
+}
+
+.MMbody{
+    gap:0px;
+}
+.MMmessage .textoAlertDesahabilitar{
+    color: white;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    text-align: left;
+    margin: 20px;
+}
+
+.botonAceptar{
+    background: #79B4B7;
+    border-radius: 4px;
+    border: 0px;
+    height: 50px; 
+    width: 100px;
+    height: 50px; 
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    cursor: pointer;
+    user-select: none;
+}
+.botonAceptar:hover{
+    background: #49797c;
+}
+
+.botonAceptar input{
+    background-color: #042354;
+    align-self: center;
+}
+.inputdemierda{
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    outline: none;
+    opacity: 0;
+    cursor: pointer;
+  }
+
+.MensajeCargando{
+    background-color: #042354;
+    color: white;
+    height: 300px;
+    width: 500px;
+    box-shadow: rgba(0,0,0,0.35) 0px 5px 15px;
+    padding: 15px;
+    border-radius: 12px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    justify-content: center;
+    align-items: center; 
+    margin-top: 300px;
+}
+.fondodeCarga{
+    width: 100vw;
+    height: 100vw;
+    background-color: rgba(217, 217, 217, 0.858);
+    align-self: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+/*ModalValidacion*/
+
+.modalValidacionErrores{
+    width: 100vw;
+    height: 100%;
+    background-color: rgba(38, 36, 36, 0.658);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ContenidoModalValidacion{
+    background-color: #042354;
+    color: white;
+    height: 170px;
+    width: 500px;
+    box-shadow: rgba(0,0,0,0.35) 0px 5px 15px;
+    border-radius: 12px 12px 0px 0px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: -2%;
+    text-align: left;
+}
+.ContenidoModalValidacion i{
+    margin-left: 22px;
+    color: rgb(226, 226, 61);
+}

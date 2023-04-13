@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.contenedorTituloDeliverableJury{
+    display: flex;
+    flex-direction: row;
+    border-bottom: 2px solid black;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.contenedorTituloDeliverableJury p{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+}
+.EntregableDeliverableJury{
+    margin-right: 250px;
+}
+.CorrecionesDeliverableJury{
+    margin-right: 260px;
+}

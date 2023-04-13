@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.contenedorFilasPresentacion{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    min-width: 1160px;
+    max-width: 1160px;
+    height: 460px;
+    margin-top: 10px;
+}
+
+.contenedorGeneralPresentacion{
+    /* margin-left: 20px;
+    margin-top: 0; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contenedorNotificacionPartialDeliverable{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenedorLineaFila{
+    padding: 10px 10px 10px 0px;
+}
+
+.contenedorLineaFila .lineaSeparador{
+    width: 96%;
+    height: 0;
+}
+
+.espaciadoPresentacion{
+    margin-right: 0px;
+    margin-bottom: 30px;
+display: flex;
+flex-direction: row;
+gap: 15px;
+}
+.opcionesPresentacion{
+    margin-top: 10px;
+}
+
+.contenedorBotonFiltroExposicion{
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 0px;
+}

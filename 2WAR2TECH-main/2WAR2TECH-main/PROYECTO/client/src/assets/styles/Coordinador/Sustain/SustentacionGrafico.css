@@ -1,0 +1,40 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.headerSustentacionGrafico{
+    display: flex;
+    flex-direction: column;
+}
+
+.contenedorSustentacionGrafico{
+    margin-left: 290px;
+    margin-top: 10px;
+    width: 1100px;
+}
+.contenedorPrimeraLineaHeaderSustentacionGrafico{    
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    display: flex;
+    flex-direction: row;
+}
+.contenedorPrimeraLineaHeaderSustentacionGrafico p{
+    margin-right: 320px;
+}
+
+.lineaHorizontalSustentacionGrafico{
+    margin-top: 0px;
+}
+
+.TableReportTesis, th, td {
+    display: none;
+    /* border: 1px solid black;
+    border-collapse: collapse; */
+  }
+
+.PieCharTesis{
+    width: 500px;
+    margin: auto;
+}

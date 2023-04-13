@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.contenedorModalsNuevoNivelGeneral{
+    width: 100vw;
+    height: 95rem;
+    background-color: rgba(217, 217, 217, 0.8);
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contendorModalsNuevoNivel{
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    border-radius: 20px;
+    width: 550px;
+    max-height: 650px;
+    min-height: 650px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding: 25px;
+    color: #000000;
+    margin-top: -500px;
+}
+
+.contenedorHeaderModalsNuevoNivel{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    height: 35px;
+}
+.contenedorHeaderModalsNuevoNivel p{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 34px;
+}
+
+.botonContenedorHeaderModalsNuevoNivel{
+    border: 0px;
+    background-color: white;
+    font-size: 20px;
+    margin-top: 5px;
+    margin-left: 270px;
+    color: black;
+}
+.botonContenedorHeaderModalsEditNivel{
+    border: 0px;
+    background-color: white;
+    font-size: 20px;
+    margin-top: 5px;
+    margin-left: -150px;
+    color: black;
+}
+
+.lineaModalsNuevoNivel{
+    width: 470px;
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
+
+.contenedorPrimeraFilaNuevoNivel{
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    align-items: center;
+}
+.contenedorNombreCriterioNuevoNivel, .contenedorPuntajeMaximaNuevoNivel{
+    display: flex;
+    flex-direction: column;
+    width: 225px;
+}
+.contenedorNombreCriterioNuevoNivel p, .contenedorPuntajeMaximaNuevoNivel p{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+}
+.inputNombreCriterioModalsNuevoCriterio, .inputPuntajeCriterioModalsNuevoCriterio{
+    font-size: 18px;
+}
+.inputNombreCriterioModalsNuevoNivel, .inputPuntajeMaximoModalsNuevoNivel{
+    font-size: 18px;
+}
+
+.contenedorNombreCriterioNuevoNivel{
+    margin-right: 40px;
+}
+.contenedorDescripcionNuevoNivel{
+    margin-top: 20px;
+}
+.contenedorDescripcionNuevoNivel p{
+    font-size: 20px;
+}
+
+.contenedorBotoneriaNuevoNivel{
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    max-width: 500px;
+    min-width: 500px;
+}
+.contenedorBotoneriaNuevoNivel button{
+    background: #0A819B;
+    border-radius: 4px;
+    width: 126px;
+    height: 40px;
+    color: white;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    margin-right: 0px;
+    border: #0A819B;
+}

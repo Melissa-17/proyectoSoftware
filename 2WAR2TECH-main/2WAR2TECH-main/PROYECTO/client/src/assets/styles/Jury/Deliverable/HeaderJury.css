@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.contenedorHeaderJury{
+    display: flex;
+    flex-direction: column;
+}
+.contenedorInfoHeaderJury{
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    align-items: center;
+    margin-top: 10px;
+}
+.contenedorTituloHeaderJury{
+    margin-top: 10px;
+}
+.contenedorTituloHeaderJury h1{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 32px;
+}
+.lineaContenidoHeaderJury{
+    width: 1160px;
+}
+
+.contenedorBotonRetrocederHeaderJury{
+    margin-left: 700px;
+}

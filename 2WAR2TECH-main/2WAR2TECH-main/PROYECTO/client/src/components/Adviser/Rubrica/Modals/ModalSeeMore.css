@@ -1,0 +1,200 @@
+.modalBackgroundSME{
+    /* width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(217, 217, 217, 0.8); */
+    width: 100vw;
+    height: 100%;
+    background-color: rgba(0,0,0, 0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modalContainer{
+    width: 600px;
+    height: 600px;
+    border-radius: 12px;
+    background-color: white;
+    box-shadow: rgba(0,0,0,0.35) 0px 5px 15px;
+    display: flex;
+    flex-direction: column;
+    /* padding: 25px; */
+}
+.modalContainer .body{
+    overflow-y: scroll;
+}
+
+.close{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    height: 5px;
+}
+
+
+.titleCloseBtn{
+    display: flex;
+    justify-content: flex-end;
+    background-color: transparent;
+    border: none;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.tituloDescripcion{
+    font-size: 22px;
+}
+
+.linea-descripcion{
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+}
+
+.linea-descripcion .descripcionTexto{
+    margin-right: 10px;
+    margin-top: 15px;
+}
+
+.linea-descripcion .imagen-editar{
+    width: 20px;
+    height: auto;
+}
+
+.linea-descripcion .imagen-editar:hover{
+    width: 25px;
+    height: auto;
+}
+
+.boton-editar{
+    border: 0;
+    background-color: transparent;
+    margin: 0%;
+    padding: 0;
+}
+
+.linea-observacion{
+    display: flex;
+    flex-direction: row;
+    height: 40px;
+}
+
+.linea-observacion .observa{
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.linea-observacion .imagen-editar{
+    width: 20px;
+    height: auto;
+}
+
+.linea-observacion .imagen-editar:hover{
+    width: 25px;
+    height: auto;
+}
+
+.subbuttons-edit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    margin-left: 0px;
+}
+
+.subbuttons-edit .Guardar-cambios{
+    border: 0;
+    background: lightgreen;
+    border-radius: 20px;
+    width: 100px;
+    height: 40px;
+    color: white;
+    cursor: pointer;
+    user-select: none;
+    margin-right: 5px;
+}
+
+.subbuttons-edit .Guardar-cambios:hover{
+    background-color: green;   
+}
+
+.subbuttons-edit .Cancelar-cambios{
+    border: 0;
+    background: lightcoral;
+    margin-left: 15px;
+    border-radius: 20px;
+    width: 140px;
+    height: 40px;
+    color: white;
+    cursor: pointer;
+    user-select: none;
+}
+
+.subbuttons-edit .Cancelar-cambios:hover{
+    background-color: red;
+}
+
+.title{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: space-between;
+    gap: 10px;
+}
+
+.title .partialGrade{
+    border: none;
+    width: 40px;
+    height: 40px;
+    overflow-y: hidden;
+    margin-top: 20px;
+    align-content: center;
+    justify-content: center;
+}
+
+.title .imagen-editar{
+    width: 20px;
+    height: auto;
+}
+
+.title .imagen-editar:hover{
+    width: 25px;
+    height: auto;
+}
+
+.observacionTexto .descripObserva{
+    border: 1px solid #000;
+    width: 500px;
+    max-width: 500px;
+    max-height: 200px;
+    min-height: 200px;
+    overflow-y: hidden;
+    resize: none;
+}
+
+::-webkit-scrollbar {
+    width: 8px;  
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px rgb(195, 195, 195); 
+    border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #afb0b1; 
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover{
+    background: #8b8b8b;
+}

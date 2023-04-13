@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.AvanceTeacher{
+    border: 1px solid #D0E0F9;
+    background-color: #D0E0F9;
+}
+
+.contentTeacher{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+
+.painted-boxTeacher{
+    height: 200px;
+    background-color: #D0E0F9;
+}
+
+.text-avanceTeacher{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: flex-start;
+    margin-left: 30px;
+    height: 250px;
+}
+
+.titleTeacher{
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.summaryTeacher{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-self: flex-start;
+    text-align: left;
+    margin-right: 10px;
+}

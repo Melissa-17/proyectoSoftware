@@ -1,0 +1,114 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.contenedorCardCoordinador{
+    background: #F4F4F4;
+    border-radius: 4px;
+    width: 1000px;
+    height: 160px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.contenedorCheckBoxCardCoordinador{
+    width: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+}
+
+.checkBoxCardCoordinador{
+    height: 25px;
+    width: 25px;
+}
+
+.contenedorInfoCardCoordinador{
+    background: #FFFFFF;
+    border-radius: 4px;
+    border: 1px solid rgb(0,0,0,0.2);
+    width: 420px;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.contenedorInfoCardCoordinador p{
+    color: #4B80B9;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    width: 400px;
+}
+
+.primeraLineaInfoCardCoordinador{
+    display: flex;
+    flex-direction: row;
+    height: 90px;
+}
+.primeraLineaInfoCardCoordinador img{
+    height: 70px;
+    margin-left: 5px;
+    margin-top: 8px;
+    margin-right: -20px;
+}
+.primeraLineaInfoCardCoordinador p{
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    color: #152536;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    width: 300px;
+    margin-left: 32px;
+}
+
+.botonAsignarEspecialidad button{
+    margin-left: 50px;
+    background: #FFFFFF;
+    border-radius: 30px;
+    width: 233px;
+    height: 46px;
+    border: 1px solid #B8D3FF;
+}
+.botonAsignarEspecialidad p{
+    margin-left: 50px;
+    background: #a59e9e;
+    border-radius: 30px;
+    width: 233px;
+    height: 46px;
+    border: 1px solid #B8D3FF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+}
+
+.contenedorBotonEditarEspecialidad{
+    display: flex;
+    flex-direction: row;
+}
+.botonVisualEspecialidad{
+    margin-left: 70px;
+    font-size: 40px;
+    background-color: #F4F4F4;
+    border: #F4F4F4;
+}
+.botonEditarEspecialidad{
+    margin-left: 30px;
+    font-size: 40px;
+    background-color: #F4F4F4;
+    border: #F4F4F4;
+}

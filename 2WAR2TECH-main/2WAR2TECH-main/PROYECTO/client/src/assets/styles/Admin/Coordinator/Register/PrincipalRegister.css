@@ -1,0 +1,211 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.contenedorPrincipalRegister{
+    margin-left: 290px;
+    margin-top: 10px;
+}
+
+.contenedorCambioPrincipalRegister{
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+}
+
+.contenedorCambioPrincipalRegister .leyenda{
+    color: #9B9B9B;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+    margin-bottom: 51px;
+}
+
+.nombreCambioPrincipalRegister{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 61px;
+}
+.nombreCambioPrincipalRegister p{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #152536;;
+}
+.nombreCambioPrincipalRegister input{
+    padding-left: 5px;
+    width: 944px;
+    height: 41px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+.primeraFilaInfoCambioPrincipalRegister,
+.segundaFilaInfoCambioPrincipalRegister{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 69px;
+}
+.apellidoPCambioPrincipalRegister,
+.correoPUCPCambioPrincipalRegister{
+    display: flex;
+    flex-direction: column;
+    margin-right: 170px;
+    max-width: 410px;
+    min-width: 410px;
+}
+.apellidoPCambioPrincipalRegister p,
+.apellidoMCambioPrincipalRegister p,
+.correoPUCPCambioPrincipalRegister p,
+.codigoPUCPCambioPrincipalRegister p,
+.contenedorEspecialidaPrincipalVisualCoordinator p{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #152536;
+}
+.apellidoPCambioPrincipalRegister input,
+.apellidoMCambioPrincipalRegister input,
+.correoPUCPCambioPrincipalRegister input,
+.codigoPUCPCambioPrincipalRegister input{
+    padding-left: 5px;
+    width: 370px;
+    height: 41px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+.codigoPUCPCambioPrincipalRegister .inputCodigoPUCPCambioPrincipalRegister{
+    width: 370px;
+    height: 41px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+.codigoPUCPRegistroNuevoProfesor{
+    width: 370px;
+    height: 41px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+
+.apellidoMCambioPrincipalRegister{
+    display: flex;
+    flex-direction: column;
+}
+
+.contenedorBotoneriaCambioPrincipalRegister{
+    display: flex;
+    flex-direction: row;
+    /* margin-top: 200px; */
+    justify-content: flex-end;
+}
+.contenedorBotoneriaCambioPrincipalRegister .cancelar,
+.contenedorBotoneriaCambioPrincipalRegister .guardar{
+    background: #0A819B;
+    border-radius: 4px;
+    border: #0A819B;
+    width: 145px;
+    height: 45px;
+    color: white;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 34px;
+}
+.contenedorBotoneriaCambioPrincipalRegister .cancelar{
+    margin-right: 30px;
+}
+
+
+/*VISUAL COORDINADOR*/
+
+.contenedorPrincipalVisualCoordinator{
+    margin-left: 290px;
+    text-align: left;
+}
+
+.contenedorPrincipalVisualCoordinator .leyenda{
+    color: #9B9B9B;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+    margin-top: 20px;
+}
+
+.contenedorInfoCoordinador{
+    margin-top: 20px;
+}
+
+.nombreCambioPrincipalRegister .nombre, 
+.apellidoPCambioPrincipalRegister .apellidoPaterno,
+.apellidoMCambioPrincipalRegister .apellidoMaterna,
+.correoPUCPCambioPrincipalRegister .correoPUCP,
+.codigoPUCPCambioPrincipalRegister .codigoPUCP{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 22px;
+}
+
+.contenedorEditarCoordinadorVisualCoordinator{
+    display: flex;
+    justify-content: flex-end;
+}
+.editarCoordinadorVisualCoordinator{
+    background: #042354;
+    border-radius: 4px;
+    border: #042354;
+    color: white;
+    width: 212px;
+    height: 40px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.contenedorBotoneriaPrincipalEditCoordinator{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-top: 70px;
+}
+.contenedorBotoneriaPrincipalEditCoordinator .cancelar,
+.contenedorBotoneriaPrincipalEditCoordinator .guardar{
+    background: #0A819B;
+    border-radius: 10px;
+    border: #0A819B;
+    color: white;
+    width: 154px;
+    height: 54px;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 34px;
+}
+.contenedorBotoneriaPrincipalEditCoordinator .cancelar{
+    margin-right: 30px;
+}
+
+.noContieneEspecialidad{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100px;
+}

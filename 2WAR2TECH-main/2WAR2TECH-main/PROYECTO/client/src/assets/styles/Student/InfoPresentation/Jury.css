@@ -1,0 +1,120 @@
+.juryMainContainer {
+  width: 1250px;
+  height: 250px;
+  background: #eceaea;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+}
+
+.juryCard {
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  height: 200px;
+  width: 280px;
+}
+
+.foto-helpers{
+  margin-top: 10px;
+}
+
+.juryPic {
+  margin-top: 15px;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+
+.juryDocRetro {
+  background: #ffffff;
+  border: 1px solid #dfe1e4;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  height: 200px;
+  width: 280px;
+  display: flex;
+  flex-direction: row;
+  /* flex-wrap: wrap; */
+  justify-content: flex-start;
+  align-items: center;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  padding-left: 35px;
+  /* padding-top: 20px; */
+  gap: 30px;
+}
+
+.juryDocRetro::-webkit-scrollbar{
+  width: 10px;
+  height: 10px;
+  /* color: blue; */
+}
+
+.juryDocRetro::-webkit-scrollbar-thumb{
+  width: 1px;
+  height: 10px;
+  /* color: blue; */
+}
+
+.juryDocRetro p {
+  margin-top: 10px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  color: #707070;
+  margin-left: -30px;
+}
+
+.contenedorArchivoJury{
+  margin-top: 0px;
+  margin-left: 0px;
+  margin: 20px;
+  margin-bottom: 0px;
+  /* justify-items: center; */
+}
+
+.contenedorArchivoJury p{
+  margin-left: 20px;
+}
+
+.juryGrade {
+  background: #ffffff;
+  border-radius: 30px;
+  height: 100px;
+  width: 250px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+.juryGrade p {
+  font-weight: 600;
+  font-size: 40px;
+  text-align: center;
+  color: #0a819b;
+}
+
+.juryRubric button {
+  background: #f0ae19;
+  border-radius: 20px;
+  height: 55.727394104003906px;
+  width: 199.98611450195312px;
+  left: 0px;
+  top: 0px;
+  border-radius: 20px;
+  border: none;
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+}

@@ -1,0 +1,314 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.main-detail{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 200px;
+}
+
+.general-content-detail{
+    display: flex;
+    flex-direction: column ;
+    align-items: left;
+    justify-content: left;
+    margin-left: 80px;
+}
+
+.general-content-detail .separador-detail{
+    margin-left: 90px;
+    width: 1100px;
+    color: #CED4DA
+}
+
+
+.header-add-detail{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* margin-left: 80px; */
+    margin-left: -100px;
+    gap: 700px;
+}
+
+.header-add-detail .titulo-detail{
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.header-add-detail .back-but-detail{
+    border: 0;
+    background-color: #0A819B;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    padding: 5px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.header-add-detail .back-but-detail:hover{
+    background-color: #658cbc;
+}
+
+.add-content-detail{
+    display: flex;
+    flex-direction:column;
+    justify-content: left;
+    align-items: left;
+}
+
+.add-content-detail .subtitulo-detail{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    gap: 560px;
+}
+
+.add-content-detail .subtitulo-detail p{
+    font-size: 30px;
+}
+
+.seccion-tiempo-detail{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: left;
+    margin-top: 20px;
+    margin-left: 40px;
+    gap: 40px;
+}
+
+.seccion-tiempo-detail .hora-inicio-detail p{
+    display: flex;
+    flex-direction: row;
+    font-weight: bold;
+}
+
+.seccion-tiempo-detail .hora-fin-detail p{
+    display: flex;
+    flex-direction: row;
+    font-weight: bold;
+}
+
+.seccion-tiempo-detail .espacio-sobrado-detail{
+    width:260px;
+}
+
+.seccion-tesis-detail{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.seccion-tesis-detail p{
+    display: flex;
+    justify-content: left;
+    align-items: left;
+}
+
+.nombre-tema-tesis-detail{
+    font-size: 20px;
+    color: #042354;
+}
+
+.fecha-edicion-detail{
+    font-size: 15px;
+    margin-bottom: 40px;
+}
+
+.descripcion-tema-tesis-detail{
+    border: 2px solid #CED4DA;
+    height: 200px; 
+    background-color: #CED4DA;
+}
+
+.seccion-asesor-alumno-detail{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    margin-bottom: 50px;
+}
+
+.foto-asesor-detail{
+    width: 70px;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+
+.foto-alumno-detail{
+    width: 50px;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+
+.foto-jurado-detail{
+    width: 70px;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+
+.seccion-jurado-detail{
+    border: 2px solid #B8D3FF;
+    width: 200px;
+    height: 200px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.jurado-detail{
+    width: 200px;
+    height: 200px;
+    border-bottom: 1px solid #B8D3FF;
+}
+
+.alumno-detail{
+    width: 200px;
+    height: 200px;
+    border-bottom: 1px solid #B8D3FF;
+}
+
+.seccion-asesor-detail{
+    border: 2px solid #B8D3FF;
+    width: 200px;
+    height: 200px;
+    /* margin-top: 5px; */
+}
+
+.nombre-jurado-detail{
+    font-weight: bold;
+    width: 150px;
+    color: #152536;
+    margin-left: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.nombre-asesor-detail{
+    font-weight: bold;
+    color: #152536;
+    width: 150px;
+    margin-left: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.carrera-asesor-detail, .carrera-alumno-detail, .carrera-jurado-detail{
+    color: #152536;
+    width: 150px;
+    margin-left: 20px;
+}
+
+.seccion-alumno-detail{
+    border: 2px solid #B8D3FF;
+    width: 200px;
+    height: 200px;   
+    overflow-y: scroll;
+    overflow-x: hidden;
+    /* margin-top: 5px; */
+}
+
+.nombre-alumno-detail{
+    font-weight: bold;
+    color: #152536;
+    width: 150px;
+    margin-left: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.bloque-completo{
+    display: flex;
+    flex-direction: column;
+}
+
+.subtitulo-tipo{
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.seccion-no-jurado-detail{
+    margin-top: 80px;
+}
+
+.seccion-botones{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    margin-left: 70px;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-registrar{
+    border: 0;
+    background: #042354;
+    border-radius: 20px;
+    width: 100px;
+    height: 40px;
+    color: white;
+    cursor: pointer;
+    user-select: none;
+    margin-right: 5px;
+}
+
+.btn-registrar:hover{
+    background-color: #4c87e6;  
+}
+
+.btn-cancelar{
+    border: 0;
+    background: #79B4B7;
+    border-radius: 20px;
+    width: 100px;
+    height: 40px;
+    color: white;
+    cursor: pointer;
+    user-select: none;
+}
+
+.btn-cancelar:hover{
+    background-color: #6fe3e9; 
+}
+
+.presentations-list-detail{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.contenedor-presentations-thesis{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 50px;
+    /* border: 1px solid black; */
+    height: 310px;
+    width: 1200px;
+}
+
+.presentations-list-detail p{
+    font-size: 30px;
+}
+
+.one-presentation{
+    margin-bottom: 20px;
+}
+
+.nav-paginas-presentations{
+    margin-left: 450px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}

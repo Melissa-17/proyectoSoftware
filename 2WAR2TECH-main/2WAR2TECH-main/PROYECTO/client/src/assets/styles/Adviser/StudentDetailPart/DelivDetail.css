@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.contenedorDetalle{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 100vh;
+    margin: 10px 0 0 80px;
+    margin-left: 290px;
+}
+
+.contenedorEncabezadoDetalle{
+    color: #152536;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.contenedorTitutoDetalle{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    margin-left: 10px;
+    height: 55px;
+    max-width: 500px;
+    min-width: 500px;
+    margin-right: 330px;
+}
+
+.contenedorTitutoDetalle .titulo{
+    color: #152536;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    margin-bottom: 40px;
+    margin-right: 0;
+}
+
+.botonRetrocesoDetalle{
+    border: 0;
+    background-color: #0A819B;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    padding: 5px;
+    cursor: pointer;
+    user-select: none;
+    display: flex;
+}
+
+.botonRetrocesoDetalle:hover{
+    background-color: #658cbc;
+}
+
+.imagenRetrocesoDetalle{
+    height: 50px;
+}
+
+.contenedorLineaDetalle .linea{
+    width: 1160px;
+    height: 0;
+}
+
+.btnEntregar{
+    margin-right: 20px;
+    padding: 10px 20px 10px 20px;
+    border: 2px solid #0A819B;
+    border-radius: 10px;
+    background-color: #0A819B;
+    color: white;
+    cursor: pointer;
+    user-select: none;
+    font-size: 18px;
+    width: 200px;
+}
+/* .contenido{
+    display: flex;
+    flex-direction: row;
+    flex: 1 1;
+    flex-wrap: wrap;
+    max-width: 660px;
+    min-width: 660px;
+} */
+
+/* .todoDeliverable{
+    display: flex;
+    flex-direction: row;
+} */
+
+
+.contenedorTitutoDetalleAdviser{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    margin-left: 10px;
+    height: 55px;
+    max-width: 500px;
+    min-width: 500px;
+    margin-right: 530px;
+}
+
+.contenedorTitutoDetalleAdviser .titulo{
+    color: #152536;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    margin-bottom: 40px;
+    margin-right: 0;
+}

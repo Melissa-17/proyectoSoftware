@@ -1,0 +1,96 @@
+.contenedordeAlumnos{
+    margin-left: auto;
+    margin-top: 0;
+} 
+.espaciado{
+    margin-right: 30px;
+    margin-bottom: 16px;
+    height: fit-content;
+    width: fit-content;
+}
+.contenedorAlumno{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: fit-content;
+    height: fit-content; 
+    
+    margin-top: 0;
+}
+.rowAlumno{
+    background-color: #F4F4F4;
+    border: none;
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    justify-content: flex-start;
+    border-radius: 4px;
+    width: 1209px;
+    height: 194px;
+    align-items: center;
+    padding-left: 15px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.checkboxcontainer{
+    margin: none;
+    display: flex;
+    align-items: center;
+    padding: 2%;
+}
+
+.checkbox-lg .form-check-input{
+    scale: 2.2;
+    background-color: none;
+    margin:none;
+    box-shadow: none;
+}
+
+.checkbox-lg .form-check-input:checked{
+    scale: 2.2;
+    background-color: rgba(49, 49, 49, 0.267);
+    border:none;
+    margin:none;
+    box-shadow: none;
+}
+.usuariodata{
+    margin: 8px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    background-color: #ffffff;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    width: 300px;
+    height: 150px;
+    align-items: center;
+}
+.usuariodata p{
+    color: #042354;
+    object-fit: contain;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 7px;
+}
+.usuariodata img{
+    width: 60%;
+    height: 60%;
+    object-fit: contain;
+    margin: 7px;
+}
+.textboxtitulo{
+    width: 40%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+.textboxtitulo h4{
+    color: #042354;
+    object-fit: contain;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 7px;
+    text-align: justify;
+    margin-left: 40px;
+    width: auto;
+}

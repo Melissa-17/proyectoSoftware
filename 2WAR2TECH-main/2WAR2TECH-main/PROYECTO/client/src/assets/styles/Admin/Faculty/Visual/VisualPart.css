@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.contenedorVisualPart{
+    display: flex;
+    flex-direction: column;
+    margin-left: 280px;
+    margin-top: 10px;
+}
+
+.contenedorPrimeraParte{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    align-items: center;
+    width: 1000px;
+}
+.contenedorPrimeraParte p{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+    color: #9B9B9B;
+    margin-top: 10px;
+    margin-right: 355px;
+}
+.contenedorPrimeraParte .botonEditarFacultadVisualPart{
+    background: #042354;
+    border-radius: 4px;
+    width: 244px;
+    height: 40px;
+    border-color: #042354;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: white;
+}
+
+.contendorInfoFacultadVisualPart{
+    display: flex;
+    flex-direction: row;
+}
+.nombreFacultadVisualPart, .codigoFacultadVisualPart{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-top: 20px;
+}
+.nombreFacultadVisualPart{
+    max-width: 400px;
+    min-width: 400px;
+}
+.codigoFacultadVisualPart{
+    max-width: 300px;
+    min-width: 300px;
+}
+.nombreFacultadVisualPart .titulo, .codigoFacultadVisualPart .titulo{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+}
+.nombreFacultadVisualPart .rpta, .codigoFacultadVisualPart .rpta{
+    font-size: 18px;
+}
+.nombreFacultadVisualPart input, .codigoFacultadVisualPart input{
+    width: 389px;
+    height: 41px;
+    font-size: 20px;
+}
+.codigoFacultadVisualPart{
+    margin-left: 200px;
+}
+
+.contenedorEspecialidad{
+    margin-top: 30px;
+    text-align: left;
+    max-width: 990px;
+    min-width: 990px;
+}
+.contenedorEspecialidad p{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+/*EDITPART*/
+
+.primeraFilaContenedorEspecialidad{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.primeraFilaContenedorEspecialidad p{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    margin-right: 560px;
+    margin-top: 10px;
+}
+.primeraFilaContenedorEspecialidad button{
+    background: #042354;
+    border-radius: 4px;
+    width: 244px;
+    height: 40px;
+    border-color: #042354;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: white;
+}
+
+.botonGuardarBorrar{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-top: 30px;
+    max-width: 990px;
+    min-width: 990px;
+}
+.botonCancelarEditPartFaculty, .botonGuardarEditPartFaculty{
+    background: #0A819B;
+    border-radius: 4px;
+    border: none;
+    width: 145px;
+    height: 45px;
+    color: white;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 34px;
+}
+.botonCancelarEditPartFaculty{
+    margin-right: 30px;
+}
+
+/*ESPECIALIDAD*/
+
+.primeraFilaContenedorCoordinador{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.primeraFilaContenedorCoordinador p{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    margin-right: 370px;
+    margin-top: 10px;
+    width: 400px;
+}
+.primeraFilaContenedorCoordinador button{
+    background: #042354;
+    border-radius: 4px;
+    width: 244px;
+    height: 40px;
+    border-color: #042354;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: white;
+}
+
+.notYetDiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center ;
+}
+
+.notYetDiv .notYet{
+    
+    font-weight: 600;
+    font-size: 16px;
+}

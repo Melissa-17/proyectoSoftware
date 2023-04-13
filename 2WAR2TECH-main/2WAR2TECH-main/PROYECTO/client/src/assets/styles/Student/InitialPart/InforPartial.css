@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.todo .contenedorInfoPartial{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid #B8D3FF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+    padding: 20px;
+    width: 1000px;
+    margin-left: 80px;
+}
+
+.letrasPartial{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    min-width: 200px;
+    max-width: 200px;
+    margin-right: 100px;
+}
+
+.nombreLetraPartial{
+    margin-bottom: 10px;
+}
+
+.areaPartial{
+    margin-bottom: 0;
+    margin-left: 0;
+}
+
+.fotoPersonaPartial{
+    height: 80px;
+    border-radius: 70px;
+    width: 100px;
+    margin-right: 20px;
+}
+
+.cajaInfoPartial{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.cajaCicloPartial{
+    margin-left: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenedorComboPartial{
+    display: flex;
+    flex-direction: row;
+    width: 300px;
+    align-items: center;
+    justify-content: center;
+}
+
+.anhoPartial{
+    margin-right: 50px;
+}
+.anhoPartial select, .cicloPartial select, .cbEntregable select{
+    border: 1px solid #D9D9D9;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 4px;
+    width: 169px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+    text-indent: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+}
+.contenedorEntregablePartial{
+    margin-left: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.todo{
+    display: flex;
+    flex-direction: row;
+}
+.contenedorEntregable{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    margin-left: 60px;
+}
+.tituloEntregable{
+    font-size: 20px;
+}

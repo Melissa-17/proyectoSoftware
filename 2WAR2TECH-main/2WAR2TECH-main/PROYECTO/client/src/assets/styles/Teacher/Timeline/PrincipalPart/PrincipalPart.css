@@ -1,0 +1,238 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.PrincipalPartGlobal{
+    display: flex;
+    flex-direction: row;
+}
+
+.PrincipalPart{
+    margin-left: 290px;
+    display: flex;
+    flex-direction: column;
+}
+.botoneria1PrincipalPartTeacher{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-right: 30px;
+    align-items: center;
+}
+
+.botonFiltrarContentOptionTeacher{
+    background: #a8a0a0;
+    border: #a8a0a0;
+    border-radius: 30px;
+    max-width: 280px;
+    min-width: 280px;
+    height: 46px;
+    color: black;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.botonFiltrarContentOptionTeacher select{
+    margin-left: 10px;
+    background: #a8a0a0;
+    border: 0px;
+    max-width: 220px;
+    min-width: 220px;
+}
+.botonFiltrarContentOptionTeacher i{
+    font-size: 20px;
+}
+
+.checkBoxContentOptionTeacher{
+    display: flex;
+    flex-direction: row;
+    margin-left: 250px;
+    align-items: center;
+}
+.checkBoxContentOptionTeacher input{
+    height: 20px;
+    width: 20px;
+}
+.checkBoxContentOptionTeacher .seleccionar{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.botonBorrarPrincipalPartTeacher{
+    background: #C0392B;
+    border-radius: 4px;
+    width: 120px;
+    height: 40px;
+    border: #C0392B;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.botonNuevoPrincipalPartTeacher{
+    width: 167px;
+    height: 40px;
+    background: #042354;
+    border-radius: 4px;
+    border: #042354;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+/*****************************************/
+.opcionesPrincipalPartTeacher{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.tituloOpcionesPrincipalPartTeacher{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.tituloOpcionesNormal{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    width: 120px;
+    margin-right: 70px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: 0px;
+    background-color: white;
+    text-align: left;
+}
+.tituloOpcionesNormalExposicion{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    width: 120px;
+    margin-right: 100px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: 0px;
+    background-color: white;
+    text-align: left;
+}
+.tituloOpcionesSeleccionado, .PresentationOpcionesSeleccionado{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 28px;
+    width: 120px;
+    margin-right: 70px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: 0px;
+    border-bottom: 2px solid black;
+    background-color: white;
+    text-align: left;
+}
+.PresentationOpcionesSeleccionado{
+    width: 160px;
+    margin-right: 60px;
+}
+.tituloOpcionesSeleccionado:hover, .tituloOpcionesNormal:hover, .PresentationOpcionesSeleccionado:hover{
+    color: red;
+}
+.tituloOpcionesSeleccionado:hover, .PresentationOpcionesSeleccionado:hover{
+    border-bottom: 2px solid red;
+}
+.lineaOptionPrincipalPart{
+    width: 1160px;
+}
+
+/*****************************************/
+
+.MSTtitle .inicio{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    gap: 550px;
+}
+
+/*****************************************/
+
+.contenedorCronogramaBusqueda{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+.primeraColumnaCronogramaBusqueda{
+    display: flex;
+    flex-direction: row;
+    margin-right: 50px;
+}
+.primeraColumnaCronogramaBusqueda{
+    display: flex;
+    flex-direction: column;
+}
+.botonCronogramaBusqueda{
+    background: #042354;
+    border-radius: 4px;
+    width: 184px;
+    height: 44px;
+    color: white;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    margin-top: 30px;
+}
+
+.botonTodosCronogramaBusqueda{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 30px;
+    background: #FFFFFF;
+    width: 184px;
+    height: 44px;
+    margin-right: 40px;
+    border: 2px solid black;
+}
+.botonTodosCronogramaBusqueda i{
+    margin-top: 0px;
+}
+.botonTodosCronogramaBusqueda p{
+    margin-top: 15px;
+}
+
+.contenedorIfTheresNot{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+}

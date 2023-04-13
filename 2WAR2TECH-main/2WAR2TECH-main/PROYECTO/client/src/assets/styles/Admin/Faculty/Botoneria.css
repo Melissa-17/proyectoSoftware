@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.contenedorBotoneriaFacultyPart{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    max-width: 1000px;
+    min-width: 1000px;
+}
+.botonEliminarFacultyPart{
+    width: 156px;
+    height: 40px;
+    background: #C0392B;
+    border: #C0392B;
+    border-radius: 4px;
+    color: white;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    margin-right: 20px;
+}
+.botonAgregarFacultadFacultyPart{
+    background: #042354;
+    border-radius: 4px;
+    width: 212px;
+    height: 40px;
+    border: #042354;
+    color: white;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+/*BOTONERIA SEMESTER*/
+
+.contenedorBotoneriaSemester{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 1000px;
+}

@@ -1,0 +1,54 @@
+.rowAlumnoAsesor{
+    background-color: #ffffff;
+    border: none;
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    justify-content: flex-start;
+    border-radius: 4px;
+    width: 850px;
+    height: 194px;
+    align-items: center;
+    padding-left: 15px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.usuarioalumno{
+    margin: 10px;
+    display: flex;
+    flex-direction: column; 
+    background-color: none; 
+    width: 20%;
+    height: 150px;
+    align-items: center;
+}
+.usuarioalumno p{
+    color: #042354;
+    object-fit: contain;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 7px; 
+}
+.usuarioalumno img{
+    width: 60%;
+    height: 60%;
+    object-fit: contain;
+    margin: 7px;
+}
+.textboxtituloAsesor{
+    width: 60%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+.textboxtituloAsesor h4{
+    color: #042354;
+    object-fit: contain;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 7px;
+    text-align: justify;
+    margin-left: 40px;
+    width: auto;
+}

@@ -1,0 +1,183 @@
+.separadorIndez{
+    margin-left: auto;
+    margin-right: auto;
+}
+.botonRetrocesoDetalle{
+    border: 0;
+    background-color: #0A819B;
+    position: relative;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    padding: 5px;
+    cursor: pointer;
+    user-select: none;
+    display: flex;
+}
+.imagenRetrocesoDetalle{
+    height: 50px;
+    width: 50px;
+}
+
+.botonRetrocesoDetalleCreateCourse{
+    border: 0;
+    background-color: #0A819B;
+    position: relative;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    padding: 5px;
+    cursor: pointer;
+    user-select: none;
+    display: flex;
+    margin-left: 500px;
+}
+
+.espacio{
+    margin-left: auto;
+    margin-bottom: 16px;
+    width: 100px;
+}
+
+.leyenda p{
+    margin-left: auto;
+    text-align: left;
+}
+.contenedortextBox{
+    align-self: center; 
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    height: fit-content; 
+    margin-bottom: 20px;
+}
+.contenedordecopia{
+    background-color: #F0F5F8;
+    border-radius: 8px;
+    align-self: center; 
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: fit-content; 
+    margin-bottom: 20px;
+}
+.textbox{
+    padding: 20px;
+    align-items: center;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    width: auto ;
+    height: fit-content;
+}
+.textbox p{
+    color: #152536;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px; 
+}
+.textbox input{
+    padding: 10px; 
+    width: auto;
+    height: 41px; 
+}
+.espacio2{
+     margin-left: 500px;
+}
+.contenedordecursos{
+    margin-top: none;
+    width: fit-content;
+}
+.contenedordecursos p{
+    color: #152536;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+.contenedorfilas{
+    margin: auto;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: max-content;
+    height: 300px;
+    overflow-y: scroll;
+    border: none; 
+}
+.contenedorfilas::-webkit-scrollbar {
+    width: 8px;  
+  }
+.contenedorfilas::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px rgb(195, 195, 195); 
+    border-radius: 10px;
+}
+.contenedorfilas::-webkit-scrollbar-thumb {
+    background: #afb0b1; 
+    border-radius: 10px;
+  }
+.contenedorfilas::-webkit-scrollbar-thumb:hover {
+    background: #8b8b8b; 
+  }
+ 
+.rowCurso{
+    background-color: aliceblue;
+    border: none;
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    justify-content: flex-start;
+    border-radius: 4px;
+    width:800px;
+    height: 75px;
+    align-items: center;
+    padding-left: 20px;
+    margin-top: 5px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.rowCurso div{
+   /* background-color: red;*/
+    display: flex;
+    flex-direction: row; 
+    width: 1200px;
+    height: auto;
+}
+.buttontrash{
+  color: red;
+  background-color: transparent;
+  border: none; /* Remove borders */
+  align-items: center;
+  padding-right: 30px;
+  font-size: 30px; /* Set a font size */
+  height: auto;
+  width: 70px;
+}
+.cursostitulo{
+    display: flex;
+    align-self: center; 
+    flex-direction: row;
+    width: auto;
+    height: fit-content;
+    padding-bottom: 0px; 
+}
+.cursostitulo div{
+    /* background-color: red;*/
+    display: flex;
+    flex-direction: row; 
+    width: 750px;
+    height: auto;
+}
+.add{
+    color: #152536;
+    font-style: bold;
+    background-color: transparent;
+    border: none; /* Remove borders */
+    align-items: center;
+    padding-right: 30px;
+    font-size: 30px; /* Set a font size */
+    height: auto;
+    width: 70px;
+}

@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.contenedorCardEspecialidad{
+    padding: 20px 10px 20px 20px;
+    border-radius: 4px;
+    background: #FFFFFF;
+    border: 1px solid #B8D3FF;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.infoCard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 10px;
+    max-width: 400px;
+    min-width: 400px;
+}
+.infoCard .carrera{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+}
+.infoCard .info{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+/*EDITPART*/
+
+.contenedorCardEspecialidad i{
+    font-size: 40px;
+    color: #E40000;
+}
+.botonEliminarEspecialidad{
+    border: 0px;
+    background-color: white;
+    margin-left: 500px;
+}
+
+.foto{
+    height: 70px;
+    border: 2px solid black;
+    border-radius: 100%;
+    margin-right: 20px;
+}
+
+/*ESPECIALIDAD*/
+
+.botonEliminarCoordinador{
+    border: 0px;
+    background-color: white;
+    margin-left: 410px;
+}
+
+.contenedorCardEspecialidadFacultyPart{
+    padding: 20px 10px 20px 20px;
+    border-radius: 4px;
+    background: #FFFFFF;
+    border: 1px solid #B8D3FF;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 1000px;
+}
+.infoCardFacultyPart{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 10px;
+    max-width: 400px;
+    min-width: 400px;
+}
+.infoCardFacultyPart .carrera{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+}
+.infoCardFacultyPart .info{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+}
+.botonEliminarEspecialidadFacultyPart{
+    border: 0px;
+    background-color: white;
+    margin-left: 20px;
+}
+.contenedorCardEspecialidadFacultyPart .botonEliminarEspecialidadFacultyPart i{
+    font-size: 40px;
+    color: #E40000;
+}
+
+.botonEditEspecialidadFacultyPart{
+    border: 0px;
+    background-color: white;
+    margin-left: 450px;
+}
+.botonEditEspecialidadFacultyPart i{
+    font-size: 40px;
+    color: black;
+}

@@ -1,0 +1,326 @@
+.requestDetailContainer {
+  margin-left: 300px;
+}
+
+.RDheader {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: 1200px;
+  margin-top: 15px;
+  margin-right: 50px;
+}
+
+.RDtitle {
+  height: 50px;
+  align-content: flex-start;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 58px;
+  letter-spacing: -0.02em;
+  color: #152536;
+}
+
+.RDcontent {
+  display: flex;
+  flex-direction: row;
+  margin-left: 10px;
+}
+
+.RDleft {
+  width: 305px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.RDstate {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.RD-state {
+  font-weight: 700;
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+
+.RDstate .RDDstate {
+  background: #ffffff;
+  height: fit-content;
+  width: 250px;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+}
+
+.RDteam {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  /* justify-content: space-around; */
+  
+  height: fit-content;
+
+}
+
+.RD-team {
+  font-weight: 700;
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+
+.RDteam .RDteamCard {
+  height: 150px;
+  width: 250px;
+  background: #ffffff;
+  border: 1px solid #b8d3ff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.RDteam .RDteamCard img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-top: 30px;
+}
+
+.RDteam .RDteamCard i {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-top: 30px;
+}
+
+.RDadviser {
+  margin-top: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  height: fit-content;
+}
+
+.RD-adviser {
+  font-weight: 700;
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+
+.RDadviser .RDcardAdviser {
+  height: 150px;
+  width: 250px;
+  background: #ffffff;
+  border: 1px solid #b8d3ff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+}
+
+.RDadviser .RDcardAdviser .RDcardName {
+  margin-bottom: 0px;
+}
+
+.RDadviser .RDcardAdviser img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-top: 20px;
+}
+
+/***********************/
+
+.RDright {
+  margin-left: 25px;
+}
+
+.RDstatus {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.RD-titleStatus {
+  font-weight: 700;
+  font-size: 24px;
+  margin-bottom: 5px;
+  margin-right: 20px;
+}
+
+.RDDtitleDivStatus {
+  background: #ffffff;
+  height: fit-content;
+  width: 270px;
+  border: 1px solid #ced4da;
+  max-height: 50px;
+  min-height: 50px;
+  border-radius: 4px;
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.RDDtitleDivStatus .descripcionStatus{
+  margin-top: 12px;
+  margin-left: 10px;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.RDstatus .RDDtitleStatus {
+  text-align: justify;
+}
+
+.RDdTitle {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.RD-title {
+  font-weight: 700;
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+
+.RDDtitleDiv {
+  background: #ffffff;
+  height: fit-content;
+  width: 945px;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  margin-bottom: 15px;
+}
+
+.RDdTitle .RDDtitle {
+  margin: 15px;
+  text-align: justify;
+}
+
+.RDdArea {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.RDarea {
+  font-weight: 700;
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+
+.RDDareaDiv {
+  background: #ffffff;
+  height: fit-content;
+  width: 945px;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  margin-bottom: 15px;
+}
+
+.RDdArea .RDDarea {
+  margin: 15px;
+  text-align: justify;
+}
+
+.RDdProposedTheme {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.RDproposedTheme {
+  font-weight: 700;
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+
+.RDDproposedThemeDiv {
+  background: #ffffff;
+  height: fit-content;
+  width: 945px;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  margin-bottom: 15px;
+}
+
+.RDdProposedTheme .RDDproposedTheme {
+  margin: 15px;
+  text-align: justify;
+}
+
+/**/
+.RDdObservations {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.RDobservations {
+  font-weight: 700;
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+
+.RDDobservationsDiv {
+  background: #ffffff;
+  height: fit-content;
+  width: 945px;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+}
+
+.RDdObservations .RDDobservations {
+  
+  margin: 15px;
+  text-align: justify;
+}
+
+.RDdFiles{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 15px;
+}
+
+.RDFiles{
+  font-weight: 700;
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+
+.RDDFilesDiv {
+  height: 250px;
+  background: #ffffff;
+  width: 945px;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  overflow-x: scroll;
+  flex-direction: row;
+  display: flex;
+  align-items: center;
+  align-self: center;
+}
+
+.contenedorUnArchivoThesis {
+  margin-top: 0px;
+  margin-left: 0px;
+  margin: 20px;
+  
+  align-self: center;
+  align-items: center;
+  
+}

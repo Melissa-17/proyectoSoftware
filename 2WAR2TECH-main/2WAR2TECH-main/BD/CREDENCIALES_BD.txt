@@ -1,0 +1,5 @@
+URL: wartech.co9sokldayfb.us-east-1.rds.amazonaws.com
+PORT: 3306
+
+USER: admin
+PASS: wartech2022

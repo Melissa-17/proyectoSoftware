@@ -1,0 +1,126 @@
+.mainSustainContainer {
+  margin-left: 285px;
+  margin-top: 5px;
+}
+
+.sustainHeader {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.sustainHeader p {
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 58px;
+  color: #152536;
+  margin-bottom: 0px;
+}
+
+.sustainState {
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+  justify-content: center;
+  align-items: center;
+}
+
+.sustainState p {
+  font-weight: 700;
+  font-size: 20px;
+  margin-top: 15px;
+}
+
+.sustainState select {
+  border-radius: 4px;
+  width: 155px;
+}
+
+.sustainSubHeader {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  /* gap: 150px; */
+}
+
+.sustainSubHeader .SSHthesis {
+  width: 520px;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.sustainSubHeader .SSHstudent {
+  width: 245px;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.sustainSubHeader .SSHstate {
+  width: 240px;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.sustainSubHeader .SSHaction {
+  width: 125px;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.sustainContent {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-left: 15px;
+  height: 70vh;
+}
+
+.sustainSearchers {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  margin-top: 15px;
+  margin-bottom: 25px;
+}
+
+.sustainSearchers .nameSearch,
+.sustainSearchers .thesisSearch {
+  display: flex;
+  flex-direction: row;
+}
+
+.sustainSearchers .nameSearch label,
+.sustainSearchers .thesisSearch label {
+  width: 240px;
+  font-weight: 600;
+  font-size: 18px;
+  margin-top: 8px;
+}
+
+.thesisSearch {
+  align-items: center;
+}
+
+.thesisSearch .contenedorBusquedaTesis {
+  margin-right: 50px;
+  margin-left: 300px;
+  display: flex;
+  flex-direction: row;
+}
+
+.botonGraficoTesisSustentadas{
+  background: #042354;
+  border-radius: 4px;
+  border: #042354;
+  color: white;
+  width: 260px;
+  height: 60px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 550;
+  font-size: 16px;
+  line-height: 20px;
+}

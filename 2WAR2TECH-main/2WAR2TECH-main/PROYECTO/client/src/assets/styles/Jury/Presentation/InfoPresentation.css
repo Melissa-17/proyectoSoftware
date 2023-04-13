@@ -1,0 +1,141 @@
+.main-box-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  /* border: 1px solid black; */
+  height: 140px;
+  margin-bottom: 20px;
+}
+
+.main-content-info {
+  /* border: 1px solid red; */
+  height: 130px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.contenedor-titulo-detalle-jurado{
+    margin-top:10px;
+}
+
+
+.separador-vertical {
+  height: 90px;
+  width: 0.5px;
+  border-width: 0;
+  color: #000;
+  background-color: #000;
+  margin-bottom: 0px;
+}
+
+.info-alumno-pres {
+  width: 330px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-left: 20px;
+}
+
+.nombre-alum {
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+.codigo-alum,
+.correo-alum,
+.tesis-alum {
+  margin-bottom: 3px;
+}
+
+.fecha-hora-pres {
+  max-width: 300px;
+  min-width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.fechaHoraPresContener{
+  max-width: 300px;
+  min-width: 300px;
+  height: 105px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.fecha-pres{
+  margin-left: -20px;
+}
+
+.fecha-pres {
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+.fecha-pres,
+.hora-pres {
+  margin-left: 80px;
+  /* width: 10px; */
+}
+
+.accion-pres {
+  /* border: 1px solid black; */
+  width: 400px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-top: 30px;
+}
+
+.entrar-reunion {
+  background-color: #79b4b7;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  width: 180px;
+  height: 40px;
+  margin-left: 30px;
+}
+
+.detail-pres {
+  background-color: #0a819b;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  width: 140px;
+  height: 40px;
+  margin-left: 30px;
+}
+
+.expoLocationJury {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding-top: 12px;
+  padding-left: 25px;
+  height: 50px;
+  width: 1110px;
+  background: #eceaea;
+  border-radius: 20px;
+}
+
+.EFBtitleJury {
+  display: flex;
+  flex-direction: row;
+  margin-top: 35px;
+  margin-left: 15px;
+  gap: 15px;
+  margin-bottom: 0px;
+}
+
+.EFBtitleJury p {
+  margin-top: -2px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  color: #000000;
+}

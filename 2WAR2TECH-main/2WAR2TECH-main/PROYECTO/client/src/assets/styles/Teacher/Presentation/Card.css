@@ -1,0 +1,71 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: Montserrat;
+}
+
+.main-box-card{
+    border: 1px solid #D0E0F9;
+    width: 500px;
+    height: 300px;
+    padding: 0px;
+    background-color: white;
+    display: flex;
+    flex-direction:column ;
+    justify-content: flex-start;
+    align-items: flex-start;
+    /* border: none; */
+}
+
+.info-alumno-card{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100px;
+    width:500px;
+    background-color: #D0E0F9;
+}
+
+.nombre-especialidad-card{
+    display: flex;
+    flex-direction:column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
+    height: 100px;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+.nombre-alumno-card{
+    margin-bottom: 5px;
+    color: #152536;
+    font-weight: bold;
+    width: 240px;
+    text-align: left;
+}
+
+.especialidad-alumno-card{
+    color: #152536;
+}
+
+.imagen-alumno-card{
+    width: 60px;
+    border-radius: 40%;
+    margin-left: 170px;
+}
+
+.info-tesis-card{
+    padding: 20px;
+}
+
+.tema-tesis-card{
+    color: #152536;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;
+}

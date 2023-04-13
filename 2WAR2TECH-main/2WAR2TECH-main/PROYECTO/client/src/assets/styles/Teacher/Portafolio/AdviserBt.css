@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.contenidoBotonTeacher{
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    min-width: 500px;
+    margin-top: 20px;
+    border: 0;
+    cursor: pointer;
+    user-select: none;
+    border: 2px solid #D0E0F9;
+    border-radius: 4px;
+}
+.contenidoTituloBotonTeacher{
+    display: flex;
+    flex-direction: row;
+    background: #D0E0F9;
+    padding: 10px 6px 6px 10px;
+    margin-bottom: 0px;
+    border-radius: 4px 4px 0px 0px;
+}
+
+.sesionEscritaTeacher{
+    display: flex;
+    flex-direction: column;
+    width: 360px;
+    align-items: flex-start;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    color: #152536;
+    justify-content: center;
+    text-align: left;
+    margin-left: 20px;
+}
+.sesionEscritaTeacher p{
+    margin-bottom: 0px;
+}
+
+.imgTeacher{
+    height: 80px;
+    width: 100px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    margin-left: 0px;
+}
+
+.tituloPrincipalTeacher h1{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    color: #042354;
+    padding: 10px 10px 10px 10px;
+    text-align: left;
+    margin-left: 20px;
+    margin-bottom: 40px;
+}
+
+.estadoTeacher{
+    display: flex;
+    width: 400px;
+    margin-left: 30px;
+    align-content: center;
+    justify-content: flex-start;
+    text-align: left;
+    height: 50px;
+    color: #525861;
+    margin-bottom: 40px;
+}
+.contenidoAbajoTeacher{
+    background-color: #D0E0F9;
+    border-radius: 0px 0px 4px 4px;
+    max-height: 200px;
+    min-height: 200px;
+}
+.contenidoAbajo2Teacher{
+    background-color: white;
+    border-radius: 0px 0px 4px 4px;
+    max-height: 170px;
+    min-height: 170px;
+}

@@ -1,0 +1,39 @@
+.registerMainContainer {
+  margin-left: 290px;
+}
+
+.registerHeader {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.registerHeader p {
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 39px;
+  margin-bottom: 0px;
+  margin-top: 2px;
+}
+
+.registerFooter{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-top: 15px;
+    height: 50px;
+}
+
+.registerFooter button {
+  width: 131px;
+  height: 40px;
+  border: none;
+  color: aliceblue;
+  background: #79b4b7;
+  border-radius: 4px;
+}
+
+.registerContent{
+    margin-top: -20px;
+}

@@ -1,0 +1,48 @@
+.modalBackground{
+    /* width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(217, 217, 217, 0.8); */
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(217, 217, 217, 0.8);
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modalContainer{
+    width: 600px;
+    height: 600px;
+    border-radius: 12px;
+    background-color: white;
+    box-shadow: rgba(0,0,0,0.35) 0px 5px 15px;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+}
+.modalContainer .body{
+    overflow-y: scroll;
+}
+
+.modalContainer .body::-webkit-scrollbar{
+    width: 8px;  
+  }
+
+.titleCloseBtn{
+    display: flex;
+    justify-content: flex-end;
+    background-color: transparent;
+    border: none;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.tituloDescripcion{
+    font-size: 22px;
+}

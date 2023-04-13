@@ -1,0 +1,87 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+.main-box{
+    display: flex;
+    flex-direction: column;
+}
+
+.interaccion{
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+    justify-content: left;
+    gap: 400px;
+    margin-bottom: 10px;
+}
+
+.boton-add{
+    margin-top: 20px;
+}
+
+.add-presentation{ 
+    border: none;
+    background-color: #042354;
+    color: white;
+    width: 240px;
+    height: 50px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.opcion-buscador{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: space-between;
+    gap: 1px;
+}
+
+.opcion-buscador .buscador{
+    height: 50px;
+    width: 300px;
+    border-radius:5px;
+    text-align: left;
+}
+
+.opcion-buscador .busquedaNombre{
+    height: 50px;
+    width: 50px;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: none;
+    background: none;
+    color: #042354;
+}
+
+/* i{
+    margin-top: 40px;
+    min-width: 40px;
+} */
+
+.content-presentations{
+    height: 550px;
+    margin-left: 0px;
+}
+
+.content .noPresentation{
+    /* margin-top: 100px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: 550px;
+}
+
+
+.no-present-text{
+    margin-top: 200px;
+    color: grey;
+    font-size: 30px;
+}
+
+.nav-paginas{
+    margin-top: 20px;
+}

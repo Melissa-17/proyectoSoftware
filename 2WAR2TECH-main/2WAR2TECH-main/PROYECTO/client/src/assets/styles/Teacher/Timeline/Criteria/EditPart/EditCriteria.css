@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.contenedorHeaderEditCriteria{
+    margin-top: 10px;
+}
+
+.EditCriteria{
+    margin-left: 290px;
+}
+
+.PrimeraParteEditCriteria{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    background-color: #f4f4f4;
+    padding: 10px;
+}
+
+.PrimeraParteEditCriteria .infoGeneral{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.descripcionPrimeraParte{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.descripcionPrimeraParte .descripcion{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+}
+.descripcionPrimeraParte textarea{
+    resize: none;
+    border: 1px solid #CED4DA;
+    border-radius: 4px;
+    width: 420px;
+    height: 89px;
+}
+
+.contenedorSegundaParteVisualCriteria{
+    background-color: #f4f4f4;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.NivelParteEditCriteria{
+    display: flex;
+    flex-direction: row;
+    margin-top: 0px;
+    align-items: center;
+}
+.NivelParteEditCriteria .niveles{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    margin-top: 10px;
+}
+
+.SeleccionarParteEditCriteria{
+    display: flex;
+    flex-direction: row;
+    margin-left: 250px;
+    align-items: center;
+}
+.SeleccionarParteEditCriteria input{
+    height: 20px;
+    width: 20px;
+}
+.SeleccionarParteEditCriteria .seleccionar{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.NivelParteEditCriteria .borrar{
+    width: 112px;
+    height: 36px;
+    background: #C0392B;
+    border-radius: 4px;
+    color: white;
+    border: #C0392B;
+    margin-left: 95px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+}
+.NivelParteEditCriteria .NuevoNivel{
+    background: #042354;
+    border-radius: 4px;
+    width: 130px;
+    height: 36px;
+    color: white;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    border: #042354;
+    margin-left: 60px;
+}
+
+.contenedorBotoneriaVisualCriteria{
+    margin-top: 30px;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 130px;
+}
+.contenedorBotoneriaVisualCriteria .cancelar, .contenedorBotoneriaVisualCriteria .guardar{
+    background: #0A819B;
+    border-radius: 4px;
+    width: 141px;
+    height: 49px;
+    color: white;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    border: #0A819B;
+}
+.contenedorBotoneriaVisualCriteria .guardar{
+    margin-left: 50px;
+}
+
+.contenedorBotoneriaEditCriteria{
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 0px;
+}
+.contenedorBotoneriaEditCriteria .cancelar, .contenedorBotoneriaEditCriteria .guardar{
+    background: #0A819B;
+    border-radius: 4px;
+    width: 141px;
+    height: 49px;
+    color: white;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    border: #0A819B;
+}
+.contenedorBotoneriaEditCriteria .guardar{
+    margin-left: 50px;
+}
+
+.noHayDescripcion{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 21px;
+    color: #ABB5BE;
+}
+.lineaInformacionGeneralVisualCriteria{
+    display: flex;
+    flex-direction: row;
+}
+.lineaInformacionGeneralVisualCriteria .infoGeneral{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+}
+.lineaInformacionGeneralVisualCriteria button{
+    background: #042354;
+    border-radius: 4px;
+    width: 162px;
+    height: 44px;
+    color: white;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    margin-left: 730px;
+}
+
+.contenedorSeparadorEditCriteria{
+    background-color: #f4f4f4;
+    padding: 10px;
+}

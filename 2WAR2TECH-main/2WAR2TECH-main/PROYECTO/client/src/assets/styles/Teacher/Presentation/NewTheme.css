@@ -1,0 +1,83 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.main-new-theme{
+    display: flex;
+    flex-direction: row;
+}
+
+.navBarNewTheme{
+    margin-right: 0px;
+}
+
+.content-new-theme{
+    display: flex;
+    flex-direction: column;
+    margin-left: 280px;
+}
+
+.header-new-theme{
+    display: flex;
+    flex-direction: row;
+    gap: 300px;
+}
+
+.header-new-theme .titulo-new-theme{
+    font-size: 20px;
+    margin-top: 10px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.header-new-theme .back-but-theme{
+    border: 0;
+    background-color: #0A819B;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    padding: 5px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.back-but-theme:hover{
+    background-color: #658cbc;
+}
+
+.imagenRetrocesoDetalleA{
+    width: 40px;
+}
+
+.separador{
+    width: 1000px;
+}
+
+.contenedor-temas-tesis{
+    height:750px;
+}
+
+.buscador{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.input-buscador{
+    margin-left: 600px;
+    width: 300px;
+    height: 40px;
+}
+
+.buscador i{
+    margin-top: 0px;
+}
+
+.temas-tesis{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-left: 20px;
+}

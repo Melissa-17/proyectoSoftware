@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.parteInicial{
+    display: flex;
+    flex-direction: row;
+}
+
+.nombre, .fechaEnvio, .fechaEntrega{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+
+.nombre p, .fechaEnvio p, .fechaEntrega p{
+    margin-right: 10px;
+}
+
+.fechaEnvio .fecha, .fechaEntrega .fecha{
+    max-width: 130px;
+    min-width: 130px;
+}
+
+.infoContenido{
+    width: 100%;
+    display: flex;
+    text-align: left;
+    justify-content: flex-start;
+}
+.fechaEnvio{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 100px;
+}
+.fechaSolucion{
+    font-size: 26px;
+}
+.contenido{
+    display: flex;
+    flex-direction: column;
+}
+.lineaContenido{
+    margin-left: 12px;
+}
+
+.contenedorFotoPresentacion{
+    display: flex;
+    flex-direction: row;
+    padding: 0px 6% 5px 10px;
+    border: 2px solid #B8D3FF;
+    margin-bottom: 20px;
+    min-width: 320px;
+    max-width: 320px;
+    margin-left: 120px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contenedorFotoPresentacion .fotoPersona{
+    height: 150px;
+    display: flex;
+    text-align: center;
+    align-content: center;
+    border-radius: 0px;
+}
+
+.fotoPresentacion{
+    height: 110px;
+    width: auto;
+    border-radius: 50%;
+    margin-top: 12px;
+    margin-left: 10px;
+    -moz-border-radius: 80%;
+    -webkit-border-radius: 80%;
+}
+.informacionPresentacion{
+    display: flex;
+    flex-direction: column;
+    min-width: 160px;
+    max-width: 160px;
+    justify-content: center;
+}
+.informacionPresentacion p{
+    margin-bottom: 10px;
+    text-align: left;
+}
+.separadorPresentacion{
+    margin-right: 10px;
+}

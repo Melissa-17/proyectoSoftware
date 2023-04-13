@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.contenedorDeliverable{
+    margin-left: 20px;
+    margin-top: 0;
+}
+
+.contenedorFilasEntregables{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    min-width: 1160px;
+    max-width: 1160px;
+    margin-top: 0;
+}
+
+.espaciadoDeliverable{
+    margin-right: 0px;
+    margin-bottom: 10px;
+}
+.opciones{
+    margin-top: 10px;
+}
+
+.contenedorSubtitulos{
+    display: flex;
+    flex-direction: row;
+    color: #152536;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.contenedorIconDeliverable{
+    max-height: 510px;
+    min-height: 51px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    min-width: 1160px;
+    max-width: 1160px;
+    margin-top: 0;
+    height: 64vh;
+}
+
+.contenedorBotoneriaEntregable{
+    width: 1160px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

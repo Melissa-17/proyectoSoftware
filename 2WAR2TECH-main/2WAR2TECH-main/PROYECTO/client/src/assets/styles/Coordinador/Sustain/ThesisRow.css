@@ -1,0 +1,74 @@
+.thesisRowMainContainer {
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+  background: #f4f4f4;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  align-items: center;
+  justify-content: start;
+  width: 1150px;
+  min-height: 150px;
+}
+
+.thesisRowMainContainer .thesisData{
+    width: 500px;
+    padding: 15px;
+}
+
+.thesisRowMainContainer .studentData{
+    width: 225px;
+}
+
+.thesisRowMainContainer .sustainState{
+    width: 250px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.stateNo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #c0392b;
+    color: aliceblue;
+    width: 160px;
+    height: 30px;
+    border-radius: 4px;
+}
+
+.stateNo p{
+    margin-top: 15px;
+}
+
+.stateYes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:  #042354;
+    color: aliceblue;
+    width: 160px;
+    height: 30px;
+    border-radius: 4px;
+}
+
+.stateYes p{
+    margin-top: 15px;
+}
+
+.thesisRowMainContainer .btnData{
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    width: 125px;
+}
+
+.thesisRowMainContainer .btnData button{
+    border: none;
+    background: none;
+}
+

@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.CursoAdviserPart{
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+.contenedorGlobalCurso{
+    width: 1180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0px;
+}
+.CursoAdviserPart p{
+    margin-right: 20px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.lineaContenidoAdviserRow{
+    margin-top: 0px;
+}
+
+
+.contenedorFilaAdviser{
+    margin-left: 90px;
+}
+.contenedorFilaTitulo{
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+}
+
+.contenedorFilaTitulo .ATNro {
+    width: 30px;
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 12px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .contenedorFilaTitulo .ATTheme {
+    width: 320px;
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 12px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .contenedorFilaTitulo .stateLegend {
+    width: 180px;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .contenedorFilaTitulo .stateLegend p{
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 12px;
+  }
+
+  .contenedorFilaTitulo .stateLegend button{
+    border: white;
+    background-color: white;
+  }
+
+  .contenedorFilaTitulo .stateLegend i:hover{
+    cursor: pointer;
+  }
+
+  .contenedorFilaTitulo .ATDetail {
+    width: 150px;
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 12px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .contenedorFilaTitulo .ATAcc {
+    width: 320px;
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 12px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+.NContenedor{
+    margin-right: 30px;
+    margin-left: 5px;
+}
+.NombreTemaContenedor{
+    margin-right: 150px;
+}
+.EstadoContenedor{
+    margin-right: 100px;
+}
+
+
+.EstadoContenedor i:hover{
+    cursor: pointer;
+}
+
+.DetalleContenedor{
+    margin-right: 170px;
+}
+
+.no-thesis {
+    margin: 65px auto;
+    font-size: 24px;
+}

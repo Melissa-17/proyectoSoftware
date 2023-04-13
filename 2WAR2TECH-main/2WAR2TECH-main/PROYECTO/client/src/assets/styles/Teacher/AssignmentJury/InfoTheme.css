@@ -1,0 +1,89 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.main-info{
+    border: none;
+    width: 900px;
+    height: 180px;  
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    gap: 20px;
+    background-color: #F4F4F4;
+    box-shadow: #F4F4F4;
+    border-radius: 5px;
+}
+
+.main-info:hover{
+    width: 950px;
+    height: 230px;
+}
+
+.info-tema{
+    width: 400px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.info-tema .nombre-tema{
+    width: 350px;
+    text-align: left;
+    margin-left: 10px;
+    color: #042354;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.info-tema .fecha-theme{
+    text-align: left;
+    margin-left: 10px;
+}
+
+.info-asesor-theme{
+    border: 1px solid #B8D3FF;
+    background-color: white;
+    width: 300px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-asesor-theme .nombre-asesor{
+    width: 200px;
+    font-size: 15px;
+    font-weight: bold;
+    color: #152536;
+}
+
+.info-alumnos-theme{
+    border: 1px solid #B8D3FF;
+    background-color: white;
+    width: 300px;
+    height: 150px;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-alumnos-theme .nombre-alumno{
+    width: 200px;
+    font-size: 15px;
+    font-weight: bold;
+    color: #152536;
+}
+.foto-asesor-theme , .foto-alumno-theme{
+    width: 50px;
+    height: 50px;
+    border-radius: 40%;
+    margin-top: 10px;
+}

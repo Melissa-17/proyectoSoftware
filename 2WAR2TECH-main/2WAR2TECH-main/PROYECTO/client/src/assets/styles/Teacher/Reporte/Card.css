@@ -1,0 +1,28 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.card-curso-rep{
+    width: 250px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #042354;
+    border-radius: 5px;
+}
+
+.card-curso-rep:hover{
+    background-color: #30548d;
+}
+
+.course-abrev{
+    font-size: 25px;
+    /* border: 1px solid black; */
+    width: 200px;
+    justify-self: center;
+    justify-content: center;
+    color: white;
+}

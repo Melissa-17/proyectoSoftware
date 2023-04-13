@@ -1,0 +1,47 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.contenedorPrincipalEditUser{
+    margin-left: 290px;
+    margin-top: 10px;
+}
+
+.contenedorLeyenda{
+    display: flex;
+    align-items: center;
+}
+.contenedorPrincipalEditUser .leyenda{
+    color: #9B9B9B;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.contenedorInfoUsuario{
+    text-align: left;
+    margin-top: 30px;
+}
+
+.nombreCambioPrincipalRegisterUsuario{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 61px;
+    text-align: left;
+}
+.nombreCambioPrincipalRegisterUsuario p{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #152536;
+}
+.nombreCambioPrincipalRegisterUsuario input{
+    width: 944px;
+    height: 41px;
+    font-size: 20px;
+}

@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.FinalPart{
+  margin-top: 20px;
+  margin-left: 0px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 10px 0px 20px;
+  border: 2px solid #eceaea;
+  border-radius: 20px;
+  background-color: #eceaea;
+  width: 1110px;
+  height: auto;
+}
+
+.titulo-feedback{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.icon{
+  width: auto;
+  height: 40px;
+  margin: 10px;
+}
+
+.feedback-message{
+  margin-top: 15px;
+  font-size: 25px;
+}
+
+.work-area{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+

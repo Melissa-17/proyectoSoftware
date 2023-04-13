@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.contenedorHeaderDetail{
+    display: flex;
+    flex-direction: column;
+    width: 1160px;
+}
+
+.contenedorInfoHeaderDetail{
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.contenedorTituloHeaderDetail{
+    margin-top: 10px;
+    margin-right: 780px;
+}
+
+.contenedorTituloHeaderDetail h1{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 32px;
+}

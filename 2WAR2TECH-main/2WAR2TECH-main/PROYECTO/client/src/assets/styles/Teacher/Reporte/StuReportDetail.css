@@ -1,0 +1,104 @@
+
+.TableReportAlumno, th, td {
+    display: none;
+    /* width: 100%;
+    height: 100%; */
+    /* width: 100%; */
+    /* border: 1px solid black;
+    border-collapse: collapse; */
+  }
+
+  /* .TableReports{
+    width: 100%;
+    height: 100%;
+  } */
+
+  .BodyReporte{
+    /* width: fit-content; */
+    margin-top: 50px;
+    height: 500px;
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    /* flex-direction: row; */
+    /* flex: 150px 1; */
+    /* width: max-content; */
+    /* overflow-x: scroll; */
+    border: 2px solid black;
+    align-items: center;
+    display: grid;
+    grid-auto-flow: column;
+    width: 100%;
+  }
+
+  .contenedorInfo{
+    height: 160px;
+    width: auto;
+    display: grid;
+    grid-template-rows: 60px 70px 30px;
+    /* justify-items: center; */
+  }
+
+.botonExcel2{
+    margin-right: 20px;
+    padding: 10px 20px 10px 20px;
+    border: 2px solid #0A819B;
+    border-radius: 10px;
+    background-color: #0A819B;
+    color: white;
+    cursor: pointer;
+    user-select: none;
+    font-size: 18px;
+    width: 200px;
+    height: 50px;
+}
+
+.contenedorHeaderReporte{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    text-align: center;
+}
+
+.contenedoTablaStuReportDetail{
+  display: flex;
+  flex-direction: column;
+  overflow-x: scroll;
+  max-width: 1100px;
+  min-width: 1100px;
+}
+
+.contenedorTituloTablaStuReportDetail{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.contenedorDataTablaStuReportDetail{
+  display: flex;
+  flex-direction: column;
+}
+.contenedorTituloTablaStuReportDetail p{
+  font-size: 20px;
+  font-weight: 700;
+  margin-right: 50px;
+  max-width: 200px;
+  min-width: 200px;
+}
+
+.contenedorDataTablaStuReportDetail p{
+  font-size: 20px;
+  font-weight: 400;
+  margin-right: 50px;
+  max-width: 200px;
+  min-width: 200px;
+}
+
+.lineaHorizontalStuReportDetail{
+  color: black;
+  border: 0.1px solid black;
+  margin-top: 0px;
+  width: 2680px;
+}
+.contenedorItemTablaStuReportDetail{
+  display: flex;
+  flex-direction: row;
+}

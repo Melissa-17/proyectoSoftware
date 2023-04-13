@@ -1,0 +1,45 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+
+.main-box-info-jury-add{
+  height: 210px;
+  width: 230px;
+  /* background-color: #B8D3FF; */
+  background-color: white;
+  border: 2px solid #B8D3FF ;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.main-box-info-jury-add:hover{
+  background-color: #B8D3FF;
+}
+
+.main-box-info-jury-added{
+  height: 210px;
+  width: 230px;
+  background-color: #B8D3FF;
+  /* background-color: white; */
+  border: 2px solid #B8D3FF ;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.foto-jurado-list{
+  width: 50px;
+  border-radius: 40%;
+  margin-top: 20px;
+}
+
+.nombre-jurado-list{
+  font-weight: bold;
+  margin-top: 10px;
+  width: 180px;
+}

@@ -1,0 +1,127 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Montserrat;
+}
+
+.main-box-students{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.content{
+    margin-left: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+.header-students{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-bottom: 5px;
+}
+
+.header-students .titulo-tes{
+    font-size: 40px;
+    font-weight: bold;
+    margin-right: 800px;
+}
+
+.header-students .back-courses{
+    border: 0;
+    background-color: #0A819B;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    padding: 5px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.filtros{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 900px;
+    margin-top: 10px;
+}
+
+.filtro-estado, .filtro-alumno, .filtro-codigo, .filtro-correo, .filtro-desde, .filtro-hasta{
+    display: flex;
+    flex-direction: row;
+    margin-right: 100px;
+    margin-bottom: 25px;
+    font-size: 15px;
+}
+
+.filtro-alumno p{
+    margin-top: 10px;
+}
+
+.input-alumno{
+    width: 250px;
+    height: 40px;
+}
+
+.filtro-alumno i{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.filtros input{
+    border: 1px solid #AAB8C6;
+    border-radius: 5px;
+}
+
+.filtros p{
+    font-weight: bold;
+    margin-right: 20px;
+    width: 80px;
+}
+
+.list-students{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.cabecera-lista{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    font-weight: bold;
+}
+
+.cabecera-alumno{
+    margin-left: 80px;
+}
+
+.cabecera-fecha{
+    margin-left: 350px;
+}
+
+.cabecera-accion{
+    margin-left: 280px;
+}
+
+.espacio-separadores{
+    margin-left: 40px;
+    margin-top: 0px;
+    color: black;
+}
+
+.full-list-students{
+    margin-left: 50px;
+}
+
+
+
+
+
+

@@ -1,0 +1,128 @@
+.selectionContainer {
+  padding-left: 290px;
+}
+
+.selectionContainer .courseName {
+  font-weight: 600;
+  font-size: 30px;
+  text-decoration-line: underline;
+}
+
+.selectionContent {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  padding-top: 30px;
+}
+
+.selectionContent button{
+border: none;
+}
+
+.selectionEntregables {
+  width: 388px;
+  height: 483px;
+  background: #ffffff;
+  /* Stroke/light */
+
+  border: 1px solid #dee2e6;
+  border-radius: 4px 0px 0px 4px;
+  display: flex;
+  flex-direction: column;
+}
+
+.selectionEntregables .blue {
+  background: #d0e0f9;
+  border-radius: 4px 0px 0px 0px;
+  height: 180px;
+  width: 386px;
+}
+
+.selectionEntregablesContent {
+  width: 388px;
+  height: 303px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+  padding-top: 20px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.selectionEntregablesContent .titleEntregable {
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 34px;
+  color: #152536;
+}
+
+.selectionEntregablesContent .descripEntregable {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #68717a;
+}
+
+
+
+
+/**/
+
+.selectionAvances {
+    width: 388px;
+    height: 483px;
+    background: #ffffff;
+    /* Stroke/light */
+  
+    border: 1px solid #dee2e6;
+    border-radius: 4px 0px 0px 4px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .selectionAvances .blue {
+    background: #d0e0f9;
+    border-radius: 4px 0px 0px 0px;
+    height: 180px;
+    width: 386px;
+  }
+  
+  .selectionAvancesContent {
+    width: 388px;
+    height: 303px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    padding-top: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+  
+  .selectionAvancesContent .titleAvance {
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 34px;
+    color: #152536;
+  }
+  
+  .selectionAvancesContent .descripAvance {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #68717a;
+  }
+
+/**/
+
+.contenedorHeaderSelection{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.contenedorHeaderSelection .title{
+  margin-right: 900px;
+}

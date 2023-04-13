@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.contenedorPrincipalSpecialty{
+    margin-left: 290px;
+    margin-top: 10px;
+}
+
+.contenedorFacultadSelected{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.contenedorFacultadSelected p{
+    margin-top: 15px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    margin-right: 20px;
+}
+.contenedorFacultadSelected select{
+    width: 460px;
+    height: 61.32px;
+    padding-left: 5px;
+}
+
+.contenedorFacultadSelected option{
+    text-align: left;
+    padding-left: 5px;
+}
+
+.seleccionPrincipalSpecialty{
+    text-align: center;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.contenedorListEspecialidad{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+.primeraLineaPrincipalSpecialty{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 1000px;
+}
+.primeraLineaPrincipalSpecialty p{
+    margin-top: 10px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    margin-right: 565px;
+}
+.primeraLineaPrincipalSpecialty button{
+    background: #042354;
+    border-radius: 4px;
+    width: 244px;
+    height: 40px;
+    border: #042354;
+    color: white;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.cardPrincipalSpecialty{
+    margin-top: 10px;
+}
+.infoCardFacultyPart p{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 20px;
+    color: rgb(48, 31, 31);
+}
+
+.error{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    width: 1000px;
+}

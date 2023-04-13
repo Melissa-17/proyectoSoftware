@@ -1,0 +1,64 @@
+.botonAnhadirT {
+  margin-left: 920px;
+  padding: 10px 20px 10px 20px;
+  border: 2px solid #0a819b;
+  border-radius: 10px;
+  background-color: #0a819b;
+  color: white;
+  cursor: pointer;
+  user-select: none;
+  font-size: 18px;
+  width: 200px;
+  height: 50px;
+  
+}
+
+.file-upload-inputT{
+    opacity: 0;
+    margin-top: -50px;
+    margin-left: -22px;
+    width: 200px;
+    height: 40px;
+  }
+  
+  .text-informationT {
+    margin-top: -35px;
+    font-size: 18px;
+    color: white;
+  }
+
+  .contenedorArchivosT {
+    margin-top: -230px;
+    margin-left: 0px;
+    width: -moz-fit-content;
+    width: 1120px;
+    height: 170px;
+    overflow-x: scroll;
+    border: none;
+    align-items: center;
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: center;
+  }
+
+  .contenedorUnArchivoT {
+    height: 140px;
+    width: 160px;
+    display: grid;
+    grid-template-rows: 60px 60px 20px;
+    justify-items: center;
+  }
+  
+  .contenedorUnArchivoT img {
+    cursor: pointer;
+  }
+  
+  .contenedorDeleteT {
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* .contenedorDeleteT i {
+    margin-left: -20px;
+  } */

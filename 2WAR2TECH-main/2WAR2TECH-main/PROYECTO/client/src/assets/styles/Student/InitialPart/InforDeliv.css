@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.contenedorInformacion{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid #B8D3FF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+    padding: 20px;
+    width: 1000px;
+    margin-left: 80px;
+}
+
+.letras{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    min-width: 200px;
+    max-width: 200px;
+    margin-right: 200px;
+}
+
+.nombreLetra{
+    margin-bottom: 10px;
+}
+
+.area{
+    margin-bottom: 0;
+    margin-left: 0;
+}
+
+.fotoPersona{
+    height: 80px;
+    border-radius: 70px;
+    width: 100px;
+    margin-right: 20px;
+}
+
+.cajaInfo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.cajaCiclo{
+    margin-left: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenedorCombo{
+    display: flex;
+    flex-direction: row;
+    width: 300px;
+    align-items: center;
+    justify-content: center;
+}
+
+.anho{
+    margin-right: 50px;
+}
+.anho select, .ciclo select{
+    border: 1px solid #D9D9D9;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 4px;
+    width: 169px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+    text-indent: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+}

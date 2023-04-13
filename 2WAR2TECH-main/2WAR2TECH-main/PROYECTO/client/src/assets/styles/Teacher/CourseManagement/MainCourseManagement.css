@@ -1,0 +1,16 @@
+.courseManagementContainer {
+  margin-left: 290px;
+}
+
+.coursesCards {
+  display: flex;
+  flex-direction: row;
+}
+
+.MCMtitle {
+  margin-bottom: -6px;
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 39px;
+  margin-top: 10px;
+}

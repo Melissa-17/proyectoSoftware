@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.contenedorInitialPartApproval{
+    width: 1180px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenedorCuadroApproval{
+    display: flex;
+    flex-direction: row;
+    background: #F0F5F8;
+    border-radius: 4px;
+    padding: 0px 0px 20px 30px;
+    width: 1000px;
+    border-radius: 4px;
+    
+}
+.contenedorRangoFecha{
+    display: flex;
+    flex-direction: column;
+    margin-right: 70px;
+}
+.enunciadoApproval{
+    font-family: 'Montserrat',sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    display: flex;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0px;
+}
+
+.dosFilasApproval{
+    display: flex;
+    flex-direction: row;
+}
+.primeraFilaApproval, .segundaFilaApproval{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 7px;
+    background: #FFFFFF;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.primeraFilaApproval{
+    margin-right: 70px;
+    margin-left: 0px;
+}
+.primeraFilaApproval p, .segundaFilaApproval p{
+    margin-left: 10px;
+    width: 100px;
+    text-align: center;
+    margin-top: 12px;
+    margin-right: 10px;
+}
+.primeraFilaApproval i, .segundaFilaApproval i{
+    margin-left: 10px;
+}
+.segundaFilaApproval{
+    margin-left: 100px;
+}
+
+.contenedorHabilitarInitialPartApproval{
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+    width: 130px;
+}
+.buttonHabilitar{
+    background: #79B4B7;
+    border-radius: 4px;
+    border: 0px;
+    padding: 10px 10px 10px 10px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    width: 120px;
+    justify-content: center;
+    color: #FFFFFF;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    cursor: pointer;
+    user-select: none;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+.buttonHabilitar:hover{
+    background: #49797c;  
+}
+
+.DatePicker1InitialPartApproval{
+    margin-left: 20px;
+    width: 100px;
+    margin-right: 10px;
+    text-align: left;
+}

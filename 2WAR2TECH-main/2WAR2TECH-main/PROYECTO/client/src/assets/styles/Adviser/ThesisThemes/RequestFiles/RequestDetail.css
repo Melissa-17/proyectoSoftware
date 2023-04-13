@@ -1,0 +1,206 @@
+.adviserRequestDetailContainer {
+  margin-left: 300px;
+}
+.ARDheader {
+  display: flex;
+  flex-direction: row;
+  height: 60px;
+  margin-bottom: 15px;
+  gap: 350px;
+  align-items: center;
+}
+
+.ARDheader h1{
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 58px;
+}
+
+.ARDheader button {
+  margin-top: 5px;
+}
+
+.ARDTitle {
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 22px;
+  margin-bottom: 25px;
+}
+
+.ARDdArea{
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}
+
+.ARDareaDiv{
+  background: #ffffff;
+  height: fit-content;
+  width: 700px;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+}
+
+.ARDDarea{
+  margin-top: 15px;
+}
+
+.ARDareaDiv .ARDarea{
+  margin: 15px;
+  text-align: center;
+}
+
+.ARDcontent {
+  display: flex;
+  flex-direction: row;
+}
+
+.TDdArea {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  margin-top: 25px;
+  gap: 30px;
+}
+.TDdArea .TDDarea {
+  background: #ffffff;
+  height: fit-content;
+  width: 880px;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+}
+
+.ARDdProposedTheme {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 25px;
+}
+
+.ARDproposedThemeDiv {
+  background: #ffffff;
+  height: fit-content;
+  width: 700px;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+}
+
+.ARDdProposedTheme .ARDproposedTheme {
+  margin: 15px;
+  text-align: justify;
+}
+
+.ARDdObservations {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 25px;
+}
+
+.ARDobservationsDiv{
+  background: #ffffff;
+  height: fit-content;
+  width: 700px;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+}
+
+.ARDdObservations .ARDobservations {
+  margin: 15px;
+  text-align: justify;
+}
+
+.ARDleft-student {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+  background: #f4f4f4;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+  width: 363px;
+  height: 1188px;
+}
+
+.studentCards {
+  margin-top: 0px; 
+  margin-right: 1px; 
+  display: block;
+  flex-direction: column;
+  align-items: flex-start;
+  overflow: visible;
+  overflow-y: scroll; 
+  height: 650px;
+}
+.studenCardMenu{
+  margin-top: 0px; 
+  margin-right: 1px; 
+  display: block;
+  flex-direction: column;
+  align-items: flex-start;
+  overflow: visible;
+  overflow-y: scroll;
+  height: fit-content; 
+  max-height: 300px;
+}
+.studentCardSelect {
+  margin-top: 20px;
+  
+  display: flex;
+  flex-direction: column;
+  position:relative;
+  gap: 15px; 
+}
+
+.ARDright-detail {
+  margin-left: 50px;
+  width: 700px;
+}
+
+.confirmStudent {
+  background: #79b4b7;
+  border-radius: 4px;
+  border: 0px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  width: 200px;
+  height: 50px;
+  justify-content: center;
+  color: #ffffff;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.confirmStudent:hover {
+  background: #49797c;
+}
+
+.ARDfooter {
+  height: 50px;
+}
+.studentList{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.studentList button{
+  border: none;
+}
+
+
+.studentSelectionBtn{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.studentList button:hover{
+  border: black;
+}

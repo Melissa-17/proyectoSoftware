@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.editPart{
+    margin-left: 290px;
+    margin-top: 10px;
+}
+
+.infoGeneralEditPart{
+    display: flex;
+    flex-direction: column;
+}
+
+.ThirdPart{
+    margin-top: 20px;
+}
+
+.botoneriaEditPart{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+.botoneriaEditPart .cancelar, .botoneriaEditPart .guardar{
+    width: 141px;
+    height: 49px;   
+    background: #0A819B;
+    border: #0A819B;
+    border-radius: 4px;
+    color: white;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+}
+.botoneriaEditPart .cancelar{
+    margin-right: 70px;
+    margin-left: 800px;
+}

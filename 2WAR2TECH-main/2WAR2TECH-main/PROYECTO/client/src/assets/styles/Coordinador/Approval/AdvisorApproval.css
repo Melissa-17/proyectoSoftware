@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.contenedorAdvisorApprovalTodo {
+  display: flex;
+  flex-direction: row;
+}
+
+.contenedorAdvisorApprovalPantalla {
+  margin-left: 280px;
+}
+
+.encabezadoApproval {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  max-width: 900px;
+  min-width: 900px;
+  margin-top: 20px;
+  text-align: left;
+}
+.tituloEncabezadoApproval h1 {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 39px;
+}
+.lineaContenidoApproval {
+  width: 1160px;
+}
+
+.registerTheme {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  width: 1000px;
+  height: 80px;
+  background: #f0f5f8;
+  border-radius: 4px;
+  margin-left: 90px;
+  margin-top: 10px;
+}
+
+.registerTheme .nametag {
+  display: flex;
+  flex-direction: row;
+  margin-top: 13px;
+  gap: 5px;
+}
+
+.registerTheme button {
+  width: 175px;
+  height: 40px;
+  background: #042354;
+  border-radius: 4px;
+  color: white;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+}

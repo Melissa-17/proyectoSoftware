@@ -1,0 +1,123 @@
+.criteriaDetailContainer {
+  margin-left: 300px;
+  margin-top: 10px;
+}
+
+.RDtitleCriteriaDetailContainer{
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 49px;
+  margin-right: 400px;
+}
+
+.RDheaderCriteriaDetail{
+  display: flex;
+  flex-direction: row;
+}
+
+.CDDescription {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  width: 1355px;
+  margin-bottom: 25px;
+}
+
+.evaluationsList .CMAevaluations{
+  margin-left: -25px;
+}
+
+.evaluationsList .ifTheresNot {
+  margin-top: 25px;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 21px;
+  text-align: center;
+  color: #abb5be;
+}
+
+.descriptionTxt {
+  text-align: left;
+  width: 500px;
+}
+
+.descriptionTxt .DTTitle {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.descriptionBtn{
+    display: flex;
+    margin-bottom: 15px;
+    margin-left: 330px;
+    justify-content: center;
+    align-items: center;
+}
+
+.descriptionBtn .edit {
+  width: 162px;
+  height: 44px;
+  background: #042354;
+  border-radius: 4px;
+  color: aliceblue;
+  border: none;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.CMAddCriteriaCriteriaDetail{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.CMAddCriteriaCriteriaDetail .CMACTitle{
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  margin-right: 120px;
+  margin-top: 10px;
+}
+.CMAddCriteriaCriteriaDetail .CMACSelect{
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+}
+.CMAddCriteriaCriteriaDetail .CMACSelect p{
+  margin-left: 5px;
+}
+.CMAddCriteriaCriteriaDetail .CMACBtns{
+  margin-left: 240px;
+}
+
+/*EDITPART*/
+
+.botoneriaCriteriaEdit{
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  max-width: 1060px;
+  min-width: 1060px;
+  justify-content: flex-end;
+}
+
+.cancelarCriteriaEdit, .aceptarCriteriaEdit{
+  background: #0A819B;
+  border-radius: 4px;
+  width: 141px;
+  height: 49px;
+  border: #0A819B;
+  color: white;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+}
+.cancelarCriteriaEdit{
+  margin-right: 20px;
+}

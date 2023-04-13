@@ -1,0 +1,21 @@
+.trazabilityContainer{
+    display: flex;
+    flex-direction: row;
+    /* gap: 15px; */
+    justify-content: flex-start;
+    align-items: center;
+    text-align: justify;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.trazabilityContainer p{
+    color: #707070;
+    font-weight: 200;
+    font-size: 16px;
+}
+
+.trazabilityContainer .date{
+    width: 350px;
+}
+

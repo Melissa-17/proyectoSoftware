@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.contenedorGlobalHeaderDetailApproval {
+  display: flex;
+  flex-direction: column;
+}
+.contenedorTituloHeaderDetailApproval {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 58px;
+  margin-right: 500px;
+}
+.contenedorHeaderDetailApproval {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.lineaHeaderDetailApproval {
+  width: 1160px;
+}
+
+.boton-editar-detalle{
+  border: none;
+  background-color: #0a819b ;
+  color: white;
+  border-radius: 5px;
+  width: 100px;
+  height: 40px;
+  margin-right: 20px;
+  margin-left: -100px;
+}
+
+.boton-editar-detalle:hover{
+  background-color: #40a9c1;
+}
+
+.containerHistorialBox {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.historialBox {
+  padding: 30px;
+  width: 1025px;
+  height: 150px;
+  background: #f0f5f8;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+  margin-bottom: 25px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.historialBox p {
+  margin-top: 15px;
+}
+
+.historialBox button {
+  width: 175px;
+  height: 40px;
+  background: #042354;
+  border-radius: 4px;
+  color: white;
+  font-weight: 600;
+font-size: 16px;
+line-height: 20px;
+}

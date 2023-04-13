@@ -1,0 +1,31 @@
+.contenedorContenidoPropose{
+  margin-left: 30px;
+  margin-top: 10px;
+}
+
+.PRtodoContent{
+  margin-left: 250px;
+}
+
+.contenedorTituloPropose{
+  height: 80px;
+  margin-top: 20px;
+  text-align: left;
+}
+
+.contenedorTituloPropose .tituloGestionContentPropose{
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 58px;
+  margin-left: 20px;
+}
+
+.contenedorOpcionesEntregable{
+  height: 100px;
+  align-items: center;
+}
+
+.contenedorCambiosPropose{
+  margin-left: 30px;
+  width: 1160px;
+}

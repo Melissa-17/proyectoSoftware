@@ -1,0 +1,266 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.main-new-presentation{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 200px;
+}
+
+.general-content{
+    display: flex;
+    flex-direction: column;
+}
+
+.general-content .separador{
+    margin-left: 90px;
+    width: 1100px;
+    color: #CED4DA
+}
+
+.header-add{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 80px;
+    gap: 700px;
+}
+
+.header-add .titulo{
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.header-add .back-but{
+    border: 0;
+    background-color: #0A819B;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    padding: 5px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.header-add .back-but:hover{
+    background-color: #658cbc;
+}
+
+.add-content{
+    display: flex;
+    flex-direction:column;
+    justify-content: left;
+    align-items: center;
+}
+
+.add-content .subtitulo{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    gap: 560px;
+}
+
+.add-content .subtitulo p{
+    font-size: 30px;
+}
+
+.seccion-tiempo-p{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    margin-top: 20px;
+    /* margin-left: 40px; */
+    gap: 40px;
+}
+
+.seccion-tiempo-p .hora-inicio p{
+    display: flex;
+    flex-direction: row;
+    font-weight: bold;
+}
+
+/* .seccion-tiempo-p .hora-inicio input{
+    width: 150px;
+    height: 40px;
+    text-align: center;
+} */
+
+.seccion-tiempo-p .hora-fin p{
+    display: flex;
+    flex-direction: row;
+    font-weight: bold;
+}
+
+/* .seccion-tiempo-p .hora-fin input{
+    width: 150px;
+    height: 40px;
+    text-align: center;
+} */
+
+.seccion-alumno{
+    margin-top: 40px;
+}
+
+.seccion-alumno .header-sec-alumno{
+    display: flex;
+    flex-direction: row;
+    margin-left: 40px;
+    font-weight: bold;
+}
+
+.seccion-alumno .cuadro-alumno{
+    border: 2px solid #B8D3FF;
+    background-color: white;
+    width: 1000px;
+    height: 200px;
+    margin-left: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.seccion-alumno .cuadro-alumno:hover{
+    background-color: #B8D3FF;
+}
+
+.seccion-alumno .cuadro-alumno .text-referencia{
+    margin-left: 350px;
+}
+
+.seccion-jurado{
+    margin-top: 40px;
+}
+
+.seccion-jurado .header-sec-jurado{
+    display: flex;
+    flex-direction: row;
+    margin-left: 40px;
+    font-weight: bold;
+    gap: 200px;
+    margin-right: 950px;
+}
+
+.jurados-seleccionados{
+    display: flex;
+    flex-direction:row;
+    gap: 20px;
+    margin-left: 60px;
+    /* border: 1px solid #B8D3FF; */
+    width: 950px;
+    height: 330px;
+    overflow-x: scroll;
+}
+
+.jurados-seleccionados::-webkit-scrollbar{
+    height: 10px;
+    background-color: white;
+    border: none;
+}
+
+.jurados-seleccionados::-webkit-scrollbar-thumb{
+    background-color: #B8D3FF;
+}
+
+.jurados-agregados{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin-bottom: 10px;
+}
+
+.btn-add-jurado{
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    border: 2px solid #B8D3FF;
+}
+
+.btn-jurado-anhadido{
+    width: 300px;
+    height: 300px;
+    background-color: #B8D3FF;
+    border: 2px solid #B8D3FF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-add-jurado:hover{
+    background-color: #B8D3FF;
+}
+
+
+.foto-jurado-info-A{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.nombre-jurado-A{
+    width: 200px;
+    margin-bottom: 0px;
+    font-size: 15px;
+    font-weight: bold;
+    color: #152536;
+}
+
+.carrera-jurado-A{
+    margin-bottom: 30px;
+    font-size: 15px;
+    color: #152536;
+}
+
+.correo-jurado-A{
+    text-decoration: underline;
+    color: #152536;
+    font-weight: bold;
+}
+
+.seccion-botones{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    margin-left: 70px;
+}
+
+.btn-registrar{
+    border: 0;
+    background: #042354;
+    border-radius: 20px;
+    width: 100px;
+    height: 40px;
+    color: white;
+    cursor: pointer;
+    user-select: none;
+    margin-right: 5px;
+}
+
+.btn-registrar:hover{
+    background-color: #4c87e6;  
+}
+
+.btn-cancelar{
+    border: 0;
+    background: lightcoral;
+    border-radius: 20px;
+    width: 100px;
+    height: 40px;
+    color: white;
+    cursor: pointer;
+    user-select: none;
+}
+
+.btn-cancelar:hover{
+    background-color: red; 
+}

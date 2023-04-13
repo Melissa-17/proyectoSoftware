@@ -1,0 +1,70 @@
+.APDheader {
+  display: flex;
+  flex-direction: row;
+  height: 55px;
+  align-items: center;
+  margin-top: 15px;
+  gap: 280px;
+}
+
+.APDheader .PDtitle {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 58px;
+  /* identical to box height */
+
+  letter-spacing: -0.02em;
+}
+
+.detailFooter{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-top: 10px;
+    margin-right: 52px;
+    gap: 40px;
+}
+
+.RDdFilesA{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 15px;
+  
+}
+
+.RDFilesA{
+  font-weight: 700;
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+
+.RDDFilesDivA {
+  height: 250px;
+  background: #ffffff;
+  width: 945px;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  margin-left: 0px;
+  overflow-x: scroll;
+  align-items: center;
+  display: grid;
+  grid-auto-flow: column;
+  justify-items: center;
+}
+
+.contenedorUnArchivoThesisA {
+  margin-top: 0px;
+  margin-left: 0px;
+  margin: 20px;
+  
+  display: grid;
+    grid-template-rows: 60px 60px 20px;
+    justify-items: center;
+  
+}
+
+.contenedorUnArchivoThesisA img{
+  /* align-items: center; */
+  cursor: pointer;
+}

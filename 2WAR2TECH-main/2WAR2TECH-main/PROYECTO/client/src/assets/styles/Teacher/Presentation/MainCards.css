@@ -1,0 +1,38 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.main-box-cards{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.buscador-tema-tesis{
+    margin-left: 450px;
+    margin-bottom: 20px;
+}
+
+.buscador-tema-tesis input{
+    margin-right: 5px;
+}
+
+.contenido-cards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* gap: 60px; */
+    row-gap: 30px;
+    column-gap: 60px;
+    /* border: 1px solid black; */
+    width: 1100px;
+    height: 650px;
+    margin-left: 10px;
+}
+
+.nav-paginas-tesis{
+    margin-top: 20px;
+    margin-left: 400px;
+}

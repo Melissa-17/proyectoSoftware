@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.SegundaParteRubricaProfesor{
+    display: flex;
+    flex-direction: column;
+    margin-top: -35px;
+    background-color: #f4f4f4;
+    padding: 10px;
+    width: 1160px;
+}
+
+.lineaCriteriosRubricaProfesor{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.lineaCriteriosRubricaProfesor .titulo{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    margin-right: 140px;
+}
+.lineaCriteriosRubricaProfesor .seleccionar{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    max-width: 350px;
+    min-width: 350px;
+    align-items: flex-start;
+}
+.lineaCriteriosRubricaProfesor .seleccionar .checkboxSeleccionar{
+    margin-top: 0px;
+}
+.checkboxSeleccionar input{
+    width: 20px;
+    height: 20px;
+}
+
+.lineaCriteriosRubricaProfesor .seleccionar p{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    margin-top: -5px;
+    margin-left: 10px;
+    margin-right: 200px;
+    text-align: left;
+    max-width: 200px;
+    min-width: 200px;
+}
+
+.lineaBotoneriaRubricaProfesor .borrar{
+    border: #C0392B;
+    background-color: #C0392B;
+    width: 112px;
+    height: 36px;
+    border-radius: 4px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: white;
+    margin-right: 30px;
+}
+.lineaBotoneriaRubricaProfesor .nuevoCriterio{
+    width: 140px;
+    height: 36px;
+    background: #042354;
+    border-radius: 4px;
+    color: white;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.contenedorCriterio{
+    margin-top: 30px;
+    color: #ABB5BE;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 21px;
+    width: 930px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contenedorCriterio p{
+    margin-top: 10px;
+    width: 600px;
+}
+.fallo{
+    margin-top: 30px;
+    max-width: 930px;
+    min-width: 930px;
+    color: #ABB5BE;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 21px;
+}

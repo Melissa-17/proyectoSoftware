@@ -1,0 +1,121 @@
+.MPcardList{
+  width: 1100px;
+  height: 250px;
+  left: 419px;
+  top: 297px;
+  background: #f4f4f4;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  gap: 20px;
+}
+
+.MPcomponentList{
+  margin-bottom: 20px;
+}
+
+.MPprimerContenedor{
+  display: flex;
+  flex-direction: column;
+}
+
+.MPcardData{
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+}
+
+.MPdate{
+  margin-left: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items:  flex-start;
+  gap: 30px;
+}
+
+.MPcardData .MPcardTitle{
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 20px;
+  color: #042354;
+  
+}
+
+.MPcardData .MPcardDateTitle{
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.MPcardData .MPcardDateDisp{
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+}
+
+.MPcardAdviser{
+  width: 567px;
+  height: 58px;
+  background: #ffffff;
+  margin: 10px 10px 10px 10px;
+  border: 1px solid #b8d3ff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 25px;
+}
+
+.MPcardAdviser img{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-left: 25px;
+}
+
+.MPcardAdviser p{
+  margin-top: 15px;
+}
+
+.MPAcciones{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+  justify-content: center;
+  margin-left: 95px;
+}
+
+
+.MPbotonesProposeRow{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 60px;
+  margin-left: 80px;
+}
+
+.MPprimerBoton{
+  margin-right: 40px;
+}
+.MPprimerBoton button, .MPSegundoBoton button{
+  border: 0px;
+  user-select: none;
+  background-color: #f4f4f4;
+}
+
+.iconoCheck{
+  font-size: 40px;
+  color: #67B836;
+}
+
+.iconoCross{
+  font-size: 40px;
+  color: #B83636;
+}

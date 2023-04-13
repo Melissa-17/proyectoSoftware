@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.contenedorHeaderPortfolio{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+.tituloHeaderPortfolio{
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    align-content: space-between;
+    margin-bottom: 0px;
+}
+
+.tituloHeaderPortfolio .space{
+    width: 850px;
+}
+
+.contenedorHeader div{ 
+    margin-bottom: 0px;
+}
+
+
+.tituloHeaderPortfolio h1{
+    font-weight: bold;
+    font-size: 48px;
+    font-family: 'Montserrat';
+    font-style: normal;
+}
+
+.botonRetrocesoDetalle{
+    border: 0;
+    background-color: #0A819B;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    padding: 5px;
+    cursor: pointer;
+    user-select: none;
+    display: flex;
+}
+
+.contenedorLineaHeader .linea{
+    width: 1160px;
+    height: 0;
+}

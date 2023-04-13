@@ -1,0 +1,17 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.main-box-initial{
+    display: flex;
+    flex-direction: row;
+}
+
+.navBar-t{
+    margin-right: 80px;
+}
+
+.initial-page-screen{
+    margin-left: 200px;
+}

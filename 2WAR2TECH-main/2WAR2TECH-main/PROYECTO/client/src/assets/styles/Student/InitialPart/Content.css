@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.contenedorPantalla{
+    display: flex;
+}
+
+.contenedorContenidoPartial, .contenedorContenidoDeliverable{
+    display: flex;
+    flex-direction: column;
+    max-width: 1160px;
+    min-width: 1160px;
+    height: 100vh;
+    background-color: white;
+    margin-top: -7px;
+    margin-left: 280px;
+}
+
+.contenedorHeaderContentPartialAdvisor{
+    display: flex;
+    flex-direction: row;
+}
+
+.contenedorTituloContentPartial{
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+    text-align: left;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+.contenedorTituloContentPartial .space{
+    width: 440px;
+    border: 2px solid black;
+}
+
+.contenedorTituloContentDeliverable .titulo{
+    color: #152536;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    margin-right: 730px;
+}
+
+.contenedorTituloContentDeliverable{
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+    text-align: left;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+.contenedorTituloContentDeliverable .space{
+    width: 640px;
+}
+
+.contenedorTituloContentPartial .titulo{
+    color: #152536;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    margin-right: 730px;
+}
+
+
+.contenedorOpcionesEntregable{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+
+.botonesOpcionSeleccionado{
+    border: 0px;
+    background-color: white;
+    user-select: none;
+    cursor: pointer;
+    margin-right: 15px;
+    margin-bottom: 0px;
+    font-size: 20px;
+    border-bottom: 2px solid black;
+    font-weight: bold;
+}
+
+.botonesOpcionSeleccionado:hover{
+    color: red;
+    border-bottom: 2px solid red;
+}
+.botonesOpcion:hover{
+    color: red;
+}
+
+.botonesOpcion{
+    border: 0px;
+    background-color: white;
+    user-select: none;
+    cursor: pointer;
+    margin-right: 15px;
+    margin-bottom: 0px;
+    font-size: 20px;
+}
+
+.subtitulo1{
+    margin-right: 400px;
+}
+
+.subtitulo2{
+    margin-right: 120px;
+}
+
+.contenedorCambios{
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+.todoContent{
+    display: flex;
+    flex-direction: row;
+}
+
+.lineaContenidoDeliverable, .lineaContenidPartial{
+    margin-left: 20px;
+    width: 1160px;
+    margin-top: 0;
+}
+
+/*REVISOR ENTREGABLE PARCIAL*/
+
+.contenedorBotonFiltroEntregableParcial{
+    display: flex;
+    align-items: flex-start;
+    margin-left: 440px;
+}
+.botonFiltroEntregableFinal{
+    background: #bbb9b9;
+    border-radius: 30px;
+    width: 254px;
+    height: 46px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.botonFiltroEntregableFinal i{
+    font-size: 35px;
+}
+.botonFiltroEntregableFinal select{
+    background: #bbb9b9;
+    border: #bbb9b9;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 23px;
+}

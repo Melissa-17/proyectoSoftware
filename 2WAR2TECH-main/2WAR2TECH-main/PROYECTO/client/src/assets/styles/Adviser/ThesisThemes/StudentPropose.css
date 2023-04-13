@@ -1,0 +1,31 @@
+
+.AdviserStuProposeTitles{
+  display: flex;
+  flex-direction: row;
+  margin-left: 650px;
+  gap: 150px;
+}
+
+.AdviserStuProposeContainer{
+  display: flex;
+  flex-direction: column;
+  font-weight: 991px;
+  align-items: center;
+}
+
+.AdviserStuProposeTitles{
+  margin-left: 700px;
+}
+
+.Rsearch{
+display: flex;
+flex-direction: row;
+margin-left: 680px;
+align-items: center;
+gap: 25px;
+height: 150px;
+}
+
+.contenedorFinal{
+  height: 50px;
+}

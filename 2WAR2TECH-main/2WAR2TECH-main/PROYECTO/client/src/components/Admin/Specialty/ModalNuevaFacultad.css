@@ -1,0 +1,282 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.modalGlobalNuevaFacultad{
+    width: 100vw;
+    height: 100%;
+    background-color: rgba(0,0,0, 0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modalCuerpoNuevaFacultad{
+    width: 550px;
+    height: 260px;
+    border-radius: 12px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+.headerNuevaFacultad{
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    width: 540px;
+    align-content: center;
+    height: 40px;
+}
+.headerNuevaFacultad p{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 34px;
+    max-width: 400px;
+    min-width: 400px;
+    margin-right: 0px;
+}
+.headerNuevaFacultad .salirModalNuevaFacultad{
+    background-color: white;
+    border: 0px;
+    font-size: 25px;
+    margin-left: 110px;
+}
+
+/*EDITARFACULTAD*/
+
+.headerNuevaFacultad .salirModalEditFacultad{
+    background-color: white;
+    border: 0px;
+    font-size: 25px;
+    margin-left: 150px;
+}
+
+/**/
+
+.lineaHorizontalNuevaFacultad{
+    width: 550px;
+    margin-top: 0px;
+}
+
+.contenedorNombreNuevaFacultad{
+    width: 550px;
+    text-align: left;
+    padding: 10px;
+}
+.contenedorNombreNuevaFacultad p{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+}
+.contenedorNombreNuevaFacultad input{
+    font-size: 20px;
+}
+
+.botoneriaNuevaFacultad{
+    margin-top: 20px;
+    width: 550px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-right: 10px;
+}
+
+.botoneriaNuevaFacultad .cancelar, .botoneriaNuevaFacultad .guardar{
+    background: #0A819B;
+    border-radius: 4px;
+    width: 145px;
+    height: 45px;
+    border: none;
+    color: white;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 34px;
+}
+.botoneriaNuevaFacultad .cancelar{
+    margin-right: 20px;
+}
+
+/*SEMESTRE*/
+
+.modalGlobalNuevoSemestre{
+    width: 100vw;
+    height: 100%;
+    background-color: rgba(0,0,0, 0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.modalCuerpoNuevoSemestre{
+    width: 560px;
+    height: 330px;
+    border-radius: 12px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+.headerNuevoSemestre{
+    display: flex;
+    flex-direction: row;
+    max-width: 550px;
+    min-width: 550px;
+    text-align: left;
+    align-items: center;
+}
+.headerNuevoSemestre .tituloHeaderNuevoSemestre{
+    margin-left: 10px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    max-width: 250px;
+    min-width: 250px;
+}
+
+.headerNuevoSemestre .tituloHeaderNuevoSemestre2{
+    margin-left: 10px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    max-width: 270px;
+    min-width: 270px;
+}
+.headerNuevoSemestre .salirModalNuevoSemestre2{
+    margin-left: 230px;
+    background-color: white;
+    border: 0px;
+    font-size: 25px;
+    margin-top: -10px;
+}
+
+.headerNuevoSemestre .salirModalNuevoSemestre{
+    margin-left: -350px;
+    background-color: white;
+}
+
+.contenedorLeyendaModalNuevoSemestre{
+    max-width: 550px;
+    min-width: 550px;
+    text-align: left;
+}
+.contenedorLeyendaModalNuevoSemestre .leyendaModalNuevoSemestre{
+    color: #9B9B9B;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+    margin-left: 10px;
+    width: 500px;
+}
+
+.contenedorAbreviacionSemestre{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 550px;
+    text-align: left;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+.contenedorAbreviacionSemestre .abreviacion{
+    width: 550px;
+    margin-left: 0px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    margin-bottom: 5px;
+}
+.contenedorAbreviacionSemestre input{
+    width: 420px;
+    height: 40px;
+    font-size: 20px;
+}
+
+.abreviacionAnhoCiclo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.abreviacionAnhoCiclo p{
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 30px;
+    margin-top: 10px;
+}
+.formAnho, .formCiclo{
+    max-width: 200px;
+    min-width: 200px;
+}
+
+.abreviacionAnhoCicloEdit{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.abreviacionAnhoCicloEdit .lineaAnhoCiclo{
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 30px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+}
+.formAnhoEditar, .formCicloEdit{
+    max-width: 200px;
+    min-width: 200px;
+}
+
+.contenedorComboBoxModalNuevoSemestre{
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+}
+.contenedorComboBoxModalNuevoSemestre p{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 29px;
+}
+.seleccionModalAsignarEspecialidad, .selectFacultadNuevoSemestre{
+    max-width: 370px;
+    min-width: 370px;
+}
+
+.contenedorComboBoxModalEditSemestre{
+    max-width: 550px;
+    min-width: 550px;
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+}
+.contenedorModalEditSemestreCombobox p{
+    margin-right: 0px;
+    margin-left: -20px;
+}
+.contenedorModalEditSemestreCombobox select{
+    margin-left: 0px;
+}

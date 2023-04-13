@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.contenidoBotonAdviser{
+    display: flex;
+    flex-direction: column;
+}
+.contenidoTituloBotonAdviser{
+    display: flex;
+    flex-direction: row;
+}

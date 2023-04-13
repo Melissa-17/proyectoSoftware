@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*PRIMERA PARTE*/
+
+.infoGeneralEditPart .info{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: left;
+    margin-top: 20px;
+}
+
+.contenedorColumnasInfoGeneralEditPart{
+    display: flex;
+    flex-direction: row;
+    
+    background: #F4F4F4;
+    padding: 20px;
+}
+
+.contenedorPrimeraColumnaInfoGeneralEditPart{
+    display: flex;
+    flex-direction: column;
+    margin-right: 500px;
+    text-align: left;
+}
+.contenedorNombre{
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.contenedorNombre p, .nombreEntregable p{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.contenedorSegundaColumnaInfoGeneralEditPart{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+.contenedorSegundaColumnaInfoGeneralEditPart .responsable{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+}
+.checkBoxContenedorCambio{
+    display: flex;
+    flex-direction: row;
+}
+.contenedorSegundaColumnaInfoGeneralEditPart .descripcion{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+}
+.contenedorSegundaColumnaInfoGeneralEditPart div{
+    display: flex;
+    flex-direction: row;
+}
+.contenedorSegundaColumnaInfoGeneralEditPart input{
+    margin-right: 10px;
+    height: 18px;
+    width: 18px;
+}
+
+/*SEGUNDA PARTE*/
+.EntregableEditPart{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    padding: 10px;
+}
+.entregablelineEntregableEditPart{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.entregablelineEntregableEditPart p{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+}
+.entregablelineEntregableEditPart button{
+    border: 0px;
+    background-color: white;
+    font-size: 30px;
+    margin-top: -15px;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+.segundaColumnaSecondPart{
+    display: flex;
+    flex-direction: column;
+}
+.segundaColumnaSecondPart p{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 20px;
+}
+.filaEntregableEditPart{
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    width: 450px;
+    height: 120px;
+}
+
+.taskEditPart{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+.taskEditPart input{
+    margin-right: 10px;
+}
+.taskEditPart button{
+    border: 0px;
+    background-color: white;
+    font-size: 27px;
+    color: rgb(176, 17, 17);
+}
+
+/*TERCERA PARTE*/
+.contenedorThirdPart{
+    display: flex;
+    flex-direction: row;
+    background: #F4F4F4;
+    padding: 20px;
+}
+
+.contenedorPrimeraColumnaThirdPart{
+    display: flex;
+    flex-direction: column;
+}
+.contenedorPrimeraColumnaThirdPart .fechaInicio, .contenedorPrimeraColumnaThirdPart .fechaSubida{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    max-width: 175px;
+    min-width: 175px;
+}
+.contenedorPrimeraColumnaThirdPart .fecha{
+    width: 130px;
+    margin-bottom: 20px;
+}
+.contenedorPrimeraColumnaThirdPart .fechahora{
+    width: 130px;
+}
+
+.contenedorTerceraColumnaThirdPart .fechaInicio{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    max-width: 175px;
+    min-width: 175px;
+}
+
+.contenedorCheckBoxRoleListaaa{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 130px;
+}

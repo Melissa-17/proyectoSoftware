@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.contenedorModalsVisualProfesorGeneral{
+    width: 100vw;
+    height: 95rem;
+    background-color: rgba(217, 217, 217, 0.8);
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contendorModalsVisualProfesor{
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    border-radius: 20px;
+    width: 550px;
+    height: auto;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding: 25px;
+    margin-top: -500px;
+}
+
+.contenedorHeaderModalsVisualProfesor{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    height: 35px;
+}
+.contenedorHeaderModalsVisualProfesor p{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 34px;
+    color: #000000;
+}
+.contenedorHeaderModalsVisualProfesor button{
+    border: 0px;
+    background-color: white;
+    font-size: 20px;
+    margin-top: 5px;
+    margin-left: 200px;
+    color: black;
+}
+
+.lineaModalsVisualProfesor{
+    width: 470px;
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
+
+.contenedorPrimeraFilaVisualProfesor{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.nombreCriterioVisualProfesor, .puntajeMaximoVisualProfesor{
+    display: flex;
+    flex-direction: column;
+}
+.nombreCriterioVisualProfesor{
+    margin-right: 100px;
+    width: 200px;
+}
+.nombreCriterioVisualProfesor .titulo, .puntajeMaximoVisualProfesor .titulo,
+.contenedorDescripcionVisualProfesor .titulo{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+}
+.nombreCriterioVisualProfesor .nivel, 
+.puntajeMaximoVisualProfesor .valor{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 12px;
+    color: #000000;
+}
+
+.contenedorDescripcionVisualProfesor .titulo{
+    margin-bottom: 15px;
+}
+.contenedorDescripcionVisualProfesor .descripcion p{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+    max-width: 500px;
+    min-width: 500px;
+    text-align: justify;
+    margin-top: 0px;
+}

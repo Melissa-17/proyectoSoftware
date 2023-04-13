@@ -1,0 +1,166 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.contenedorInfoExposicion {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  /* height: 100vh; */
+}
+
+.contenedorDetalle {
+  margin-left: 290px;
+}
+
+.contenedorEncabezadoExposicion {
+  color: #152536;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.contenedorTitutoExposicion {
+  max-width: 1000px;
+  min-width: 1000px;
+  display: flex;
+  align-content: center;
+  margin-left: 0px;
+  height: 55px;
+}
+
+.contenedorTitutoExposicion .titulo {
+  color: #152536;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  margin-bottom: 40px;
+}
+
+.botonRetrocesoExposicion {
+  border: 0;
+  background-color: #0a819b;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  padding: 5px;
+  cursor: pointer;
+  user-select: none;
+  display: flex;
+}
+
+.botonRetrocesoExposicion:hover {
+  background-color: #658cbc;
+}
+
+.imagenRetrocesoExposicion {
+  height: 50px;
+}
+
+.contenedorLineaExposicion .linea {
+  width: 1160px;
+  height: 0;
+}
+
+.contenido {
+  display: flex;
+  flex-direction: row;
+  flex: 1 1;
+  flex-wrap: wrap;
+  max-width: 660px;
+  min-width: 660px;
+}
+
+.todoDeliverable {
+  display: flex;
+  flex-direction: row;
+}
+
+.expoInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding-left: 15px;
+  text-align: left;
+}
+
+.expoInfo .expoItitle {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 48px;
+  color: #152536;
+}
+
+.expoInfo .expoIend,
+.expoInfo .expoIstart {
+  margin-left: 15px;
+  font-weight: 400;
+  font-size: 16px;
+  color: black;
+}
+
+.expoLocation {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding-top: 12px;
+  padding-left: 25px;
+  height: 50px;
+  width: 1250px;
+  background: #eceaea;
+  border-radius: 20px;
+}
+
+.expoLocation p {
+  text-align: left;
+}
+
+.expoFeedback {
+  margin-top: 25px;
+}
+
+.EFBtitle {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}
+
+.EFBtitle p {
+  margin-top: 10px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  color: #000000;
+}
+
+.EFBjurys {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  /* height: 1000px; */
+  /* border: 1px solid black; */
+}
+
+.jurySpace{
+    gap: 15px;
+}
+
+.EFBjurys i{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  /* padding-top: 22px; */
+  padding-left: 25px;
+  height: 50px;
+  width: 1250px;
+  background: #eceaea;
+  border-radius: 20px;
+  gap: 5px;
+}

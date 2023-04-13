@@ -1,0 +1,202 @@
+
+*{
+    margin: 0;
+    padding: 0;   
+}
+ 
+.contenedorPantalla{
+    display: flex;
+   width: 100%;
+   height: 100%;
+}
+/* es el contenedor entero de la pantalla*/
+.estructura{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    margin-top: 10px;
+
+    padding: 0; 
+    height: fit-content;
+    background-color: white; 
+    width: 100%;
+}
+
+.contenedorContenido{
+    margin: auto;
+    
+    /* margin-right: auto;
+    margin-left: auto; */
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: auto; 
+    background-color: white; 
+    padding: 0; 
+}
+.contenedorContenido2{
+    margin: auto;  
+    margin-left: 300px;
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: auto; 
+    background-color: white; 
+    padding: 0; 
+}
+/*Contenedor del titulo*/
+.contenedorTitulo{
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+    text-align: left;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.contenedorTitulo h1{
+    color: #152536;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+}
+
+.botonRetrocesoDetalleNuevoSemestre{
+    border: 0;
+    background-color: #0A819B;
+    position: relative;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    padding: 5px;
+    cursor: pointer;
+    user-select: none;
+    display: flex;
+    margin-left: 500px;
+}
+/*Diseño linea que separa el titulo del contenido*/
+.lineaContenido{
+    margin-left: auto;
+    width: 100%;
+    margin-top: 0;
+}
+/*Parte del filtro y los botones*/
+.contenedorOpciones{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;  
+}
+.filtro{
+    display: flex;
+    flex-direction: row;
+    margin-right: 100px;
+    align-items: center;
+    margin-left: auto;
+}
+.filtro h4{
+    color: #152536;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    margin-right: 20px; 
+}
+.contenedorOpciones .boton{
+    background-color: #042354;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    margin-right: 10px;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    border-radius: 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+}
+/*Contenedor de semestre*/
+.contenedorlista{
+    margin-top: 10px;
+    height: fit-content;
+    width: fit-content;
+}
+.contenedordeSemestre{
+    margin-left: auto;
+    margin-top: 0;
+} 
+.espaciado{
+    margin-right: 30px;
+    margin-bottom: 16px;
+    height: fit-content;
+    width: fit-content;
+}
+.contenedorCursos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: fit-content;
+    height: fit-content; 
+    
+    margin-top: 0;
+}
+/* Diseño de la card */
+.cardCurso{
+    background-color: #042354;
+    border: none;
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    justify-content: flex-start;
+    border-radius: 4px;
+    width: 150px;
+    height: 200px;
+    padding-top: 30px;
+    padding-left: 15px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.cardCurso p{
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    margin-top: 0px;
+    margin: 10px;
+}
+
+.contenedorbotones{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;  
+}
+.contenedorbotones button{
+    background-color: #0A819B;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    margin-right: 10px;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    border-radius: 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+ 
+
+
+
+
+
+

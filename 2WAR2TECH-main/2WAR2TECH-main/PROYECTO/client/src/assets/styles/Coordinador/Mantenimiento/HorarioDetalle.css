@@ -1,0 +1,190 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.contenedorHorarioDetalle{
+    margin-left: 290px;
+    margin-top: 10px;
+}
+
+.primeraLineaHorarioDetalle{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    align-items: center;
+}
+.primeraLineaHorarioDetalle .semestre,
+.primeraLineaHorarioDetalle .curso{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 24px;
+    margin-right: 20px;
+    color: #152536;
+}
+.primeraLineaHorarioDetalle .curso{
+    margin-left: 100px;
+}
+.contenedorSemestreSeleccionadoHorarioDetalle,
+.contenedorCursoSeleccionadoHorarioDetalle{
+    background: #FFFFFF;
+    border: 1px solid #DFE1E4;
+    border-radius: 4px;
+    width: 169px;
+    height: 56.2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.semestreSeleccionadoHorarioDetalle,
+.cursoSeleccionadoHorarioDetalle{
+    color: #042354;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 39px;
+    margin-top: 12px;
+}
+
+.contenedorInfoHorarioDetalle{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+.nombreHorarioDetalle, .abreviacionHorarioDetalle{
+    color: #152536;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+}
+.infoNombreHorarioDetalle{
+    color: #152536;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+}
+
+.abreviacionHorarioDetalle{
+    margin-top: 40px;
+}
+
+.cuadroCopiaHorarioDetalle{
+    background: #F0F5F8;
+    border-radius: 4px;
+    width: 962px;
+    height: 215px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.enunciadoCuadroCopiaHorarioDetalle{
+    display: flex;
+    flex-direction: row;
+}
+.enunciadoCuadroCopiaHorarioDetalle i{
+    font-size: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+.enunciadoCuadroCopiaHorarioDetalle p{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: left;
+    margin-top: 15px;
+}
+
+.seleccionEnunciadoCuadro{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 30px;
+}
+.seleccionEnunciadoCuadro .semestre,
+.seleccionEnunciadoCuadro .curso{
+    color: #152536;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 24px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.seleccionEnunciadoCuadro .seleccionSemestreEnunciadoCuadro,
+.seleccionEnunciadoCuadro .seleccionCursoEnunciadoCuadro{
+    background: #FFFFFF;
+    border-radius: 4px;
+    border: 1px solid #DFE1E4;
+    width: 169px;
+    height: 56.2px;
+    color: #042354;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 39px;
+    text-align: center;
+}
+.seleccionEnunciadoCuadro .curso{
+    margin-left: 50px;
+}
+
+.seleccionEnunciadoCuadro .copiar{
+    background: #0A819B;
+    border-radius: 4px;
+    border: #0A819B;
+    width: 126px;
+    height: 54px;
+    color: white;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 34px;
+    margin-left: 50px;
+}
+
+.seleccionEnunciadoCuadro .copiar:hover{
+    background: #49797c;
+}
+
+
+/*Editar horario*/
+
+.seleccionSemestreHorarioEdit, .seleccionCursoHorarioEdit{
+    background: #FFFFFF;
+    border: 1px solid #DFE1E4;
+    border-radius: 4px;
+    width: 169px;
+    height: 56.2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.PDtitle, .PDAbreviacion{
+    font-size: 24px;
+}
+.PDDProposedThemeControl{
+    font-size: 20px;
+}
+
+.RCbotoneria .RCCancelar, .RCbotoneria .RCGuardar{
+    height: 55px;
+    width: 130px;
+    font-size: 22px;
+}

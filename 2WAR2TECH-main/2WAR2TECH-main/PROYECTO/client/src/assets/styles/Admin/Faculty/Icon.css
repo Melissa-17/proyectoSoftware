@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.contenedorIconFacultyAdmin{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    max-width: 1000px;
+    min-width: 1000px;
+    background: #F4F4F4;
+    border-radius: 6px;
+    height: 150px;
+    max-height: fit-content;
+}
+
+.contenedorIconFacultyAdmin input{
+    height: 25px;
+    width: 25px;
+    margin-right: 100px;
+    margin-left: 10px;
+}
+
+.contenedorTituloSubtitulo{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: flex-end;
+    margin-top: 20px;
+    max-width: 400px;
+    min-width: 400px;
+}
+
+.contenedorTituloSubtitulo .titulo{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+}
+.contenedorTituloSubtitulo .codigo{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.contenedorVerDetalleFacultyDetalle{
+    margin-left: 100px;
+    display: flex;
+    flex-direction: row;
+}
+.contenedorVerDetalleFacultyDetalle .botonVerDetalle{
+    border-radius: 30px;
+    width: 197px;
+    height: 46px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    background-color: white;
+}
+
+.contenedorVerDetalleFacultyDetalle .botonEditar{
+    font-size: 30px;
+    margin-left: 125px;
+    border: 0px;
+    background-color: #F4F4F4;
+}

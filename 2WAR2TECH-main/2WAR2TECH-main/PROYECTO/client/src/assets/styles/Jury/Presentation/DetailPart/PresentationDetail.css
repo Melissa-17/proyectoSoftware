@@ -1,0 +1,45 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.main-box-detail{
+    display: flex;
+    flex-direction: row;
+}
+
+.contenedor-detalle{
+    margin-left: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.contenedor-titulo-detalle-jurado{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.contenedor-titulo-detalle-jurado h1{
+    margin-right: 680px;
+}
+
+.titulo-expo{
+    font-weight: bold;
+}
+
+.contenedor-encabezado-detalle{
+    display: flex;
+    flex-direction: row;
+}
+
+.EFBtitleJury{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 10px;
+}
+.EFBtitleJury p{
+    margin-top: 10px;
+}

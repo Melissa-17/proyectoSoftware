@@ -1,0 +1,121 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.parteIntermediaPresentacion{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    max-width: 1160px;
+    min-width: 1160px;
+}
+
+.trabajoIntermedioPresentacion{
+    border: 2px solid #ECEAEA;
+    background-color: #ECEAEA;
+    border-radius: 20px;
+    min-width: 700px;
+    max-width: 700px;
+    height: 450px;
+    margin-bottom: 10px;
+    padding: 5px 15px 0px 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-right: 70px;
+}
+
+.tituloIntermedioPresentacion{
+    margin-top: 10px;
+    margin-right: 10px;
+    
+    font-family: 'Montserrat',sans-serif;
+    font-size: 24px;
+}
+
+.estadoIntermedioPresentacion{
+    margin-top: 10px;
+    margin-left: 430px;
+    font-size: 24px;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: bold;
+}
+
+.tituloEncabezadoPresentacion{
+    display: flex;
+    flex-direction: row;
+    min-width: 100%;
+    max-width: 100%;
+}
+
+.puntajeIntermedioPresentacion{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #ECEAEA;
+    background-color: #ECEAEA;
+    border-radius: 20px;
+    max-width: 340px;
+    min-width: 340px;
+    max-height: 450px;
+    min-height: 450px;
+}
+
+.tituloNotaPresentacion{
+    margin: 30px 30px -10px 30px;
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+}
+
+.notaIntermedioPresentacion{
+    margin: 30px 30px 30px 30px;
+    border-radius: 20px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 48px;
+    color: #0A819B;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    background-color: white;
+}
+
+.botonRubricaPresentacion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rubricaIntermedioPresentacion{
+    color: white;
+    background-color: #F0AE19;
+    border: 2px solid #F0AE19;
+    border-radius: 20px;
+    width: 188px;
+    height: 56px;
+    font-size: 24px;
+    user-select: none;
+    cursor: pointer;
+}
+
+.rubricaIntermedioPresentacion:hover{
+    background-color: #9f7618;
+    border: 2px solid #9f7618;
+}
+
+.contenedorLinkZoom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    height: 200px;
+}
+
+.linkZoom{
+    font-size: 30px;
+
+}

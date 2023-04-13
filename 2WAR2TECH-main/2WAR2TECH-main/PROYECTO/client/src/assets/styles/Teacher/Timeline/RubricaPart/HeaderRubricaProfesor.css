@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.contenedorHeaderRubricaProfesor{
+    display: flex;
+    flex-direction: column;
+    margin-left: -10px;
+    margin-top: 60px;
+}
+
+.lineaHeaderRubricaProfesor{
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+}
+
+.contenedorFilasRubricaProfesor{
+    display: flex;
+    flex-direction: column;
+    margin-right: 780px;
+}
+.contenedorFilasRubricaProfesor .edicion{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 39px;
+}
+.contenedorFilasRubricaProfesor .entrega{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.lineaContenidoRubricaProfesor{
+    width: 1160px;
+    margin-top: -20px;
+}

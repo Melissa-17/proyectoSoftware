@@ -1,0 +1,47 @@
+.NewProposeContainer {
+  margin-left: 300px;
+}
+
+.NPheader {
+  display: flex;
+  flex-direction: row;
+  gap: 750px;
+  margin-top: 15px;
+  margin-bottom: 0px;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 58px;
+}
+
+/* .NPheader .NPtitle {
+  font-weight: 700;
+  font-size: 45px;
+  letter-spacing: -0.02em;
+} */
+
+.PDdDocs{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 25px;
+}
+
+.PDDDocsArea {
+  border: 2px solid #eceaea;
+  background-color: white;
+  border-radius: 20px;
+  height: 250px;
+  margin-bottom: 10px;
+  padding: 5px 0px 0px 15px;
+  min-width: 1160px;
+  max-width: 1160px;
+  display: flex;
+  flex-direction: column;
+  justify-items: flex-start;
+}
+
+.botoneriaEncabezadoT{
+  display: flex;
+    flex-direction: row;
+    margin-top: 185px;
+}

@@ -1,0 +1,28 @@
+    *{
+    margin: 0;
+    padding: 0;
+}
+
+.contenedorBotoneriaRubricaProfesor{
+    display: flex;
+    flex-direction: row;
+    margin-left: 700px;
+    margin-top: 20px;
+    margin-left: 558px;
+}
+.contenedorBotoneriaRubricaProfesor .cancelar, .contenedorBotoneriaRubricaProfesor .guardar{
+    background: #0A819B;
+    border-radius: 4px;
+    border: #0A819B;
+    width: 141px;
+    height: 49px;
+    color: white;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+}
+.contenedorBotoneriaRubricaProfesor .cancelar{
+    margin-right: 30px;
+}

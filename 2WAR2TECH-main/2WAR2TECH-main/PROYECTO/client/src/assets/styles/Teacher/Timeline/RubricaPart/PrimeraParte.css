@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.contenedorPrimeraParteProfesor{
+    display: flex;
+    flex-direction: column;
+    background-color: #f4f4f4;
+    padding: 10px;
+    width: 1160px;
+}
+
+.contenedorInformacionPrimeraParteProfesor{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+}
+.contenedorInformacionPrimeraParteProfesor p{
+    margin-right: 717px;
+}
+.contenedorInformacionPrimeraParteProfesor button{
+    background: #042354;
+    border-radius: 4px;
+    width: 162px;
+    height: 44px;
+    color: white;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.lineaFacultadCursoPrimeraParteProfesor{
+    display: flex;
+    flex-direction: row;
+}
+.lineaFacultadPrimeraParteProfesor{
+    display: flex;
+    flex-direction: column;
+    margin-right: 200px;
+    text-align: left;
+    max-width: 330px;
+    min-width: 330px;
+}
+.lineaFacultadPrimeraParteProfesor .facultad, .lineaCursoPrimeraParteProfesor .curso{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    margin-right: 20px;
+}
+.lineaFacultadPrimeraParteProfesor .area, .lineaCursoPrimeraParteProfesor .titulo{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+}
+.lineaFacultadPrimeraParteProfesor{
+    margin-right: 100px;
+}
+.lineaCursoPrimeraParteProfesor{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.lineaEntregablePrimeraParteProfesor{
+    text-align: left;
+}
+.lineaEntregablePrimeraParteProfesor .entregable{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+}
+.lineaEntregablePrimeraParteProfesor li{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 40px;
+}
+
+.lineaObjetivoAnotacionPrimeraParteProfesor{
+    display: flex;
+    flex-direction: row;
+}
+.lineaObjetivoPrimeraParteProfesor, .lineaAnotacionPrimeraParteProfesor{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+.lineaObjetivoPrimeraParteProfesor .objetivo, .lineaAnotacionPrimeraParteProfesor .anotacion{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+}
+.lineaObjetivoPrimeraParteProfesor{
+    margin-right: 30px;
+}
+.lineaObjetivoPrimeraParteProfesor textarea, .lineaAnotacionPrimeraParteProfesor textarea{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    width: 420px;
+    max-height: 89px;
+    min-height: 89px;
+    grid-row-gap:30px;
+    resize: none;
+}
+.lineaObjetivoPrimeraParteProfesor .descripcion, .lineaAnotacionPrimeraParteProfesor .Veranotacion{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-size: 16px;
+    line-height: 21px;
+    max-width: 310px;
+    min-width: 310px;
+}
+
+.contenedorBotoneriaRubricaProfesor{
+    justify-content: flex-end;
+}

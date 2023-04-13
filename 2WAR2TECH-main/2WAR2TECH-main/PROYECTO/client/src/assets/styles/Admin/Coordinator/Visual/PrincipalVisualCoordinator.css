@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.contenedorPrincipalVisualCoordinator{
+    margin-left: 290px;
+    text-align: left;
+}
+
+.contenedorPrincipalVisualCoordinator .leyenda{
+    color: #9B9B9B;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+    margin-top: 20px;
+}
+
+.contenedorInfoCoordinador{
+    margin-top: 20px;
+}

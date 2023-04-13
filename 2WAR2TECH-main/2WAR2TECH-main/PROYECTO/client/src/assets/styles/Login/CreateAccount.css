@@ -1,0 +1,151 @@
+.createAccHeader {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.createAccHeader .createAccTitle {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 39px;
+  color: #042354;
+  margin-bottom: 0px;
+  margin-top: -5px;
+}
+
+.createAccHeader .catolicaImagen {
+  width: 230px;
+  height: 95px;
+}
+
+.header2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.googleLogin {
+  margin-top: -15px;
+  margin-bottom: 0px;
+}
+
+.loginDivider {
+  margin-top: -8px;
+}
+
+.createAccContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.createAccContent .titleContentCreateAcc {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  color: #042354;
+}
+
+.createAccForm{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.createAccContent .contentCreateAcc {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 370px;
+  gap: 20px;
+}
+
+.contentCreateAcc .nombreForm {
+  width: 370px;
+  height: 35px;
+  background: rgba(239, 239, 239, 0.8);
+  border: 1px solid #667892;
+  border-radius: 10px;
+  padding-left: 10px;
+}
+
+.contentCreateAcc .fLnameForm {
+  width: 370px;
+  height: 35px;
+  background: rgba(239, 239, 239, 0.8);
+  border: 1px solid #667892;
+  border-radius: 10px;
+  padding-left: 10px;
+}
+
+.contentCreateAcc .mLnameForm {
+  width: 370px;
+  height: 35px;
+  background: rgba(239, 239, 239, 0.8);
+  border: 1px solid #667892;
+  border-radius: 10px;
+  padding-left: 10px;
+}
+
+.contentCreateAcc select {
+  width: 370px;
+  height: 35px;
+  background: rgba(239, 239, 239, 0.8);
+  /* background: none; */
+  border: 1px solid #667892;
+  border-radius: 10px;
+}
+
+.contentCreateAcc .codeForm {
+  width: 370px;
+  height: 35px;
+  background: rgba(239, 239, 239, 0.8);
+  border: 1px solid #667892;
+  border-radius: 10px;
+  padding-left: 10px;
+}
+
+.contentCreateAcc .emailForm {
+  width: 370px;
+  height: 35px;
+  background: rgba(239, 239, 239, 0.8);
+  border: 1px solid #667892;
+  border-radius: 10px;
+  padding-left: 10px;
+}
+
+.contentCreateAcc .passordForm {
+  width: 370px;
+  height: 35px;
+  background: rgba(239, 239, 239, 0.8);
+  border: 1px solid #667892;
+  border-radius: 10px;
+  padding-left: 10px;
+}
+
+.TyC {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+
+.registerBtn {
+  width: 276px;
+  height: 60px;
+  color: aliceblue;
+  background: #042354;
+  border-radius: 15px;
+}
+
+.registerBtn:hover {
+  background-color: #454d55;
+  font-weight: bold;
+}

@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.contenedorGlobalDescripcionSecondPart{
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    max-width: 1160px;
+    min-width: 1160px;
+    margin-top: 20px;
+}
+
+.tituloSecondPart{
+    text-align: left;
+    margin-bottom: 10px;
+}
+.tituloSecondPart h2{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+}
+.contenedorDescripcionSecondPartCoordinador{
+    border: 1px solid #CED4DA;
+    border-radius: 4px;
+    background: #FAF9F8;
+    text-align: justify;
+    height: auto;
+}
+.contenedorDescripcionSecondPartCoordinador p{
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}

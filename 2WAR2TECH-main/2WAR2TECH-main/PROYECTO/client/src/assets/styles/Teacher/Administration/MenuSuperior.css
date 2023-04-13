@@ -1,0 +1,8 @@
+
+  .ContenedorOpciones{
+    display: flex;
+    flex-direction: row;
+    height: fit-content;
+    
+    margin: 0; 
+  }
